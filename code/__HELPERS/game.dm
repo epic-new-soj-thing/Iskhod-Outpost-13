@@ -575,24 +575,10 @@
 
 //Tells everyone thats living to awaken, if in range.
 //If you run this proc a lot use orgin = TRUE as an optimization
-/proc/activate_mobs_in_range(atom/orgin , distance, care_about_sightline = TRUE)
-	var/turf/starting_point = get_turf(orgin)
-	if(!starting_point)
-		return FALSE
-	if(!care_about_sightline)
-		for(var/mob/living/potential_attacker in orange(distance, starting_point))
-			if(potential_attacker == orgin)
-				continue
-			if(potential_attacker.stat == DEAD)
-				continue
-			potential_attacker.try_activate_ai()
-	else
-		for(var/mob/living/potential_attacker in ohearers(distance, starting_point))
-			if(potential_attacker == orgin)
-				continue
-			if(potential_attacker.stat == DEAD)
-				continue
-			potential_attacker.try_activate_ai()
+/proc/activate_mobs_in_range(atom/caller , distance) // Simplified. We only care about Oranges because this is a proc. It's called for on specific actions.
+	for(var/mob/living/M in orange(distance, caller))
+		if(!is_dead(M))
+			M.try_activate_ai()
 
 ///Get active players who are playing in the round
 /proc/get_active_player_count(alive_check = FALSE, afk_check = FALSE, human_check = FALSE)
