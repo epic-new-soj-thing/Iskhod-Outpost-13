@@ -10,7 +10,7 @@ GLOBAL_LIST_INIT(termites_special, list(/mob/living/carbon/superior/termite/plas
 
 /mob/living/carbon/superior/termite
 	name = "Pekhota termite"
-	desc = "A termite, the earth and wood eaters of the colony. Hide your hard-wood kitchen floors and nick-nacks!"
+	desc = "A termite, the earth and wood eaters of it's colony. Hide your hard-wood kitchen floors and nick-nacks!"
 	icon = 'icons/mob/40x40.dmi' // Sprites made by Polyushko#0323
 	icon_state = "rabochiy_termite"
 	speak_emote = list("clicks")

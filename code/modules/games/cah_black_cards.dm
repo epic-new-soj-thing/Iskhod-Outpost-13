@@ -11,9 +11,9 @@
 	"_____ vented the entirety of Cargo.",
 	"Today, science found an anomaly that made people ____ and ____.",
 	"There was a rap battle between ____ and ____.",
-	"Caution, ______ have been detected in collision course with the colony.",
+	"Caution, ______ have been detected in collision course with the outpost.",
 	"Today's kitchen menu includes _______.",
-	"What did the mercenaries want when they attacked the colony?",
+	"What did the mercenaries want when they attacked the outpost?",
 	"I think the Facility Director is insane. He just demanded ______ in his office.",
 	"Fuckin' scientists, they just turned Misc. Research into _______ .",
 	"What's my fetish?",
@@ -35,7 +35,7 @@
 	"The robots are not disposal bins for your _____.",
 	"You can never have too many _____ on shift.",
 
-	//Here down are non-spess cards.
+	//Down here are non-spess cards.
 	"_____: kid tested mother approved.",
 	"_____: good to the last drop.",
 	"_____? There's an app for that.",

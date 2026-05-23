@@ -67,13 +67,14 @@
 	name = "Iskhod Rangers"
 	id = DEPARTMENT_SECURITY
 	//With nepotism a full team 21 125 in 5 hours
-	account_initial_balance = 25000 //Required to run a full roster with nepotism and almost 4k for expenses.
-	jobs_in_department = list("/datum/job/swo","/datum/job/supsec","/datum/job/inspector","/datum/job/officer","/datum/job/officerjr")
+	account_initial_balance = 30000 //Required to run a full roster with nepotism and almost 4k for expenses.
+	jobs_in_department = list("/datum/job/swo","/datum/job/supsec","/datum/job/inspector","/datum/job/officer","/datum/job/officerjr","/datum/job/medspec")
 	insurance_limit = 1500
 	insurance_premium = 40
 	elective_reduction = 0.6
 	work_coverage = 1.0
 
+/* BLACKSHIELD IS MERGED WITH SECURITY, THIS DATUM IS NOT REFERENCED ANY WHERE IN THE CODEBASE
 /datum/department/blackshield
 	name = "Blackshield Division"
 	id = DEPARTMENT_SECURITY
@@ -84,6 +85,7 @@
 	insurance_premium = 40
 	elective_reduction = 0.6
 	work_coverage = 1.0
+*/
 
 /datum/department/technomancers
 	name = "Artificer's Guild"

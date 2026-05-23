@@ -350,7 +350,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Holding Facility"
 
 /area/centcom/agentoffice
-	name = "\improper Lower Colony communication center"
+	name = "\improper Lower Outpost communication center"
 
 /area/centcom/alien
 	name = "\improper Alien base"

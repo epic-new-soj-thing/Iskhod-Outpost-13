@@ -13,7 +13,7 @@ Project Owner / Host - MsRandylicious, MushyP<br/>
 
 ## CREDITS
 
-Mapping - MsRandylicious, Glitchy, Floofster, Bamhalazam<br/>
+Mapping - MsRandylicious, Glitchy, Floofster, Bamhalazam, MicroMinty<br/>
 Lore - MsRandylicious, Bamhalazam, Shudderfly, Floofster, NED911, CFW Magic, Dr.Farson<br/>
 Code - MushyP, Ryuu, CFW Magic<br/>
 

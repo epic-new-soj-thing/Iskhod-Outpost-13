@@ -2,7 +2,7 @@
 	name = "Former Pirate"
 	desc = "Early on in your life you became a pirate for personal reasons. You may have been a void wolf or apart of a named group of space raiders, regardless of your decisions you spent a \
 	period attacking other ships, frontier colonies, and looting the aftermaths of battles for anything of value. For whatever reason you gave up that life to become an honest \
-	(or dishonest) citizen of the colony. One benefit at least of your raider life style is you got good at getting in and out quickly, regardless of any barriers in your way. Sadly your past is \
+	(or dishonest) citizen of the outpost. One benefit at least of your raider life style is you got good at getting in and out quickly, regardless of any barriers in your way. Sadly your past is \
 	a known factor and while here on the frontier security can overlook a checkered past, your records should contain a detailed and accurate report of your history."
 
 	perks = list(PERK_PARKOUR )
@@ -18,7 +18,7 @@
 
 /datum/category_item/setup_option/background/career/laborer
 	name = "Former Laborer"
-	desc = "Unlike the rest of these special snowflakes wandering around the colony you worked for a long period as a laborer, doing some simple heavy work with your hands. \
+	desc = "Unlike the rest of these special snowflakes wandering around the outpost you worked for a long period as a laborer, doing some simple heavy work with your hands. \
 	It certainly wasn't glamorous or special but hey, it was a living and it was good work experience for the job you have now. The years working with your muscles has left you quite hardy \
 	but it wasn't exactly stimulating for more then the practical things needed in life."
 
@@ -152,7 +152,7 @@
 	name = "Former Criminal"
 	desc = "Maybe you were a low tier ganger, a mafioso, or a professional with a criminal syndicate. Whatever you were it wasn't honest, nor was it something any good person could take pride in. \
 	Your former connections, for they are former as you've left that life behind, still haunt you as your record is known by security. As such your records should contain a detailed list of \
-	your past and history, after all, its the frontier and the colony can't be as picky as bigger empires. But that life has at least gifted you with some broad if boorish skills and a quick fingered \
+	your past and history, after all, its the frontier and the outpost can't be as picky as bigger empires. But that life has at least gifted you with some broad if boorish skills and a quick fingered \
 	disposition for snatching objects off of people without them noticing."
 
 	perks = list(PERK_FAST_FINGERS, PERK_CHEM_CONTRABAND)
@@ -252,7 +252,7 @@
 
 /datum/category_item/setup_option/background/career/nepotism
 	name = "Product of Nepotism"
-	desc = "Your existence has been deemed to be \"of particular worth to the colony.\" you were either head-hunted for a position here, or simply knew the right people to talk to.\
+	desc = "Your existence has been deemed to be \"of particular worth to the outpost.\" you were either head-hunted for a position here, or simply knew the right people to talk to.\
 	As a result, you've earned yourself a contract granting higher pay than other colonists on the station. Whether or not you earned that pay is up for debate, but for now,\
 	you can enjoy the closest thing to the high life that this backwater dump has going for it."
 	perks = list(PERK_NEPOTISM)

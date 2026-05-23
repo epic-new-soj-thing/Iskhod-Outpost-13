@@ -42,12 +42,12 @@
 //Opifex spawner
 /obj/item/grenade/spawnergrenade/manhacks/opifex
 	name = "opifex manhack grenade"
-	desc = "Deploys a swarm of floating robots that will attack animals and non-colony humanoids nearby. "
+	desc = "Deploys a swarm of floating robots that will attack animals and non-outpost humanoids nearby. "
 	spawner_type = /mob/living/simple/hostile/viscerator/opifex
 
 /obj/item/grenade/spawnergrenade/manhacks/colony
-	name = "colony-locked manhack grenade"
-	desc = "Deploys a swarm of floating robots that will attack animals and non-colony humanoids nearby. "
+	name = "outpost-locked manhack grenade"
+	desc = "Deploys a swarm of floating robots that will attack animals and non-outpost humanoids nearby. "
 	spawner_type = /mob/living/simple/hostile/viscerator/colony
 
 //Troll grenade
@@ -70,7 +70,7 @@
 //Greyson spawner grenades
 /obj/item/grenade/spawnergrenade/manhacks/roomba
 	name = "\improper GP-SI roomba grenade"
-	desc = "Deploys a roomba that will attack animals and non-colony humanoids nearby."
+	desc = "Deploys a roomba that will attack animals and non-outpost humanoids nearby."
 	deliveryamt = 1
 	icon_state = "greyson_nade_small"
 	spawner_type = /mob/living/carbon/superior/robot/gp/roomba/allied
@@ -79,7 +79,7 @@
 
 /obj/item/grenade/spawnergrenade/manhacks/roomba/trippers
 	name = "\improper GP-SI armored roomba grenade"
-	desc = "Deploys an armored roomba that will attack animals and non-colony humanoids nearby."
+	desc = "Deploys an armored roomba that will attack animals and non-outpost humanoids nearby."
 	deliveryamt = 1
 	icon_state = "greyson_nade_small"
 	spawner_type = /mob/living/carbon/superior/robot/gp/roomba/trip/armored/allied
@@ -87,7 +87,7 @@
 
 /obj/item/grenade/spawnergrenade/manhacks/roomba/sword
 	name = "\improper GP-SI sword drone grenade"
-	desc = "Deploys a sword-bearing robot enhanced with incredible speed and augments that will attack animals and non-colony humanoids on sight."
+	desc = "Deploys a sword-bearing robot enhanced with incredible speed and augments that will attack animals and non-outpost humanoids on sight."
 	deliveryamt = 1
 	icon_state = "greyson_nade_medium"
 	spawner_type = /mob/living/carbon/superior/robot/gp/synth/allied
@@ -95,7 +95,7 @@
 
 /obj/item/grenade/spawnergrenade/manhacks/roomba/mantis
 	name = "\improper GP-SI mantis drone grenade"
-	desc = "Deploys a mantis blade-bearing robot enhanced with incredible speed and augments that will attack animals and non-colony humanoids on sight."
+	desc = "Deploys a mantis blade-bearing robot enhanced with incredible speed and augments that will attack animals and non-outpost humanoids on sight."
 	deliveryamt = 1
 	icon_state = "greyson_nade_large"
 	spawner_type = /mob/living/carbon/superior/robot/gp/synth/allied/advanced

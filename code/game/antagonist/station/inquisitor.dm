@@ -75,7 +75,7 @@
 	<br>\
 	Other members of the Order may aid you; Wardens often announce their presence to coordinate. Your goal is to end the hivemind threat; \
 	once the task is done, return to your regular duties but stay vigilant. In rare cases the protocol may activate against a different \
-	existential threat. Act as befits the sect: protect life and the colony.")
+	existential threat. Act as befits the sect: protect life and the outpost.")
 
 	to_chat(player, "You will need a ritual book to utilise your abilities. They can be found or purchased in the chapel.")
 

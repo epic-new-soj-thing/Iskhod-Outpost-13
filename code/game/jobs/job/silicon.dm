@@ -16,7 +16,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/silicon/ai
 
-	description = "The AI serves as the all-seeing eye of the colony, possessing influence over machines and synthetics.<br>\
+	description = "The AI serves as the all-seeing eye of the outpost, possessing influence over machines and synthetics.<br>\
 	You are primarily a helper and communicator. Use your abilities to help the crew in accordance with your laws.<br>\
 	Orders from the Council, CRO, and Roboticists should always be adhered to unless they conflict with your laws.<br>\
 	The Council and CRO can override the commands of Roboticists, however. They're far more important around here.<br>\

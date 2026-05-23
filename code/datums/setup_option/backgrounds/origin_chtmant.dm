@@ -31,7 +31,7 @@
 	allow_modifications = FALSE
 	perks = list(PERK_ICHOR)
 	racial_implants = (/obj/item/organ_module/active/simple/surgical/cht_mant)
-	restricted_jobs = list(/datum/job/pro,/datum/job/swo,/datum/job/swo, /datum/job/supsec, /datum/job/supsec, /datum/job/inspector, /datum/job/officer, /datum/job/officer, /datum/job/officerjr, /datum/job/officerjr)
+	restricted_jobs = list(/datum/job/pro, /datum/job/swo, /datum/job/swo, /datum/job/supsec, /datum/job/supsec, /datum/job/inspector, /datum/job/officer, /datum/job/officer, /datum/job/officerjr, /datum/job/officerjr)
 
 	stat_modifiers = list(
 		STAT_ROB = -8,

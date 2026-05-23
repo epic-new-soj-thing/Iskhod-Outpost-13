@@ -1,8 +1,8 @@
 //Colony allies for events to help support players
 
-/mob/living/carbon/superior/human/colony_allie
+/mob/living/carbon/superior/human/colony_ally
 	name = "Blackshield Infantryman"
-	desc = "A Blackshield Vatgrown Trooper Ready To Fight for the Colony Armed with a Modern Duty Battle Carbine, He seems able to Fight on Long and Close Quarters, He seems like an Average Fighter"
+	desc = "A Blackshield Vatgrown Trooper ready to fight for the Outpost armed with a battle carbine, he is able to fight at range and in close quarters. He seems like an average fighter"
 	icon = 'icons/mob/mobs-humanoid.dmi'
 	icon_state = "BS"
 	icon_dead = "BS_dead"
@@ -62,9 +62,9 @@
 	light_range = 5
 	light_color = COLOR_LIGHTING_BLUE_BRIGHT
 
-/mob/living/carbon/superior/human/colony_allie/ship_breaker_marks
+/mob/living/carbon/superior/human/colony_ally/ship_breaker_marks
 	name = "Shipbreaker Marksman"
-	desc = "A Prospector Shipbreaker Scout Armed with a Cog laser carbine, The gun seems modified to shoot on burst mode to deal the double of hits to the Enemy, he seems to be an Veteran Vatgrown Fighter."
+	desc = "A Prospector Shipbreaker Scout armed with a Cog laser carbine. The gun seems modified to shoot on burst mode to score double the hits to the target. He seems to be a veteran Vatgrown fighter."
 	icon_state = "Shipbreakercg"
 	icon_dead = "Shipbreakercg_dead"
 	rapid = 1
@@ -78,7 +78,7 @@
 	suited_for_space = TRUE
 	projectiletype = /obj/item/projectile/beam
 
-//They are all waring space suits
+//They all are wearing space suits
 	breath_required_type = NONE
 	breath_poison_type = NONE
 	min_breath_required_type = 0
@@ -89,9 +89,9 @@
 	light_range = 5
 	light_color = COLOR_LIGHTING_BLUE_BRIGHT
 
-/mob/living/carbon/superior/human/colony_allie/ship_breaker_marks/sword
+/mob/living/carbon/superior/human/colony_ally/ship_breaker_marks/sword
 	name = "Shipbreaker Marksman"
-	desc = "A Vatborn Prospector Shipbreaker Scout Armed with a Spider Rose and a Laser Sword To Kill any Enemy durable enough To survive his Aim, he Seems to be an Veteran Fighter."
+	desc = "A Vatborn Prospector Shipbreaker Scout armed with a Spider Rose and a laser sword to kill any enemy durable enough to survive his aim. He seems to be a veteran fighter."
 	icon_state = "Shipbreakerlssp"
 	icon_dead = "Shipbreakerlssp_dead"
 	rapid = 0
@@ -106,9 +106,9 @@
 	light_color = COLOR_LIGHTING_BLUE_BRIGHT
 	melee_sharp = TRUE //Eswords and welders
 /*
-/mob/living/carbon/superior/human/colony_allie/lonestar_merc
+/mob/living/carbon/superior/human/colony_ally/lonestar_merc
 	name = "Frontier Logistics Corporate Infantryman"
-	desc = "A private vatborn from lonestar, Well paid and Geared this veteran soldier is armed with a Laser Carbine ready to anihilate any threat to the Corporation, He Seems To be an Veteran Fighter."
+	desc = "A private vatborn from Lonestar. Well paid and equipped this veteran soldier is armed with a laser carbine ready to annihilate any threat to the Corporation. He seems to be a veteran fighter."
 	icon_state = "LSCICarb"
 	icon_dead = "LSCICarb_dead"
 	rapid = 1
@@ -125,7 +125,7 @@
 	light_range = 5
 	light_color = COLOR_LIGHTING_BLUE_BRIGHT
 
-//They are all waring space suits
+//They all are wearing space suits
 	breath_required_type = NONE
 	breath_poison_type = NONE
 	min_breath_required_type = 0
@@ -134,9 +134,9 @@
 	min_air_pressure = 0
 	min_bodytemperature = 0
 
-/mob/living/carbon/superior/human/colony_allie/lonestar_breacher_merc
+/mob/living/carbon/superior/human/colony_ally/lonestar_breacher_merc
 	name = "Frontier Logistics Corporate Breacher"
-	desc = "A Private Vatborn Soldier from Frontier Logistics Well paid and Geared This veteran soldier is armed with An Advanced Laser Handgun Set to kill while on his other hand he is wearing a charged Power Fist, He seems to be an Veteran Fighter."
+	desc = "A private Vatborn soldier from Frontier Logistics. Well paid and equipped this veteran soldier is armed with an advanced laser handgun and a power fist. He seems to be an Veteran Fighter."
 	icon_state = "LSCIRvMp"
 	icon_dead = "LSCIRvMp_dead"
 	rapid = 1
@@ -152,7 +152,7 @@
 	projectiletype = /obj/item/projectile/beam
 	armor = list(melee = 12, bullet = 12, energy = 10, bomb = 30, bio = 100, rad = 50)
 
-//They are all waring space suits
+//They all are wearing space suits
 	breath_required_type = NONE
 	breath_poison_type = NONE
 	min_breath_required_type = 0
@@ -164,25 +164,25 @@
 	light_range = 5
 	light_color = COLOR_LIGHTING_BLUE_BRIGHT
 */
-/mob/living/carbon/superior/human/colony_allie/handle_breath(datum/gas_mixture/breath) //we have are own air supplies
+/mob/living/carbon/superior/human/colony_ally/handle_breath(datum/gas_mixture/breath) //we have are own air supplies
 	if(suited_for_space)
 		return
 	..()
 
-/mob/living/carbon/superior/human/colony_allie/handle_environment(var/datum/gas_mixture/environment) //are armor legit is a void suit
+/mob/living/carbon/superior/human/colony_ally/handle_environment(var/datum/gas_mixture/environment) //are armor legit is a void suit
 	if(suited_for_space)
 		return
 	..()
 
-/mob/living/carbon/superior/human/colony_allie/start_pulling(var/atom/movable/AM)
+/mob/living/carbon/superior/human/colony_ally/start_pulling(var/atom/movable/AM)
 	to_chat(src, SPAN_WARNING("Your hand gets pushed away from \the [src]. !"))
 	return
 
-/mob/living/carbon/superior/human/colony_allie/death()
+/mob/living/carbon/superior/human/colony_ally/death()
 	..()
 	drop_death_loot()
 
-/mob/living/carbon/superior/human/colony_allie/emp_act(severity)
+/mob/living/carbon/superior/human/colony_ally/emp_act(severity)
 	..()
 	if(rapid && egun)
 		rapid = FALSE

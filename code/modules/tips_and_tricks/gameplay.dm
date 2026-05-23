@@ -12,7 +12,7 @@
     tipText = "Blobs have a nasty acid attack allowing them to in any melee melt your weapon and armor! Stay far away from them or ware bio-resistant clothing to prevent these chemical warfare tactics."
 
 /tipsAndTricks/gameplay/fightBlob_two
-    tipText = "Blobs are shockingly weak to flashbangs, and smoke grenade. Make good use of them in cases were a blob is overrunning the colony."
+    tipText = "Blobs are shockingly weak to flashbangs, and smoke grenade. Make good use of them in cases were a blob is overrunning the outpost."
 
 /tipsAndTricks/gameplay/maskProtections
     tipText = "Balaclavas, surgical masks, and other masks provide a buff to your sanity protection. Perfect for operators, thieves, and people afraid of disease!."
@@ -69,7 +69,7 @@
     tipText = "Automatically switching to the examine tab upon examining something can be disabled in your preferences."
 
 /tipsAndTricks/gameplay/fighting_slimes
-    tipText = "Fire extinguishers, while slow, do work. But in cases were slimes are overrunning the colony it's best to get slime batons."
+    tipText = "Fire extinguishers, while slow, do work. But in cases were slimes are overrunning the outpost it's best to get slime batons."
 
 /tipsAndTricks/gameplay/fighting_slimes_two
     tipText = "Slimes are weaker to cold than heat. You can use frost oil or bullets to greater affect, while lasers and pepper spray only make a slime stronger!"

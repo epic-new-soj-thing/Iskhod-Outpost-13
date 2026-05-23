@@ -133,7 +133,7 @@ GLOBAL_LIST_INIT(wurms_special, list(/mob/living/carbon/superior/wurm/osmium,
 //Iron Wurm - ranged, low health
 /mob/living/carbon/superior/wurm/iron
 	name = "worker wurm"
-	desc = "A wurm that does odd-jobs around its colony. Jeez.. even wurms have assistants."
+	desc = "A wurm that does odd-jobs around it's colony. Jeez.. even wurms have assistants."
 	icon_state = "worm"
 	icon_living = "worm"
 	ranged = 1

@@ -9,7 +9,7 @@ GLOBAL_LIST_INIT(antag_item_targets,list(
 		"a facility director's jumpsuit" = /obj/item/clothing/under/rank/captain,
 		"a functional AI" = /obj/item/device/aicard,
 		"the Chief Engineer's advanced voidsuit control module" = /obj/item/rig/ce,
-		"the colony blueprints" = /obj/item/blueprints,
+		"the outpost blueprints" = /obj/item/blueprints,
 		"a sample of slime extract" = /obj/item/slime_extract,
 		"a piece of corgi meat" = /obj/item/reagent_containers/snacks/meat/corgi,
 		"a Vesalius-Andra research overseer's jumpsuit" = /obj/item/clothing/under/rank/expedition_overseer,
@@ -491,7 +491,7 @@ GLOBAL_LIST_INIT(blackshield_item_targets,list(
 	name = "Overthrow"
 	reward = 1000
 	command_bias = 100 // Also a bit hacky
-	desc_text = "and destabilize the colony by either killing or converting them."
+	desc_text = "and destabilize the outpost by either killing or converting them."
 
 /datum/antag_contract/excel/targeted/liberate
 	name = "Liberate"

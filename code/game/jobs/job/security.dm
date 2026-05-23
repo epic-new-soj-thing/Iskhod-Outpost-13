@@ -303,8 +303,8 @@
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY
 	faction = MAP_FACTION
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the Captain"
 	difficulty = "Hard."
 	alt_titles = list("Combat Medic", "Field Medic")

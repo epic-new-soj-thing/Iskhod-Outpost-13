@@ -42,7 +42,6 @@
 		/datum/job/chief_engineer,
 		/datum/job/merchant,
 		/datum/job/swo,
-		/datum/job/swo,
 		/datum/job/cyborg, //To stop people auto dropping these
 		/datum/job/ai,
 		/datum/job/scientist,
@@ -79,7 +78,6 @@
 		/datum/job/cmo,
 		/datum/job/merchant,
 		/datum/job/rd,
-		/datum/job/swo,
 		/datum/job/swo,
 		/datum/job/cyborg, //To stop people auto dropping these
 		/datum/job/ai

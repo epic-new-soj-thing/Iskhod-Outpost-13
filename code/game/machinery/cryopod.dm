@@ -216,13 +216,13 @@
 	time_till_despawn = 600 //1 minute. We want to be much faster then normal cryo
 
 /obj/machinery/cryopod/elevator
-	name = "Elevator to the Lower Colony"
-	desc = "An elevator that takes you to the lower colony districts. You do have an apartment down there, don't you?"
+	name = "Elevator to the Lower Outpost"
+	desc = "An elevator that takes you to the lower outpost areas. You do have an apartment down there, don't you?"
 	icon = 'icons/obj/doors/Doorhatchele.dmi'
 	icon_state = "door_closed"
 	base_icon_state = "door_closed"
 	occupied_icon_state = "door_closed"
-	on_store_message = "has taken the elevator down to the lower colony districts."
+	on_store_message = "has taken the elevator down to the lower outpost districts."
 	on_store_name = "Residential Oversight"
 	on_enter_occupant_message = "The elevator closes behind you, the lift ready to take you below shortly."
 	opacity = 1

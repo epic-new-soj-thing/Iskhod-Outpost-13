@@ -49,7 +49,7 @@
 
 /datum/technology/night_sight
 	name = "Vision Augmentation" //Undark was a better name
-	desc = "A better look into the shadows that haunt the colony, allows for the manufacturing of night vision goggles and RIG night vision huds."
+	desc = "A better look into the shadows that haunt the outpost allows for the manufacturing of night vision goggles and RIG night vision huds."
 	tech_type = RESEARCH_ILLEGAL
 
 	x = 0.1

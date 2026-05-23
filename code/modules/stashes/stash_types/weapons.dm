@@ -98,7 +98,7 @@
 /datum/stash/weapon/mutiny/overworked
 	contents_list_extra = list(/obj/item/clothing/mask/gas = 3)
 	lore = "Logbook:<br>\
-	 Engineering has worked for six days in pressure suits with the rest of us packed in the upper colony.<br>\
+	 Engineering has worked for six days in pressure suits with the rest of us packed in the upper outpost.<br>\
  It's been far too much of a wait and I just want to get my fucking things and try for living in the wilds of the surface.<br>\
 A few people are talking about striking out, just like Jeremiah did. I'm in and we're meeting at %D. Fuck this place. Once we find enough guns, that is."
 

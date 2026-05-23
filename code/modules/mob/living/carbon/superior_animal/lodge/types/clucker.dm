@@ -5,7 +5,7 @@ var/global/clucker_count = 0
 //Basically a mutant chicken that produces feathers, meat, and a single bit of bones if butchered by a hunter. Credit to scar#1579 for the sprite.
 /mob/living/carbon/superior/lodge/clucker
 	name = "\improper clucker"
-	desc = "A clucker, the affectionately nick named chickens that escaped the colony and somehow survived in the wild before mutating. While mostly without feathers, a single blood engorged one \
+	desc = "A clucker, the affectionately nick named chickens that escaped the outpost and somehow survived in the wild before mutating. While mostly without feathers, a single blood engorged one \
 	hangs from the birds tail that produces a decent painkiller if treated properly. Prefers to eat poppies over the usual wheat regular chickens favor."
 	icon = 'icons/mob/mobs-domestic.dmi'
 	icon_state = "clucker"

@@ -226,7 +226,7 @@
 	dock_target = "second_sec_1_access_console"
 
 /obj/effect/shuttle_landmark/merc/outsidecolony
-	name = "Outside the Colony"
+	name = "Outside the Outpost"
 	icon_state = "shuttle-red"
 	landmark_tag = "nav_merc_northeast"
 

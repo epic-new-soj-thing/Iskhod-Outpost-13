@@ -181,7 +181,7 @@ const HardwareSelection = (props) => {
           selected={hw_netcard}
           options={{ None: 0, Standard: 1, Advanced: 2 }}
           onClick={(value) => act('hw_netcard', { value: value })}
-          tooltip="Allows your device to wirelessly connect to the local NTNet network. Basic cards are limited to on-colony use, while advanced cards can operate anywhere near the uplink, which includes the asteroid outposts. Advanced cards also tend to have better bandwidth."
+          tooltip="Allows your device to wirelessly connect to the local NTNet network. Basic cards are limited to use in-outpost, while advanced cards can operate anywhere near the uplink, which includes the asteroid outposts. Advanced cards also tend to have better bandwidth."
         />
         {devtype === DeviceType.Laptop && (
           <HardwareSelectionRow

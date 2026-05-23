@@ -232,14 +232,14 @@
 
 /mob/living/simple/hostile/viscerator/opifex
 	name = "opifex viscerator"
-	desc = "A small, twin-bladed machine capable of inflicting very deadly lacerations. This one is an opifex model and thus targets non-colony humanoids, animals, and cht'mants."
+	desc = "A small, twin-bladed machine capable of inflicting very deadly lacerations. This one is an opifex model and thus targets non-outpost humanoids, animals, and cht'mants."
 	faction = "neutral"
 	colony_friend = TRUE
 	research_value = 120
 
 /mob/living/simple/hostile/viscerator/colony
-	name = "colony-locked viscerator"
-	desc = "A small, twin-bladed machine capable of inflicting very deadly lacerations. This model has functional colony-locked IFF and thus only targets non-colony humanoids and animals."
+	name = "outpost-locked viscerator"
+	desc = "A small, twin-bladed machine capable of inflicting very deadly lacerations. This model has functional outpost-locked IFF and thus only targets non-outpost humanoids and animals."
 	faction = "neutral"
 	colony_friend = TRUE
 	research_value = 120

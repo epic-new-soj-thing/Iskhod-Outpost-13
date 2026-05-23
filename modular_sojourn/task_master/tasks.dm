@@ -45,7 +45,7 @@
 	name = "Self Motivation"
 	key = "MASTER_QUEST_COMPLETER"
 	desc = "Completing your own set goals inspires you to continue your self improvement."
-	gain_text = "Setting your own missions is rewarding."
+	gain_text = "Setting your own goals is rewarding."
 	level_thresholds = 5 //Rewarding people that do their personal objectives with some reason to do this
 
 /datum/task_master/task/self_value/activate_affect()
@@ -139,8 +139,8 @@
 	name = "Proper Sealer"
 	key = "PROPER_SEALER"
 	desc = "Closing burrows with manual labour does more than giving you calloused hands - it makes you more knowledgeable with tools."
-	gain_text = "Making the colony a safer place sure is fulfilling work."
-	level_thresholds = 5 //Theirs so many borrows...
+	gain_text = "Making the outpost a safer place sure is fulfilling work."
+	level_thresholds = 5 //There are so many burrows...
 
 /datum/task_master/task/proper_sealer/activate_affect()
 	forwards_refence.stats.changeStat(STAT_MEC, (level + 1))
@@ -152,7 +152,7 @@
 	key = "TOOL_BREAKER"
 	desc = "Things will break eventually. At least its a good learning experience..."
 	gain_text = "Oops."
-	level_thresholds = 2 //This unlike most stat is meant to be leveled up a bit to shine
+	level_thresholds = 2 //This unlike most stats is meant to be leveled up a bit to shine
 
 /datum/task_master/task/tool_breaker/activate_affect()
 	forwards_refence.stats.changeStat(STAT_MEC, (level + 1))

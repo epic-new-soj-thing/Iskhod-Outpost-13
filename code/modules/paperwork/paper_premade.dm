@@ -3,7 +3,7 @@
  */
 /obj/item/paper/court
 	name = "Judgement"
-	info = {"For crimes against the colony, the offender is sentenced to:
+	info = {"For crimes against the outpost, the offender is sentenced to:
 	<BR>\n
 	<BR>\n"}
 
@@ -41,7 +41,7 @@
 	<BR>\n\t\tWARNING: It is a crime to use this without authorization"}
 
 /obj/item/paper/courtroom
-	name = "A Crash Course in Legal SOP on the colony."
+	name = "A Crash Course in Legal SOP on the outpost."
 	info = {"<B>Roles:</B>
 	<BR>\nThe Ranger is basically the investigator and prosecutor.
 	<BR>\nThe Staff Assistant can perform these functions with written authority from the Ranger.
@@ -124,7 +124,7 @@
 
 /obj/item/paper/jobs
 	name = "Job Information"
-	info = {"Information on all formal jobs that can be assigned on the colony can be found on this document.
+	info = {"Information on all formal jobs that can be assigned on the outpost can be found on this document.
 	<BR>\nIt just contains a crudely drawn picture of a stick figure orgy and a bunch of animal abhumans."}
 
 /obj/item/paper/sop
@@ -286,4 +286,4 @@
 
 /obj/item/paper/cro_pistol
 	name = "Classia Pistol"
-	info = {"This weapon is highly volatile and extremely dangerous if fired too many times to quickly, be sure to allow it to vent properly lest it over heats. This weapon is also explosive, so be aware of contraband laws and potential damage to the colony. A screwdriver is required to remove the hydrogen tanks, do be careful even then, lest you scorch your hand."}
+	info = {"This weapon is highly volatile and extremely dangerous if fired too many times to quickly, be sure to allow it to vent properly lest it over heats. This weapon is also explosive, so be aware of contraband laws and potential damage to the outpost. A screwdriver is required to remove the hydrogen tanks, do be careful even then, lest you scorch your hand."}

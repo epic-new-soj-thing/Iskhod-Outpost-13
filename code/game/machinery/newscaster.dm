@@ -68,7 +68,7 @@ var/datum/feed_network/news_network = new /datum/feed_network     //The global n
 	var/datum/feed_message/wanted_issue
 
 /datum/feed_network/New()
-	CreateFeedChannel("Colony Announcements", "SS13", 1, 1, "New Colony Announcement Available")
+	CreateFeedChannel("Outpost Announcements", "SS13", 1, 1, "New Outpost Announcement Available")
 	// DB loading is deferred to world startup to avoid attempting DB calls during early datum New() time
 	// world.connectDB() will attempt to call news_network.LoadFromDatabase() once DB is available.
 
