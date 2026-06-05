@@ -61,11 +61,10 @@
 	name = "Derelict submarine"
 	})
 "aF" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel/techfloor,
+/turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -261,11 +260,10 @@
 	},
 /area/iskhod/outside/forest)
 "cr" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel/techfloor,
+/turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -715,10 +713,7 @@
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
 	},
-/mob/living/simple/hostile/megafauna/excelsior_cosmonaught{
-	faction = "neutral";
-	desc = "For the people! This OKB robot seems to have been customised to be a stewardess, with a tiny neat badge saying "Diana" "
-	},
+/mob/living/simple/hostile/megafauna/excelsior_cosmonaught,
 /turf/simulated/floor/wood/wild5,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
@@ -1003,6 +998,13 @@
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"jt" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/machinery/shieldwallgen/excelsior,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "jw" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/item/storage/deferred/crate/exc_gear,
@@ -1163,11 +1165,10 @@
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
 "kQ" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/structure/bed/chair/comfy/red{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel/techfloor,
+/turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -2471,6 +2472,11 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
+"yf" = (
+/turf/simulated/floor/holofloor/carpet,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "yi" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -3367,11 +3373,9 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "HU" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms";
-	name = "Scanner";
-	desc = "A machine, seemingly used to send pulses of sound to scan the surrounding territory"
+/obj/machinery/power/shield_generator{
+	name = "prototype shield generator";
+	desc = "A heavy-duty shield generator and capacitor, capable of generating energy shields at large distances. An excelsior prototype lost to time"
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
@@ -4359,8 +4363,7 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "RD" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
-/turf/simulated/floor/tiled/steel/techfloor,
+/turf/simulated/floor/industrial/sierra_fixed,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -435735,7 +435738,7 @@ jW
 jW
 iG
 iG
-RD
+jt
 Rh
 Rh
 DY
@@ -436037,7 +436040,7 @@ jW
 iG
 zC
 cr
-RD
+yf
 RD
 RD
 RD
@@ -436339,11 +436342,11 @@ iG
 iG
 IJ
 kQ
-RD
-RD
-RD
-RD
-RD
+yf
+yf
+yf
+yf
+yf
 oY
 Hd
 ha
@@ -436641,7 +436644,7 @@ jW
 iG
 YF
 aF
-RD
+yf
 RD
 RD
 RD
@@ -436655,7 +436658,7 @@ wl
 Nk
 Nk
 NM
-TE
+Nk
 Nk
 Nk
 Nk
@@ -436943,7 +436946,7 @@ jW
 jW
 iG
 iG
-RD
+jt
 VF
 VF
 DY
