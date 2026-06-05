@@ -369,6 +369,18 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
+"dC" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
+	},
+/mob/living/simple/hostile/megafauna/excelsior_cosmonaught{
+	faction = "neutral";
+	desc = "For the people! This OKB robot seems to have been customised to be a stewardess, with a tiny neat badge saying 'Diana'"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "dG" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/beach/water/shallow,
@@ -710,6 +722,9 @@
 	name = "Tu-68 Red Star"
 	})
 "ha" = (
+/obj/machinery/light{
+	dir = 8
+	},
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
@@ -1740,15 +1755,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"qi" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/door/blast/regular,
-/turf/simulated/floor/wood/wild2,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
-	})
 "qk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1794,18 +1800,6 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
-"ra" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border{
-	dir = 1
-	},
-/mob/living/simple/hostile/megafauna/excelsior_cosmonaught{
-	faction = "neutral";
-	desc = "For the people! This OKB robot seems to have been customised to be a stewardess, with a tiny neat badge saying 'Diana'"
-	},
-/turf/simulated/floor/wood/wild5,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
-	})
 "ro" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -3136,13 +3130,13 @@
 	},
 /area/iskhod/dungeon/outside/caverns)
 "Fl" = (
-/obj/machinery/door/airlock/vault{
-	name = "Command centre"
-	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/monofloor,
+/obj/machinery/door/airlock/vault{
+	name = "Command centre"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -3254,6 +3248,12 @@
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Gn" = (
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/wood/wild2,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "Gq" = (
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
@@ -3343,7 +3343,7 @@
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
 	},
-/turf/simulated/floor/wood/wild5,
+/turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -3977,13 +3977,9 @@
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
 "Nz" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border{
-	dir = 1
-	},
-/obj/machinery/door/airlock/vault{
-	name = "Command centre"
-	},
-/turf/simulated/floor/tiled/dark/monofloor,
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/reagent_dispensers/fueltank/huge/derelict,
+/turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -435767,8 +435763,8 @@ ZE
 sg
 XC
 bz
-qi
 ha
+Gn
 NM
 qn
 gD
@@ -435785,8 +435781,8 @@ gV
 gV
 KM
 xD
-xD
-xD
+Nz
+Nz
 KM
 nY
 NM
@@ -436369,28 +436365,28 @@ oY
 Hd
 Hd
 Hd
-ra
+dC
 Hd
 Hd
 Hd
-Nz
+Fl
 Hd
 Hd
 Hd
 Hd
 Hd
 Fl
-Ic
-Ic
-Ic
-Ic
-Ic
+Hd
+Hd
+Hd
+Hd
+Hd
 Ic
 Ic
 Ic
 iE
 jw
-jw
+Nz
 TF
 nY
 NM
@@ -436976,7 +436972,7 @@ GK
 GK
 YE
 Qn
-ha
+Gn
 NM
 HU
 LQ
