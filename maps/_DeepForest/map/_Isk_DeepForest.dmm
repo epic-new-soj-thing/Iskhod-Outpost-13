@@ -998,13 +998,6 @@
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
-"jt" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
-/obj/machinery/shieldwallgen/excelsior,
-/turf/simulated/floor/tiled/steel/techfloor,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
-	})
 "jw" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/item/storage/deferred/crate/exc_gear,
@@ -2471,11 +2464,6 @@
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
 	name = "Derelict submarine"
-	})
-"yf" = (
-/turf/simulated/floor/holofloor/carpet,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
 	})
 "yi" = (
 /obj/structure/railing/grey{
@@ -4138,6 +4126,13 @@
 /obj/structure/closet/crate/large,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
+"OV" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/machinery/shieldwallgen/excelsior,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "OW" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/gun/projectile/shotgun/slidebarrel,
@@ -4318,6 +4313,11 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Rb" = (
+/turf/simulated/floor/holofloor/carpet,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "Rh" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/item/modular_computer/console{
@@ -435738,7 +435738,7 @@ jW
 jW
 iG
 iG
-jt
+OV
 Rh
 Rh
 DY
@@ -436040,7 +436040,7 @@ jW
 iG
 zC
 cr
-yf
+Rb
 RD
 RD
 RD
@@ -436342,11 +436342,11 @@ iG
 iG
 IJ
 kQ
-yf
-yf
-yf
-yf
-yf
+Rb
+Rb
+Rb
+Rb
+Rb
 oY
 Hd
 ha
@@ -436644,7 +436644,7 @@ jW
 iG
 YF
 aF
-yf
+Rb
 RD
 RD
 RD
@@ -436946,7 +436946,7 @@ jW
 jW
 iG
 iG
-jt
+OV
 VF
 VF
 DY
