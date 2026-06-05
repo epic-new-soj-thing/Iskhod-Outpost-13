@@ -710,11 +710,8 @@
 	name = "Tu-68 Red Star"
 	})
 "ha" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border{
-	dir = 1
-	},
-/mob/living/simple/hostile/megafauna/excelsior_cosmonaught,
-/turf/simulated/floor/wood/wild5,
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
 	})
@@ -1743,6 +1740,15 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
+"qi" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/wood/wild2,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "qk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1788,6 +1794,18 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"ra" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
+	},
+/mob/living/simple/hostile/megafauna/excelsior_cosmonaught{
+	faction = "neutral";
+	desc = "For the people! This OKB robot seems to have been customised to be a stewardess, with a tiny neat badge saying 'Diana'"
+	},
+/turf/simulated/floor/wood/wild5,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "ro" = (
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1968,7 +1986,6 @@
 	})
 "tk" = (
 /obj/machinery/door/airlock/hatch,
-/obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild5,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
@@ -4270,6 +4287,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star"
@@ -435749,8 +435767,8 @@ ZE
 sg
 XC
 bz
-gD
-Nk
+qi
+ha
 NM
 qn
 gD
@@ -436349,9 +436367,9 @@ Rb
 Rb
 oY
 Hd
-ha
 Hd
 Hd
+ra
 Hd
 Hd
 Hd
@@ -436958,7 +436976,7 @@ GK
 GK
 YE
 Qn
-Nk
+ha
 NM
 HU
 LQ
