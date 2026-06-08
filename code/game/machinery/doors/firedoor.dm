@@ -1,4 +1,4 @@
-S
+
 #define FIREDOOR_MAX_TEMP 323 // °C
 #define FIREDOOR_MIN_TEMP 253
 #define FIREDOOR_MIN_PRESSURE 30
@@ -115,14 +115,14 @@ S
 		if(!neighbor.density && istype(neighbor, /turf/simulated))
 			var/turf/simulated/redefined_turf = neighbor
 			var/turf_zone = redefined_turf.zone
-			tile_info[cardinal] = alist(
+			tile_info[cardinal] = list(
 				FIREDOOR_TURF = redefined_turf,
 				FIREDOOR_ATMOS = FALSE,
 				FIREDOOR_ALERT = FALSE
 			)
 			registered_zas_zones[cardinal] = turf_zone
 		else
-			tile_info[cardinal] =  alist(
+			tile_info[cardinal] =  list(
 				FIREDOOR_TURF = neighbor,
 				FIREDOOR_ATMOS = FALSE,
 				FIREDOOR_ALERT = FALSE
