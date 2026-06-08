@@ -66,7 +66,8 @@
 	},
 /turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "aK" = (
 /obj/item/reagent_containers/snacks/bigroachburger{
@@ -102,7 +103,9 @@
 /area/iskhod/dungeon/outside/caverns)
 "aT" = (
 /turf/simulated/wall/wood,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "aV" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -181,12 +184,15 @@
 /obj/item/reagent_containers/snacks/monkeykabob,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "bB" = (
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "bE" = (
 /obj/item/modular_computer/console{
 	stat = 1;
@@ -197,7 +203,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "bI" = (
 /obj/structure/closet/wardrobe,
@@ -235,6 +242,7 @@
 /obj/effect/floor_decal/industrial/warningdust{
 	dir = 1
 	},
+/obj/structure/invislight,
 /turf/simulated/shuttle/floor/mining,
 /area/iskhod/dungeon/outside/caverns)
 "bY" = (
@@ -265,7 +273,8 @@
 	},
 /turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "cz" = (
 /obj/structure/railing/grey,
@@ -379,7 +388,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "dG" = (
 /obj/structure/catwalk,
@@ -434,7 +444,8 @@
 /obj/mecha/combat/dreadnought/gloria,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "eC" = (
 /obj/structure/railing{
@@ -464,7 +475,9 @@
 "eH" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "eK" = (
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -494,7 +507,9 @@
 "fh" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "fo" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/rock3,
@@ -526,7 +541,8 @@
 /obj/machinery/cryopod,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "fx" = (
 /turf/simulated/floor/snow/smooth{
@@ -543,7 +559,9 @@
 /obj/structure/table/rack/shelf,
 /obj/random/tool_upgrade/low_chance,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "fT" = (
 /obj/item/paper/crumpled{
 	pixel_x = -10;
@@ -643,7 +661,8 @@
 /obj/machinery/power/port_gen/pacman/diesel,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "gx" = (
 /obj/effect/spider/stickyweb,
@@ -690,7 +709,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "gE" = (
 /obj/structure/table/steel,
@@ -719,7 +739,8 @@
 /obj/item/storage/deferred/crate/ak,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "ha" = (
 /obj/machinery/light{
@@ -728,7 +749,8 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "hf" = (
 /obj/structure/multiz/stairs{
@@ -817,17 +839,18 @@
 /area/iskhod/dungeon/outside/caverns)
 "hz" = (
 /obj/effect/floor_decal/industrial_plant,
-/obj/machinery/shield_conduit{
-	name = "strange device";
-	desc = "Looks important, probably best to leave it alone.";
-	dir = 8
-	},
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
 	icon_state = "blob_idle";
 	name = "biomass";
 	color = "#750008"
 	},
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/machinery/self_destruct,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/derelict{
 	name = "Derelict submarine"
@@ -840,7 +863,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "hE" = (
 /obj/structure/table/standard,
@@ -856,7 +880,9 @@
 "hL" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "hQ" = (
 /mob/living/carbon/superior/human/excelsior/excel_drozd,
 /turf/simulated/floor/snow/smooth{
@@ -953,7 +979,8 @@
 /obj/item/storage/deferred/crate/cells,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "iG" = (
 /obj/structure/low_wall/iskhod,
@@ -963,13 +990,11 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "iJ" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/largecrate/hoverpod,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -992,7 +1017,9 @@
 "jg" = (
 /mob/living/simple/hostile/nightmare,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "jh" = (
 /obj/structure/bed{
 	dir = 4
@@ -1015,7 +1042,8 @@
 /obj/item/storage/deferred/crate/exc_gear,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "jz" = (
 /obj/structure/lattice,
@@ -1062,7 +1090,9 @@
 "jJ" = (
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "jL" = (
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
@@ -1084,7 +1114,9 @@
 "jU" = (
 /obj/machinery/cooking/oven,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "jW" = (
 /turf/simulated/open,
 /area/iskhod/outside/forest)
@@ -1169,13 +1201,26 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
+"kG" = (
+/obj/structure/low_wall/iskhod,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/obj/structure/grille,
+/obj/structure/invislight,
+/turf/simulated/floor/plating/under,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
 "kQ" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 1
 	},
 /turf/simulated/floor/industrial/ornate_fixed,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "kT" = (
 /obj/structure/boulder,
@@ -1186,12 +1231,15 @@
 	},
 /area/iskhod/dungeon/outside/caverns)
 "kV" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
+"lg" = (
+/obj/structure/invislight,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "li" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1362,7 +1410,8 @@
 /obj/structure/closet/crate/rcd,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "mJ" = (
 /obj/structure/bonfire/permanent,
@@ -1387,18 +1436,22 @@
 /obj/structure/closet/crate/solar,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "nj" = (
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "nl" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/largecrate/animal/corgi,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "no" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -1446,7 +1499,8 @@
 /obj/item/clothing/mask/smokable/cigarette/cigar,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "nB" = (
 /turf/simulated/wall/iskhod_red,
@@ -1525,7 +1579,8 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "od" = (
 /obj/structure/bed/chair{
@@ -1643,7 +1698,8 @@
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/wood/wild5,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "pb" = (
 /obj/random/junkfood,
@@ -1661,10 +1717,7 @@
 	name = "Derelict submarine"
 	})
 "pm" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/plating/under,
 /area/derelict{
 	name = "Derelict submarine"
@@ -1747,10 +1800,7 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust,
 /obj/structure/railing/grey,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
 	name = "Derelict submarine"
@@ -1763,16 +1813,14 @@
 /obj/machinery/complant_maker,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "qr" = (
 /turf/simulated/floor/beach/water/jungle,
 /area/iskhod/dungeon/outside/caverns)
 "qs" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/salvageable/data_os{
 	icon_state = "server1"
 	},
@@ -1846,7 +1894,8 @@
 /obj/structure/closet/crate/excelsior,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "sf" = (
 /mob/living/carbon/superior/human/excelsior/excel_ppsh,
@@ -1860,7 +1909,8 @@
 /obj/item/reagent_containers/snacks/baconeggs,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "sl" = (
 /obj/machinery/porta_turret/prepper,
@@ -1917,7 +1967,8 @@
 /obj/structure/closet/crate/secure/weapon,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "sR" = (
 /obj/item/mine/excelsior{
@@ -1969,11 +2020,13 @@
 /obj/machinery/complant_teleporter,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "td" = (
 /obj/item/remains,
 /obj/item/clothing/head/hardhat,
+/obj/random/gun_fancy,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/derelict{
 	name = "Derelict submarine"
@@ -1982,7 +2035,8 @@
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/wood/wild5,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "tr" = (
 /obj/random/cluster/spiders,
@@ -2025,16 +2079,21 @@
 "tz" = (
 /obj/structure/bed/padded,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "tB" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "tG" = (
 /obj/machinery/power/apc,
 /turf/simulated/wall/r_wall/iskhod_red,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "tH" = (
 /obj/map_data/iskhod_df,
@@ -2078,10 +2137,7 @@
 	dir = 1
 	},
 /obj/structure/railing/grey,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/sign/warning/hazard_danger,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
@@ -2195,10 +2251,7 @@
 	},
 /area/iskhod/dungeon/outside/caverns)
 "uJ" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/salvageable/data_os{
 	icon_state = "machine3"
 	},
@@ -2221,7 +2274,9 @@
 "uR" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "uV" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/rock/variant1,
@@ -2291,6 +2346,12 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
+"vy" = (
+/obj/random/gun_fancy,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -2332,7 +2393,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "wm" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -2348,10 +2410,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/railing,
 /obj/machinery/nuclearbomb/station{
 	name = "nuclear reactor";
@@ -2447,7 +2506,8 @@
 /obj/item/storage/deferred/crate/alcohol,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "xK" = (
 /obj/structure/table/steel,
@@ -2528,7 +2588,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "yL" = (
 /obj/structure/table/reinforced,
@@ -2573,7 +2634,9 @@
 "zm" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "zC" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/structure/window/reinforced{
@@ -2587,7 +2650,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "zD" = (
 /obj/structure/sink/puddle{
@@ -2685,6 +2749,18 @@
 /obj/random/toolbox/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Aw" = (
+/obj/structure/flora/big/rocks1{
+	color = "#9e1515";
+	name = "the pile";
+	desc = "A pile of putrid flesh mixed with blood grass sprouting from it";
+	light_range = 90;
+	light_color = "#880808"
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "AA" = (
 /obj/random/mob/spiders,
 /obj/random/junk/low_chance,
@@ -2772,7 +2848,8 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "BI" = (
 /obj/structure/window/reinforced/iskhod{
@@ -2787,7 +2864,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "BM" = (
 /obj/structure/boulder,
@@ -2795,11 +2873,8 @@
 /area/iskhod/dungeon/outside/caverns)
 "BO" = (
 /obj/effect/floor_decal/industrial_plant,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
 /obj/structure/grille,
+/obj/structure/girder,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/derelict{
 	name = "Derelict submarine"
@@ -2843,7 +2918,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Cq" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -2889,7 +2965,9 @@
 "CF" = (
 /mob/living/simple/hostile/nightmare/dream_daemon,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "CG" = (
 /obj/structure/flora/rock,
 /turf/simulated/floor/snow/smooth{
@@ -3020,7 +3098,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Ed" = (
 /obj/structure/flora/big/bush3{
@@ -3090,16 +3169,15 @@
 /obj/structure/table/standard,
 /obj/random/handmade_tool,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "ED" = (
-/obj/structure/lattice,
-/obj/structure/girder{
-	name = "Crane Claw";
-	desc = "A mechanical claw of a crane, riddled with all sorts of hydraulic tubes and intricate machinery";
-	color = "#B7410E"
-	},
-/turf/simulated/open,
-/area/iskhod/dungeon/outside/caverns)
+/turf/simulated/wall/r_wall/iskhod_red,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
 "ER" = (
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
@@ -3138,7 +3216,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Fm" = (
 /obj/structure/railing{
@@ -3146,6 +3225,10 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Fv" = (
+/obj/structure/invislight,
+/turf/simulated/open,
+/area/iskhod/outside/forest)
 "Fy" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
 	dir = 1
@@ -3232,7 +3315,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Gh" = (
 /mob/living/simple/hostile/bear/excelsior,
@@ -3252,7 +3336,8 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Gq" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -3274,7 +3359,8 @@
 /obj/item/reagent_containers/drinks/bottle/vodka,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Gu" = (
 /obj/structure/salvageable/data_os{
@@ -3304,7 +3390,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "GM" = (
 /obj/item/device/lighting/toggleable/lantern,
@@ -3345,7 +3432,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Ho" = (
 /obj/structure/multiz/stairs/active{
@@ -3384,7 +3472,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "HV" = (
 /obj/structure/table/standard,
@@ -3394,7 +3483,9 @@
 /obj/random/handmade_tool,
 /obj/random/handmade_tool,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Ib" = (
 /mob/living/simple/hostile/tree,
 /turf/simulated/floor/snow/smooth{
@@ -3405,7 +3496,8 @@
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Id" = (
 /obj/machinery/optable,
@@ -3423,17 +3515,14 @@
 /area/iskhod/dungeon/outside/caverns)
 "Ip" = (
 /obj/effect/floor_decal/industrial_plant,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
-/obj/structure/grille,
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
 	icon_state = "blob_idle";
 	name = "biomass";
 	color = "#750008"
 	},
+/obj/structure/grille,
+/obj/structure/girder,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/derelict{
 	name = "Derelict submarine"
@@ -3454,7 +3543,8 @@
 /obj/machinery/excelsior_boombox,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "IB" = (
 /obj/item/stool/padded,
@@ -3476,7 +3566,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "IS" = (
 /obj/structure/bed/chair/office{
@@ -3485,11 +3576,8 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "IT" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
 /obj/structure/lattice,
+/obj/structure/girder,
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
 "IV" = (
@@ -3508,10 +3596,7 @@
 /obj/effect/floor_decal/industrial/warningdust/corner{
 	dir = 8
 	},
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
 	name = "Derelict submarine"
@@ -3648,13 +3733,22 @@
 /obj/structure/closet/crate/radiation,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Kk" = (
 /mob/living/simple/hostile/creature/tissue{
 	faction = "tissue"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Ko" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/derelict{
 	name = "Derelict submarine"
 	})
@@ -3708,7 +3802,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "KS" = (
 /mob/living/carbon/superior/human/excelsior/excel_vintorez,
@@ -3736,7 +3831,9 @@
 /obj/random/handmade_tool,
 /obj/random/handmade_tool,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Lp" = (
 /obj/machinery/door/airlock/hatch,
 /obj/random/traps,
@@ -3802,7 +3899,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "LR" = (
 /obj/structure/table/standard,
@@ -3820,10 +3918,7 @@
 "LS" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
 	name = "Derelict submarine"
@@ -3952,7 +4047,8 @@
 "Nk" = (
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Nv" = (
 /obj/structure/multiz/stairs{
@@ -3965,7 +4061,8 @@
 /obj/structure/closet/crate/secure/loot,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Ny" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -3981,7 +4078,8 @@
 /obj/structure/reagent_dispensers/fueltank/huge/derelict,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "NA" = (
 /mob/living/carbon/superior/human/excelsior/excel_ppsh,
@@ -4104,10 +4202,7 @@
 	dir = 4
 	},
 /obj/structure/railing,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/railing{
 	dir = 1
 	},
@@ -4124,7 +4219,9 @@
 /obj/machinery/cooking/stove,
 /obj/structure/table/steel,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "OF" = (
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 4
@@ -4144,7 +4241,8 @@
 /obj/machinery/shieldwallgen/excelsior,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "OW" = (
 /obj/structure/table/steel_reinforced,
@@ -4191,6 +4289,17 @@
 /obj/machinery/chem_master,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Pp" = (
+/obj/structure/low_wall/iskhod,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/obj/structure/grille,
+/obj/structure/invislight,
+/turf/simulated/floor/plating/under,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "Ps" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
@@ -4286,16 +4395,21 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Qo" = (
 /obj/machinery/cooking/grill,
 /obj/structure/table/steel,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Qp" = (
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Qw" = (
 /obj/structure/lattice,
 /turf/simulated/floor/beach/water/ocean{
@@ -4327,10 +4441,23 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Ra" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/structure/girder,
+/turf/simulated/floor/beach/sand{
+	color = "#4f0606"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Rb" = (
 /turf/simulated/floor/holofloor/carpet,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Rh" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
@@ -4340,7 +4467,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Rm" = (
 /obj/structure/multiz/stairs/active{
@@ -4379,7 +4507,8 @@
 "RD" = (
 /turf/simulated/floor/industrial/sierra_fixed,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "RH" = (
 /turf/simulated/floor/tiled/dark/techfloor_grid,
@@ -4389,7 +4518,9 @@
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "RL" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -4458,10 +4589,7 @@
 	dir = 1
 	},
 /obj/structure/railing/grey,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/sign/warning/vent_port,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
@@ -4542,24 +4670,23 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "TF" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/item/storage/deferred/crate/uniform_black,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "TN" = (
 /obj/structure/bed,
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
 "TR" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /obj/structure/table/steel_reinforced,
 /obj/structure/salvageable/data_os{
 	icon_state = "server1"
@@ -4574,7 +4701,8 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "TV" = (
 /obj/random/junk,
@@ -4602,7 +4730,8 @@
 /obj/structure/bed/chair/sofa/beige/right,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Uj" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -4627,10 +4756,7 @@
 /area/iskhod/dungeon/outside/caverns)
 "Ur" = (
 /obj/effect/floor_decal/industrial_plant,
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/derelict{
 	name = "Derelict submarine"
@@ -4674,10 +4800,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
+/obj/structure/girder,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
 "Vh" = (
@@ -4731,7 +4854,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "VM" = (
 /mob/living/carbon/superior/human/excelsior/excel_ak,
@@ -4747,7 +4871,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "VR" = (
 /obj/structure/closet/crate/radiation,
@@ -4860,14 +4985,25 @@
 /obj/structure/closet/crate/hydroponics,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
+"WK" = (
+/obj/structure/girder{
+	icon = 'icons/obj/adms.dmi';
+	icon_state = "adms"
+	},
+/turf/simulated/open,
+/area/iskhod/outside/forest)
 "WN" = (
 /obj/machinery/seed_storage/random,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "WR" = (
 /obj/structure/bed/double/padded,
 /turf/simulated/floor/wood/wild4,
-/area/iskhod/outside/forest)
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "WY" = (
 /obj/structure/sink/puddle{
 	color = "#bd1a1a";
@@ -4908,6 +5044,12 @@
 /obj/random/junk,
 /turf/unsimulated/mineral/cold,
 /area/iskhod/dungeon/outside/caverns)
+"Xr" = (
+/turf/simulated/wall/iskhod_red,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
 "Xv" = (
 /obj/structure/largecrate/animal/piano,
 /turf/simulated/floor/reinforced,
@@ -4920,12 +5062,20 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
+"XA" = (
+/obj/structure/catwalk,
+/obj/random/gun_fancy,
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "XC" = (
 /obj/structure/table/marble,
 /obj/machinery/cooking/stove,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "XE" = (
 /obj/structure/railing/grey,
@@ -4980,7 +5130,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "Ye" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
@@ -5040,7 +5191,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "YF" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
@@ -5055,8 +5207,15 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
+"YN" = (
+/obj/structure/invislight,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/outside/forest)
 "YP" = (
 /obj/structure/flora/small/snow/rock3,
 /turf/simulated/floor/snow/smooth{
@@ -5130,7 +5289,8 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "ZE" = (
 /obj/machinery/vending/sovietsoda,
@@ -5139,7 +5299,8 @@
 	},
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
 	})
 "ZF" = (
 /obj/structure/foamedmetal,
@@ -138983,7 +139144,7 @@ lN
 ZS
 ZS
 ZS
-ZS
+XA
 no
 ML
 tM
@@ -139291,7 +139452,7 @@ no
 Dg
 PY
 Dg
-XX
+vy
 Kk
 hv
 XX
@@ -139312,7 +139473,7 @@ Cq
 Cy
 xu
 ho
-BO
+Ko
 tM
 iw
 iw
@@ -139614,7 +139775,7 @@ xu
 wm
 xu
 Ov
-BO
+Ko
 tM
 iw
 iw
@@ -139916,7 +140077,7 @@ xu
 XR
 xu
 hz
-BO
+Ko
 tM
 iw
 iw
@@ -201823,7 +201984,7 @@ oh
 oh
 lE
 Yn
-Cg
+Aw
 oh
 oh
 lE
@@ -202750,7 +202911,7 @@ sd
 sz
 ER
 lQ
-ED
+IT
 IT
 IT
 Vd
@@ -203066,7 +203227,7 @@ IV
 IV
 IV
 IV
-IV
+Ra
 mr
 mr
 mr
@@ -220952,7 +221113,7 @@ lw
 ei
 ei
 iw
-ei
+lg
 ei
 iw
 iw
@@ -283431,7 +283592,7 @@ jL
 jL
 jL
 jL
-Ps
+YN
 Ps
 Ps
 Ps
@@ -283732,8 +283893,8 @@ jL
 jL
 jL
 Ps
-Ps
-Ps
+YN
+YN
 Ps
 Ps
 Ps
@@ -284032,9 +284193,9 @@ jL
 jL
 jL
 jL
-Ps
-Ps
-Ps
+YN
+YN
+YN
 Ps
 Ps
 Ps
@@ -284333,8 +284494,8 @@ AN
 AN
 jL
 jL
-Ps
-Ps
+YN
+YN
 Ps
 Ps
 Ps
@@ -284635,7 +284796,7 @@ AN
 AN
 AN
 jL
-Ps
+YN
 Ps
 Ps
 Ps
@@ -284907,8 +285068,8 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
+YN
+YN
 jL
 jL
 jL
@@ -285210,8 +285371,8 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
+YN
+YN
 jL
 AN
 AN
@@ -285513,8 +285674,8 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
+YN
+YN
 AN
 AN
 AN
@@ -334434,7 +334595,7 @@ Ks
 fx
 Zr
 Ew
-Ps
+YN
 Ps
 Ps
 Ps
@@ -334736,7 +334897,7 @@ fx
 fx
 Zr
 Ps
-Ps
+YN
 Ps
 Ps
 Ps
@@ -335039,7 +335200,7 @@ Zr
 Zr
 Ps
 Ps
-Ps
+YN
 Ps
 Ps
 Ps
@@ -335341,7 +335502,7 @@ Zr
 Zr
 Ps
 Ps
-Ps
+YN
 Ps
 Ps
 Ps
@@ -335643,7 +335804,7 @@ fx
 Zr
 Zr
 Ps
-Ps
+YN
 Ps
 Ps
 Ps
@@ -335945,7 +336106,7 @@ fx
 Zr
 Zr
 Ps
-Ps
+YN
 Ps
 Ps
 Ps
@@ -336247,7 +336408,7 @@ fx
 fx
 Zr
 Zr
-Ps
+YN
 Ps
 Ps
 Ps
@@ -355878,7 +356039,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -355965,10 +356126,10 @@ Ps
 Ps
 Ps
 AN
-Ps
-Ps
-Ps
-Ps
+YN
+YN
+YN
+YN
 AN
 AN
 Ps
@@ -356180,7 +356341,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -356482,7 +356643,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -356783,7 +356944,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -357085,7 +357246,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -411015,7 +411176,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 np
 np
@@ -411315,7 +411476,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 jW
 lw
@@ -411615,7 +411776,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 jW
 lw
@@ -429427,7 +429588,7 @@ jW
 jW
 jW
 jW
-jW
+TW
 Ps
 Ps
 AN
@@ -429729,7 +429890,7 @@ jW
 jW
 jW
 jW
-jW
+TW
 Ps
 Ps
 AN
@@ -430030,8 +430191,8 @@ jW
 jW
 jW
 jW
-jW
-jW
+TW
+TW
 Ps
 Ps
 AN
@@ -430332,8 +430493,8 @@ jW
 jW
 jW
 jW
-jW
-jW
+TW
+TW
 Ps
 AN
 AN
@@ -430633,9 +430794,9 @@ jW
 jW
 jW
 jW
-jW
-jW
-Ps
+TW
+TW
+TW
 Ps
 AN
 AN
@@ -430934,10 +431095,10 @@ jW
 jW
 jW
 jW
-jW
-jW
-jW
-Ps
+TW
+TW
+TW
+TW
 Ps
 AN
 AN
@@ -431236,9 +431397,9 @@ jW
 jW
 jW
 jW
-jW
-jW
-jW
+TW
+TW
+TW
 TW
 Ps
 AN
@@ -431538,9 +431699,9 @@ jW
 jW
 jW
 jW
-jW
-jW
-jW
+TW
+TW
+TW
 TW
 Ps
 AN
@@ -431839,20 +432000,20 @@ jW
 jW
 jW
 jW
-jW
-jW
-jW
-TW
+SD
+SD
+SD
+SD
+yO
 MN
 AN
 AN
 AN
-AN
 jL
 jL
 jL
 jL
-Ps
+YN
 jL
 jL
 jL
@@ -432141,20 +432302,20 @@ jW
 jW
 jW
 jW
-jW
-jW
-jW
-TW
+SD
+SD
+SD
+SD
+yO
 MN
 AN
 AN
-AN
 jL
 jL
 jL
 jL
-Ps
-Ps
+YN
+YN
 jL
 jL
 jL
@@ -432443,20 +432604,20 @@ jW
 jW
 jW
 jW
-jW
-jW
-TW
-MN
+SD
+SD
+SD
+nB
+yO
 MN
 AN
-AN
 jL
 jL
 jL
 jL
+YN
 Ps
-Ps
-Ps
+YN
 jL
 jL
 jL
@@ -432750,15 +432911,15 @@ TW
 MN
 MN
 MN
-AN
+MN
+Ps
 jL
 jL
 jL
-jL
+YN
 Ps
 Ps
-Ps
-Ps
+YN
 jL
 jL
 jL
@@ -433052,15 +433213,15 @@ TW
 MN
 MN
 MN
-ei
-jL
-jL
-jL
+MN
 Ps
 Ps
 Ps
 Ps
 Ps
+Ps
+Ps
+YN
 jL
 jL
 jL
@@ -433354,15 +433515,15 @@ TW
 MN
 MN
 MN
-ei
-ei
-ei
+MN
 Ps
 Ps
 Ps
 Ps
 Ps
 Ps
+Ps
+YN
 jL
 jL
 jL
@@ -433649,14 +433810,14 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 SD
 SD
 nB
 nB
 yO
-ei
+MN
 Ps
 Ps
 Ps
@@ -433664,7 +433825,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -433947,7 +434108,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 jW
 jW
@@ -433966,7 +434127,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -434269,10 +434430,10 @@ Ps
 Ps
 Ps
 Ps
-ei
-ei
-ei
-ei
+YN
+YN
+YN
+YN
 NM
 jL
 jL
@@ -434540,6 +434701,7 @@ jW
 jW
 jW
 jW
+Fv
 jW
 jW
 jW
@@ -434556,24 +434718,23 @@ jW
 jW
 jW
 jW
-jW
-jW
+Fv
 MN
 MN
 MN
 MN
 MN
 MN
+YN
 Ps
 Ps
 Ps
 Ps
+YN
 Ps
 Ps
 Ps
-ei
-ei
-ei
+Ps
 NM
 NM
 jL
@@ -434873,8 +435034,8 @@ Ps
 Ps
 Ps
 Ps
-ei
-NJ
+Ps
+Ps
 NM
 NM
 NM
@@ -435175,8 +435336,8 @@ Ps
 Ps
 Ps
 Ps
-ei
-NM
+Ps
+ED
 NM
 NM
 NM
@@ -435450,40 +435611,40 @@ jW
 jW
 jW
 iG
-NM
-NM
-NM
-NM
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
+ED
+ED
+ED
+ED
 iG
 iG
-NM
+ED
 tk
 tk
-NM
-NM
+ED
+ED
 iG
 iG
 iG
-NM
-NM
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
+ED
+ED
 TU
 TU
 TU
-NM
-NM
-NM
-NM
-NM
-nB
-NM
+ED
+ED
+ED
+ED
+ED
+Xr
+ED
 BF
 jL
 jL
@@ -435750,28 +435911,28 @@ jW
 jW
 jW
 jW
-iG
+kG
 iG
 OV
 Rh
 Rh
 DY
 DY
-nB
-NM
+Xr
+ED
 ZE
 sg
 XC
 bz
 ha
 Gn
-NM
+ED
 qn
 gD
 bE
 Ci
-NM
-NM
+ED
+ED
 nl
 nl
 yK
@@ -435785,8 +435946,8 @@ Nz
 Nz
 KM
 nY
-NM
-NM
+ED
+ED
 BF
 jL
 AN
@@ -436059,7 +436220,7 @@ RD
 RD
 RD
 RD
-nB
+Xr
 Ix
 Nk
 Nk
@@ -436067,13 +436228,13 @@ Nk
 Nk
 Nk
 Nk
-NM
+ED
 ta
 Nk
 Nk
 Nk
 Gd
-NM
+ED
 Ic
 Ic
 Ic
@@ -436087,10 +436248,10 @@ se
 se
 nY
 nY
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
 AN
 AN
 AN
@@ -436350,9 +436511,9 @@ jW
 jW
 jW
 jW
+Fv
 jW
-jW
-iG
+Pp
 iG
 IJ
 kQ
@@ -436389,10 +436550,10 @@ jw
 Nz
 TF
 nY
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
 AN
 AN
 AN
@@ -436663,7 +436824,7 @@ RD
 RD
 RD
 RD
-nB
+Xr
 Ix
 Uf
 nz
@@ -436671,13 +436832,13 @@ Gs
 wl
 Nk
 Nk
-NM
+ED
 Nk
 Nk
 Nk
 Nk
 TE
-NM
+ED
 Ic
 Ic
 Ic
@@ -436691,10 +436852,10 @@ iE
 jw
 jw
 TF
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
 AN
 AN
 AN
@@ -436958,27 +437119,27 @@ jW
 jW
 jW
 jW
-iG
+kG
 iG
 OV
 VF
 VF
 DY
 DY
-nB
-NM
+Xr
+ED
 BJ
 GK
 GK
 YE
 Qn
 Gn
-NM
+ED
 HU
 LQ
 XZ
 ft
-NM
+ED
 tG
 nh
 nl
@@ -436993,8 +437154,8 @@ ex
 se
 ZB
 mE
-NM
-NM
+ED
+ED
 BF
 jL
 AN
@@ -437260,42 +437421,42 @@ jW
 jW
 jW
 jW
-jW
+WK
 iG
-NM
-NM
-NM
-NM
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
+ED
+ED
+ED
+ED
 iG
 iG
-NM
+ED
 tk
 tk
-NM
-NM
+ED
+ED
 iG
 iG
 iG
-NM
-NM
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
+ED
+ED
 TU
 TU
 TU
-NM
-NM
-NM
-NM
-NM
-NM
-NM
+ED
+ED
+ED
+ED
+ED
+ED
+ED
 BF
 jL
 jL
@@ -437592,7 +437753,7 @@ Ps
 Ps
 Ps
 Ps
-NM
+ED
 NM
 NM
 NM
@@ -437879,7 +438040,7 @@ jW
 Ps
 Ps
 Ps
-Ps
+YN
 MN
 MN
 MN
@@ -437894,7 +438055,7 @@ Ps
 Ps
 Ps
 Ps
-ei
+Ps
 NM
 NM
 NM
@@ -438164,7 +438325,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 jW
 jW
 jW
@@ -438188,16 +438349,16 @@ nB
 yO
 MN
 MN
+YN
 Ps
 Ps
 Ps
 Ps
+YN
 Ps
 Ps
 Ps
 Ps
-ei
-ei
 NM
 NM
 jL
@@ -438498,9 +438659,9 @@ Ps
 Ps
 Ps
 Ps
-ei
-ei
-ei
+Ps
+Ps
+Ps
 NM
 jL
 jL
@@ -438779,7 +438940,7 @@ jW
 jW
 jW
 jW
-jW
+Fv
 ei
 ei
 Ps
@@ -439084,7 +439245,7 @@ jW
 jW
 ei
 ei
-ei
+lg
 Ps
 Ps
 Ps
@@ -439092,7 +439253,7 @@ TW
 MN
 MN
 MN
-Ps
+TW
 Ps
 Ps
 Ps
@@ -439394,7 +439555,7 @@ TW
 MN
 MN
 MN
-Ps
+TW
 Ps
 Ps
 Ps
@@ -439696,7 +439857,7 @@ TW
 MN
 MN
 MN
-Ps
+TW
 Ps
 Ps
 Ps
@@ -439993,12 +440154,12 @@ ei
 ei
 Ps
 Ps
-Ps
-Ps
-MN
-MN
-MN
-Ps
+SD
+SD
+nB
+nB
+yO
+TW
 Ps
 Ps
 Ps
@@ -440295,12 +440456,12 @@ jL
 ei
 ei
 Ps
-Ps
-Ps
-Ps
-MN
-MN
-Ps
+SD
+SD
+SD
+nB
+yO
+TW
 Ps
 Ps
 Ps
@@ -440597,12 +440758,12 @@ jL
 ei
 ei
 Ps
-Ps
-Ps
-Ps
+SD
+SD
+SD
+SD
+yO
 TW
-MN
-Ps
 Ps
 Ps
 Ps
@@ -440900,9 +441061,9 @@ ei
 ei
 Ps
 Ps
-Ps
-Ps
-Ps
+TW
+TW
+TW
 MN
 Ps
 Ps
@@ -441202,9 +441363,9 @@ ei
 Ps
 Ps
 Ps
-Ps
-Ps
-Ps
+TW
+TW
+TW
 TW
 Ps
 Ps
@@ -441504,10 +441665,10 @@ ei
 Ps
 Ps
 Ps
-Ps
-Ps
-Ps
-Ps
+TW
+TW
+TW
+TW
 Ps
 Ps
 Ps
@@ -441807,9 +441968,9 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
-Ps
+TW
+TW
+TW
 Ps
 Ps
 Ps
@@ -442110,8 +442271,8 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
+TW
+TW
 Ps
 Ps
 Ps
@@ -442412,8 +442573,8 @@ Ps
 Ps
 Ps
 Ps
-Ps
-Ps
+TW
+TW
 Ps
 Ps
 Ps
@@ -442715,7 +442876,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+TW
 Ps
 Ps
 Ps
@@ -443017,7 +443178,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+TW
 Ps
 Ps
 Ps
@@ -448339,14 +448500,14 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
 jL
 jL
 jL
-Ps
+YN
 Ps
 Ps
 Ps
@@ -448676,7 +448837,7 @@ Ps
 Ps
 Ps
 Ps
-Ps
+YN
 jL
 jL
 jL
@@ -448688,7 +448849,7 @@ jL
 jL
 jL
 jL
-Ps
+YN
 Ps
 Ps
 Ps
