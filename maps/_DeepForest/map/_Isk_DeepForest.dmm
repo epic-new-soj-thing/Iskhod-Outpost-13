@@ -38,16 +38,6 @@
 /obj/random/ammo,
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
-"aw" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/item/remains/tajaran,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "az" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -342,6 +332,13 @@
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"dm" = (
+/mob/living/carbon/superior/human/excelsior/excel_hammer_shield/batton,
+/obj/structure/invislight,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/outside/forest)
 "dn" = (
 /obj/random/junk,
 /obj/effect/spider/stickyweb,
@@ -417,6 +414,25 @@
 "dU" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"dZ" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	color = "#9e1515"
+	},
+/obj/item/remains,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"ec" = (
+/obj/structure/catwalk,
+/turf/simulated/open,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "ed" = (
 /obj/machinery/computer{
 	stat = 1;
@@ -510,14 +526,6 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
-"fa" = (
-/obj/structure/multiz/stairs/enter{
-	dir = 4
-	},
-/turf/simulated/open,
-/area/iskhod/outside/forest{
-	dynamic_lighting = 1
-	})
 "fg" = (
 /mob/living/simple/hostile/jelly,
 /turf/simulated/floor/beach/water/jungle,
@@ -562,32 +570,11 @@
 	name = "Tu-68 Red Star";
 	dynamic_lighting = 1
 	})
-"fv" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/item/remains,
-/obj/structure/flora/big/rocks1{
-	color = "#9e1515";
-	name = "the pile";
-	desc = "A pile of putrid flesh mixed with blood grass sprouting from it"
-	},
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "fx" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/trashcave)
-"fF" = (
-/obj/random/gun_fancy,
-/turf/simulated/floor/industrial/black_large_slates,
-/area/derelict{
-	name = "Derelict submarine"
-	})
 "fL" = (
 /obj/structure/flora/rock/variant1,
 /turf/simulated/floor/snow/smooth{
@@ -781,6 +768,12 @@
 	name = "Tu-68 Red Star";
 	dynamic_lighting = 1
 	})
+"gX" = (
+/obj/random/gun_fancy,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ha" = (
 /obj/machinery/light{
 	dir = 8
@@ -965,19 +958,6 @@
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"if" = (
-/obj/structure/flora/ausbushes/fullgrass{
-	color = "#9e1515"
-	},
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/item/remains/tajaran,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "ig" = (
 /obj/random/junk/low_chance,
 /turf/simulated/floor/plating/under,
@@ -1067,14 +1047,6 @@
 /obj/structure/multiz/stairs/enter,
 /turf/unsimulated/mineral/cold,
 /area/iskhod/dungeon/outside/caverns)
-"jc" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/structure/grille,
-/obj/structure/girder,
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/derelict{
-	name = "Derelict submarine"
-	})
 "jg" = (
 /mob/living/simple/hostile/nightmare,
 /turf/simulated/floor/wood/wild4,
@@ -1160,6 +1132,18 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"jP" = (
+/obj/structure/low_wall/iskhod,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/obj/structure/grille,
+/obj/structure/invislight,
+/turf/simulated/floor/plating/under,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
 "jQ" = (
 /obj/structure/railing/grey,
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -1255,13 +1239,6 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"kq" = (
-/mob/living/carbon/superior/human/excelsior/excel_hammer_shield/batton,
-/obj/structure/invislight,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/outside/forest)
 "kF" = (
 /obj/structure/reagent_dispensers/beerkeg{
 	name = "metal barrel";
@@ -1290,23 +1267,6 @@
 /obj/structure/girder,
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
-"la" = (
-/obj/structure/flora/ausbushes/fullgrass{
-	color = "#9e1515"
-	},
-/obj/structure/flora/big/rocks1{
-	color = "#9e1515";
-	name = "the pile";
-	desc = "A pile of putrid flesh mixed with blood grass sprouting from it"
-	},
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "li" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1512,12 +1472,6 @@
 /area/iskhod/outside/forest{
 	dynamic_lighting = 1
 	})
-"nk" = (
-/obj/structure/catwalk,
-/turf/simulated/open,
-/area/iskhod/outside/forest{
-	dynamic_lighting = 1
-	})
 "nl" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/largecrate/animal/corgi,
@@ -1590,12 +1544,6 @@
 /obj/effect/floor_decal/border/techfloor/orange/corner,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"nE" = (
-/turf/simulated/wall/r_wall/iskhod_red,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star";
-	dynamic_lighting = 1
-	})
 "nK" = (
 /obj/structure/sign/warning/moving_parts/small,
 /turf/simulated/wall/r_wall,
@@ -1727,6 +1675,12 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"ow" = (
+/obj/structure/invislight,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "ox" = (
 /obj/effect/floor_decal/corner/lightgrey/bordercee{
 	dir = 4
@@ -1827,19 +1781,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"py" = (
-/obj/structure/flora/ausbushes/fullgrass{
-	color = "#9e1515"
-	},
-/obj/item/remains,
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "pG" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner,
@@ -1879,6 +1820,14 @@
 /turf/simulated/floor/industrial/white_large_slates,
 /area/derelict{
 	name = "Derelict submarine"
+	})
+"pU" = (
+/obj/structure/multiz/stairs/active{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
 	})
 "qd" = (
 /obj/structure/railing/grey{
@@ -1940,10 +1889,27 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
-"rk" = (
-/obj/structure/invislight,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
+"qV" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/grille,
+/obj/structure/girder,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"ra" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/remains,
+/obj/structure/flora/big/rocks1{
+	color = "#9e1515";
+	name = "the pile";
+	desc = "A pile of putrid flesh mixed with blood grass sprouting from it"
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "ro" = (
@@ -2060,6 +2026,18 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
+"sH" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/structure/girder,
+/turf/simulated/floor/beach/sand{
+	color = "#4f0606"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "sK" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/closet/crate/secure/weapon,
@@ -2281,6 +2259,13 @@
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
+"ua" = (
+/obj/structure/girder{
+	icon = 'icons/obj/adms.dmi';
+	icon_state = "adms"
+	},
+/turf/simulated/open,
+/area/iskhod/outside/forest)
 "uf" = (
 /obj/structure/flora/small/trailrockb5,
 /obj/structure/flora/small/trailrockb2,
@@ -2301,18 +2286,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"uo" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/obj/structure/girder,
-/turf/simulated/floor/beach/sand{
-	color = "#4f0606"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "ur" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -2456,19 +2429,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"vA" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/ausbushes/fullgrass{
-	color = "#9e1515"
-	},
-/obj/item/remains/deer,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "vE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -2490,18 +2450,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"vI" = (
-/obj/structure/low_wall/iskhod,
-/obj/machinery/door/blast/shutters/glass{
-	name = "window"
-	},
-/obj/structure/grille,
-/obj/structure/invislight,
-/turf/simulated/floor/plating/under,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star";
-	dynamic_lighting = 1
-	})
 "vL" = (
 /turf/simulated/floor/rock,
 /area/iskhod/dungeon/outside/caverns)
@@ -2515,16 +2463,6 @@
 	dir = 8
 	},
 /turf/simulated/open,
-/area/iskhod/dungeon/outside/caverns)
-"wa" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/item/remains,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "wl" = (
 /obj/structure/bed/chair/sofa/beige/right{
@@ -2597,30 +2535,6 @@
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
-	},
-/area/iskhod/dungeon/outside/caverns)
-"wU" = (
-/obj/structure/sink/puddle{
-	color = "#bd1a1a";
-	name = "cyst";
-	desc = "A hole in the ground, there seems to be a small pool of water within, surprisingly, the water is clean."
-	},
-/obj/item/organ/internal/eyes/oneeye,
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
-"wX" = (
-/obj/structure/flora/ausbushes/fullgrass{
-	color = "#9e1515"
-	},
-/obj/item/remains/tajaran,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "xe" = (
@@ -2789,18 +2703,6 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
-"yZ" = (
-/obj/structure/flora/big/rocks1{
-	color = "#9e1515";
-	name = "the pile";
-	desc = "A pile of putrid flesh mixed with blood grass sprouting from it";
-	light_range = 90;
-	light_color = "#880808"
-	},
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "ze" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/table/marble,
@@ -2942,12 +2844,6 @@
 /obj/item/storage/fancy/vials,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
-"AK" = (
-/turf/simulated/wall/iskhod_red,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star";
-	dynamic_lighting = 1
-	})
 "AN" = (
 /turf/unsimulated/mineral/cold,
 /area/iskhod/dungeon/outside/caverns)
@@ -3107,6 +3003,21 @@
 /area/derelict{
 	name = "Derelict submarine"
 	})
+"Cw" = (
+/obj/structure/sink/puddle{
+	color = "#bd1a1a";
+	name = "cyst";
+	desc = "A hole in the ground, there seems to be a small pool of water within, surprisingly, the water is clean."
+	},
+/obj/item/organ/internal/eyes/oneeye,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Cy" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/machinery/shield_conduit{
@@ -3193,6 +3104,12 @@
 /obj/machinery/floodlight,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"CX" = (
+/turf/simulated/wall/r_wall/iskhod_red,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
 "Dg" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /obj/machinery/door/blast/regular,
@@ -3220,6 +3137,17 @@
 	},
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"Dl" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb4,
+/obj/item/remains,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Dm" = (
 /turf/simulated/open,
 /area/derelict{
@@ -3347,11 +3275,10 @@
 	dynamic_lighting = 1
 	})
 "ED" = (
-/obj/structure/invislight,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/outside/forest)
+/obj/structure/lattice,
+/obj/structure/girder,
+/turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
 "ER" = (
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
@@ -3578,6 +3505,15 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"GT" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	color = "#9e1515"
+	},
+/obj/item/remains/tajaran,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "GZ" = (
 /obj/machinery/computer{
 	stat = 1;
@@ -3596,13 +3532,6 @@
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"Hc" = (
-/obj/structure/catwalk,
-/obj/random/gun_fancy,
-/turf/simulated/floor/plating/under,
-/area/derelict{
-	name = "Derelict submarine"
-	})
 "Hd" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
@@ -3634,10 +3563,6 @@
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
-"HI" = (
-/obj/structure/invislight,
-/turf/simulated/open,
-/area/iskhod/outside/forest)
 "HL" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -3694,11 +3619,6 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
-"Ik" = (
-/turf/simulated/wall/iskhod_red,
-/area/iskhod/outside/forest{
-	dynamic_lighting = 1
-	})
 "Ip" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -3762,10 +3682,9 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "IT" = (
-/obj/structure/lattice,
-/obj/structure/girder,
+/obj/structure/invislight,
 /turf/simulated/open,
-/area/iskhod/dungeon/outside/caverns)
+/area/iskhod/outside/forest)
 "IV" = (
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
@@ -3792,6 +3711,12 @@
 /obj/item/storage/firstaid/surgery/traitor,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Jj" = (
+/obj/structure/invislight,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/outside/forest)
 "Jl" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -3869,6 +3794,14 @@
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"JX" = (
+/obj/structure/multiz/stairs/enter{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Ka" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/machinery/door/airlock/hatch,
@@ -3983,6 +3916,21 @@
 	name = "Tu-68 Red Star";
 	dynamic_lighting = 1
 	})
+"KP" = (
+/obj/structure/sink/puddle{
+	color = "#bd1a1a";
+	name = "cyst";
+	desc = "A hole in the ground, there seems to be a small pool of water within, surprisingly, the water is clean."
+	},
+/obj/item/organ/internal/eyes/oneeye/right,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "KS" = (
 /mob/living/carbon/superior/human/excelsior/excel_vintorez,
 /turf/simulated/floor/asteroid/shale{
@@ -3997,6 +3945,16 @@
 	},
 /turf/simulated/floor/beach/water/ocean{
 	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Lb" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/remains,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "Le" = (
@@ -4032,12 +3990,6 @@
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
-	},
-/area/iskhod/dungeon/outside/caverns)
-"Lv" = (
-/obj/item/remains/tajaran,
-/turf/simulated/floor/asteroid/dirt/dark{
-	color = "#750008"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "Ly" = (
@@ -4129,28 +4081,25 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"Mf" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/obj/item/remains,
-/turf/simulated/floor/beach/sand{
-	color = "#4f0606"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "Mj" = (
 /mob/living/simple/hostile/carp/shark{
 	color = "#8B0000";
 	name = "malformed shark"
 	},
 /turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/caverns)
+"Mn" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	color = "#9e1515"
+	},
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/remains/tajaran,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Mo" = (
 /obj/random/material_ore/low_chance,
@@ -4181,6 +4130,12 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
+"MH" = (
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "MI" = (
 /obj/effect/overlay/water{
 	color = "#880808"
@@ -4247,6 +4202,12 @@
 /area/iskhod/dungeon/outside/caverns)
 "Nk" = (
 /turf/simulated/floor/wood/wild2,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star";
+	dynamic_lighting = 1
+	})
+"No" = (
+/turf/simulated/wall/iskhod_red,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star";
 	dynamic_lighting = 1
@@ -4363,14 +4324,6 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"Om" = (
-/obj/structure/multiz/stairs/active{
-	dir = 4
-	},
-/turf/simulated/open,
-/area/iskhod/outside/forest{
-	dynamic_lighting = 1
-	})
 "Oo" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -4447,17 +4400,6 @@
 /obj/structure/closet/crate/large,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
-"OS" = (
-/obj/structure/low_wall/iskhod,
-/obj/machinery/door/blast/shutters/glass{
-	name = "window"
-	},
-/obj/structure/grille,
-/obj/structure/invislight,
-/turf/simulated/floor/plating/under,
-/area/iskhod/outside/forest{
-	name = "Tu-68 Red Star"
-	})
 "OV" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/machinery/shieldwallgen/excelsior,
@@ -4631,6 +4573,23 @@
 "QB" = (
 /obj/structure/closet/crate/internals,
 /turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"QH" = (
+/obj/structure/flora/ausbushes/fullgrass{
+	color = "#9e1515"
+	},
+/obj/structure/flora/big/rocks1{
+	color = "#9e1515";
+	name = "the pile";
+	desc = "A pile of putrid flesh mixed with blood grass sprouting from it"
+	},
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "QN" = (
 /mob/living/simple/hostile/carp/greatwhite{
@@ -4843,19 +4802,20 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
-"Te" = (
-/obj/structure/sink/puddle{
-	color = "#bd1a1a";
-	name = "cyst";
-	desc = "A hole in the ground, there seems to be a small pool of water within, surprisingly, the water is clean."
-	},
-/obj/item/organ/internal/eyes/oneeye/right,
+"Tk" = (
 /obj/item/mine/excelsior{
 	armed = 1;
 	anchored = 1
 	},
-/turf/simulated/floor/asteroid/dirt/dark{
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
 	color = "#750008"
+	},
+/obj/item/remains,
+/turf/simulated/floor/beach/sand{
+	color = "#4f0606"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "To" = (
@@ -4881,6 +4841,17 @@
 /obj/effect/window_lwall_spawn,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"TC" = (
+/obj/structure/low_wall/iskhod,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/obj/structure/grille,
+/obj/structure/invislight,
+/turf/simulated/floor/plating/under,
+/area/iskhod/outside/forest{
+	name = "Tu-68 Red Star"
+	})
 "TE" = (
 /obj/structure/salvageable/data_os{
 	icon_state = "server1"
@@ -4948,11 +4919,6 @@
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/outside/forest{
 	name = "Tu-68 Red Star";
-	dynamic_lighting = 1
-	})
-"Ug" = (
-/turf/simulated/open,
-/area/iskhod/outside/forest{
 	dynamic_lighting = 1
 	})
 "Uj" = (
@@ -5041,6 +5007,19 @@
 /obj/random/junkfood,
 /obj/random/junkfood,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Vq" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/ausbushes/fullgrass{
+	color = "#9e1515"
+	},
+/obj/item/remains/deer,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Vr" = (
 /obj/structure/multiz/stairs/active/bottom,
@@ -5180,6 +5159,16 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Wv" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/remains/tajaran,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Ww" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -5194,13 +5183,14 @@
 	color = "#4f0606"
 	},
 /area/iskhod/dungeon/outside/caverns)
-"Wz" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
+"WD" = (
+/obj/structure/flora/big/rocks1{
+	color = "#9e1515";
+	name = "the pile";
+	desc = "A pile of putrid flesh mixed with blood grass sprouting from it";
+	light_range = 90;
+	light_color = "#880808"
 	},
-/obj/structure/flora/small/trailrockb4,
-/obj/item/remains,
 /turf/simulated/floor/asteroid/dirt/dark{
 	color = "#750008"
 	},
@@ -5215,12 +5205,6 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"WI" = (
-/obj/structure/lattice,
-/turf/simulated/open,
-/area/iskhod/outside/forest{
-	dynamic_lighting = 1
-	})
 "WJ" = (
 /obj/structure/closet/crate/hydroponics,
 /turf/simulated/floor/reinforced,
@@ -5253,6 +5237,11 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"Xa" = (
+/turf/simulated/open,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Xc" = (
 /turf/simulated/wall/iron,
 /area/iskhod/dungeon/outside/caverns)
@@ -5280,6 +5269,12 @@
 "Xv" = (
 /obj/structure/largecrate/animal/piano,
 /turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"Xw" = (
+/obj/item/remains/tajaran,
+/turf/simulated/floor/asteroid/dirt/dark{
+	color = "#750008"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Xz" = (
 /obj/structure/railing/grey{
@@ -5384,6 +5379,11 @@
 /obj/random/medical,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Yq" = (
+/turf/simulated/wall/iskhod_red,
+/area/iskhod/outside/forest{
+	dynamic_lighting = 1
+	})
 "Yr" = (
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -5430,13 +5430,6 @@
 	name = "Tu-68 Red Star";
 	dynamic_lighting = 1
 	})
-"YG" = (
-/obj/structure/girder{
-	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
-	},
-/turf/simulated/open,
-/area/iskhod/outside/forest)
 "YP" = (
 /obj/structure/flora/small/snow/rock3,
 /turf/simulated/floor/snow/smooth{
@@ -5471,6 +5464,13 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio/headset/headset_blackshield/bowman/solfed,
 /turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Zd" = (
+/obj/structure/catwalk,
+/obj/random/gun_fancy,
+/turf/simulated/floor/plating/under,
 /area/derelict{
 	name = "Derelict submarine"
 	})
@@ -139367,7 +139367,7 @@ lN
 ZS
 ZS
 ZS
-Hc
+Zd
 no
 ML
 tM
@@ -139675,7 +139675,7 @@ no
 Dg
 PY
 Dg
-fF
+gX
 Kk
 hv
 XX
@@ -140900,8 +140900,8 @@ tM
 pP
 pP
 tM
-jc
-jc
+qV
+qV
 Ip
 tM
 tM
@@ -200083,13 +200083,13 @@ oh
 oh
 oh
 oh
-vA
+Vq
 lE
-Lv
+Xw
 lE
 lE
 It
-Lv
+Xw
 lE
 lE
 AN
@@ -200677,7 +200677,7 @@ oh
 oh
 oh
 lE
-wa
+Lb
 Yn
 lE
 lE
@@ -201002,9 +201002,9 @@ LY
 oh
 lE
 Cg
-Lv
+Xw
 oh
-Te
+KP
 lE
 lE
 oh
@@ -201275,7 +201275,7 @@ lE
 lE
 NU
 oh
-wa
+Lb
 lE
 Cg
 lE
@@ -201313,7 +201313,7 @@ oh
 oh
 oh
 oh
-la
+QH
 oh
 oh
 oh
@@ -201594,7 +201594,7 @@ lE
 lE
 oh
 oh
-wU
+Cw
 lE
 lE
 lE
@@ -201618,7 +201618,7 @@ FA
 FA
 FA
 oh
-py
+dZ
 oh
 oh
 oh
@@ -201882,7 +201882,7 @@ oh
 lE
 lE
 Cg
-vA
+Vq
 lE
 It
 lE
@@ -201900,17 +201900,17 @@ lE
 lE
 lE
 lE
-Lv
+Xw
 oK
 oh
 lE
 Cg
 lE
 oh
-wX
+GT
 oh
 lE
-Wz
+Dl
 lE
 lE
 lE
@@ -202179,7 +202179,7 @@ AN
 lE
 lE
 lE
-wa
+Lb
 oh
 oh
 lE
@@ -202199,7 +202199,7 @@ oh
 oh
 lE
 lE
-wa
+Lb
 lE
 lE
 lE
@@ -202207,7 +202207,7 @@ oh
 oh
 lE
 Yn
-yZ
+WD
 oh
 oh
 lE
@@ -202221,7 +202221,7 @@ oh
 oh
 oh
 oh
-wU
+Cw
 oh
 oh
 oh
@@ -202499,7 +202499,7 @@ lE
 lE
 lE
 lE
-Lv
+Xw
 lE
 lE
 lE
@@ -203093,7 +203093,7 @@ IV
 IV
 IV
 IV
-fv
+ra
 lE
 lE
 IV
@@ -203103,7 +203103,7 @@ IV
 IV
 IV
 lE
-aw
+Wv
 IV
 IV
 IV
@@ -203111,7 +203111,7 @@ IV
 IV
 lE
 lE
-if
+Mn
 oh
 oh
 IV
@@ -203134,9 +203134,9 @@ sd
 sz
 ER
 lQ
-IT
-IT
-IT
+ED
+ED
+ED
 Vd
 nK
 ER
@@ -203409,7 +203409,7 @@ IV
 IV
 IV
 IV
-Mf
+Tk
 IV
 IV
 IV
@@ -203450,7 +203450,7 @@ IV
 IV
 IV
 IV
-uo
+sH
 mr
 mr
 mr
@@ -221336,7 +221336,7 @@ lw
 ei
 ei
 iw
-rk
+ow
 ei
 iw
 iw
@@ -281564,20 +281564,20 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
 Ps
 Ps
 Ps
@@ -281865,21 +281865,21 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 FC
 ZH
 Ob
 Sa
-nk
-nk
-nk
-nk
-nk
-nk
-nk
-WI
-Ik
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+MH
+Yq
 Ps
 Ps
 Ps
@@ -282167,21 +282167,21 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 tS
 ZH
 Ob
 Sa
-WI
-WI
-WI
-WI
-WI
-WI
-nk
-nk
-Ik
+MH
+MH
+MH
+MH
+MH
+MH
+ec
+ec
+Yq
 Ps
 Ps
 Ps
@@ -282470,20 +282470,20 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 FC
-Ik
+Yq
 Ob
 Sa
-Ug
-Ug
-WI
-WI
-Ug
-Ug
-WI
-nk
-Ik
+Xa
+Xa
+MH
+MH
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -282774,18 +282774,18 @@ Ps
 Ps
 tS
 Ps
-Ik
+Yq
 Ob
 Sa
-Ug
-Ug
-Ik
-Ik
-Ug
-Ug
-WI
-nk
-Ik
+Xa
+Xa
+Yq
+Yq
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -283076,18 +283076,18 @@ Ps
 Ps
 FC
 KC
-Ik
+Yq
 Ob
 Sa
-Ug
-Ik
-Ik
-Ik
-Ik
-WI
-WI
-nk
-Ik
+Xa
+Yq
+Yq
+Yq
+Yq
+MH
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -283378,18 +283378,18 @@ Ps
 Ps
 YZ
 Ps
-Ik
+Yq
 Ob
 Sa
-Ug
-Ik
-Ik
-Ik
-Ik
-WI
-WI
-nk
-Ik
+Xa
+Yq
+Yq
+Yq
+Yq
+MH
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -283680,18 +283680,18 @@ Ps
 Ps
 Ps
 Ps
-Ik
+Yq
 Ob
 Sa
-Ug
-Ug
-Ik
-Ik
-Ug
-Ug
-WI
-nk
-Ik
+Xa
+Xa
+Yq
+Yq
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -283815,7 +283815,7 @@ jL
 jL
 jL
 jL
-ED
+Jj
 Ps
 Ps
 Ps
@@ -283982,18 +283982,18 @@ Ps
 Ps
 FC
 tS
-Ik
-fa
-fa
-Ug
-Ug
-Ug
-Ug
-Ug
-Ug
-WI
-nk
-Ik
+Yq
+JX
+JX
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -284116,8 +284116,8 @@ jL
 jL
 jL
 Ps
-ED
-ED
+Jj
+Jj
 Ps
 Ps
 Ps
@@ -284284,18 +284284,18 @@ Ps
 Ps
 KC
 tS
-Ik
-Om
-Om
-Ug
-Ug
-Ug
-Ug
-Ug
-Ug
-WI
-nk
-Ik
+Yq
+pU
+pU
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -284416,9 +284416,9 @@ jL
 jL
 jL
 jL
-ED
-ED
-ED
+Jj
+Jj
+Jj
 Ps
 Ps
 Ps
@@ -284586,18 +284586,18 @@ Ps
 Ps
 Ps
 Ps
-Ik
-Ug
-Ug
-Ug
-Ug
-Ug
-Ug
-Ug
-Ug
-WI
-nk
-Ik
+Yq
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+Xa
+MH
+ec
+Yq
 Ps
 Ps
 Ps
@@ -284717,8 +284717,8 @@ AN
 AN
 jL
 jL
-ED
-ED
+Jj
+Jj
 Ps
 Ps
 Ps
@@ -284888,18 +284888,18 @@ Ps
 Ps
 Ps
 FC
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
-Ik
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
+Yq
 Ps
 Ps
 Ps
@@ -285019,7 +285019,7 @@ AN
 AN
 AN
 jL
-ED
+Jj
 Ps
 Ps
 Ps
@@ -285291,8 +285291,8 @@ Ps
 Ps
 Ps
 Ps
-ED
-ED
+Jj
+Jj
 jL
 jL
 jL
@@ -285594,8 +285594,8 @@ Ps
 Ps
 Ps
 Ps
-ED
-ED
+Jj
+Jj
 jL
 AN
 AN
@@ -285897,8 +285897,8 @@ Ps
 Ps
 Ps
 Ps
-ED
-ED
+Jj
+Jj
 AN
 AN
 AN
@@ -334818,7 +334818,7 @@ Ks
 fx
 Zr
 Ew
-ED
+Jj
 Ps
 Ps
 Ps
@@ -335120,7 +335120,7 @@ fx
 fx
 Zr
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -335423,7 +335423,7 @@ Zr
 Zr
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -335725,7 +335725,7 @@ Zr
 Zr
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -336027,7 +336027,7 @@ fx
 Zr
 Zr
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -336329,7 +336329,7 @@ fx
 Zr
 Zr
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -336631,7 +336631,7 @@ fx
 fx
 Zr
 Zr
-ED
+Jj
 Ps
 Ps
 Ps
@@ -356262,7 +356262,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -356349,10 +356349,10 @@ Ps
 Ps
 Ps
 AN
-ED
-ED
-ED
-ED
+Jj
+Jj
+Jj
+Jj
 AN
 AN
 Ps
@@ -356564,7 +356564,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -356866,7 +356866,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -357167,7 +357167,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -357469,7 +357469,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -405804,7 +405804,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 Ho
 pL
 by
@@ -406106,7 +406106,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 Ho
 pL
 by
@@ -411399,7 +411399,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 np
 np
@@ -411699,7 +411699,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 lw
@@ -411999,7 +411999,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 lw
@@ -432236,7 +432236,7 @@ jL
 jL
 jL
 jL
-ED
+Jj
 jL
 jL
 jL
@@ -432537,8 +432537,8 @@ jL
 jL
 jL
 jL
-ED
-ED
+Jj
+Jj
 jL
 jL
 jL
@@ -432838,9 +432838,9 @@ jL
 jL
 jL
 jL
-ED
+Jj
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -433139,10 +433139,10 @@ Ps
 jL
 jL
 jL
-ED
+Jj
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -433444,7 +433444,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -433746,7 +433746,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -434033,7 +434033,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 SD
 SD
@@ -434048,7 +434048,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -434331,7 +434331,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 jW
@@ -434350,7 +434350,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -434653,10 +434653,10 @@ Ps
 Ps
 Ps
 Ps
-ED
-ED
-ED
-ED
+Jj
+Jj
+Jj
+Jj
 NM
 jL
 jL
@@ -434924,7 +434924,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 jW
@@ -434941,19 +434941,19 @@ jW
 jW
 jW
 jW
-HI
+IT
 MN
 MN
 MN
 MN
 MN
 MN
-ED
+Jj
 Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -435560,7 +435560,7 @@ Ps
 Ps
 Ps
 Ps
-nE
+CX
 NM
 NM
 NM
@@ -435834,40 +435834,40 @@ jW
 jW
 jW
 iG
-nE
-nE
-nE
-nE
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
+CX
+CX
+CX
+CX
 iG
 iG
-nE
+CX
 tk
 tk
-nE
-nE
+CX
+CX
 iG
 iG
 iG
-nE
-nE
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
+CX
+CX
 TU
 TU
 TU
-nE
-nE
-nE
-nE
-nE
-AK
-nE
+CX
+CX
+CX
+CX
+CX
+No
+CX
 BF
 jL
 jL
@@ -436134,28 +436134,28 @@ jW
 jW
 jW
 jW
-vI
+jP
 iG
 OV
 Rh
 Rh
 DY
 DY
-AK
-nE
+No
+CX
 ZE
 sg
 XC
 bz
 ha
 Gn
-nE
+CX
 qn
 gD
 bE
 Ci
-nE
-nE
+CX
+CX
 nl
 nl
 yK
@@ -436169,8 +436169,8 @@ Nz
 Nz
 KM
 nY
-nE
-nE
+CX
+CX
 BF
 jL
 AN
@@ -436443,7 +436443,7 @@ RD
 RD
 RD
 RD
-AK
+No
 Ix
 Nk
 Nk
@@ -436451,13 +436451,13 @@ Nk
 Nk
 Nk
 Nk
-nE
+CX
 ta
 Nk
 Nk
 Nk
 Gd
-nE
+CX
 Ic
 Ic
 Ic
@@ -436471,10 +436471,10 @@ se
 se
 nY
 nY
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
 AN
 AN
 AN
@@ -436734,9 +436734,9 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
-OS
+TC
 iG
 IJ
 kQ
@@ -436773,10 +436773,10 @@ jw
 Nz
 TF
 nY
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
 AN
 AN
 AN
@@ -437047,7 +437047,7 @@ RD
 RD
 RD
 RD
-AK
+No
 Ix
 Uf
 nz
@@ -437055,13 +437055,13 @@ Gs
 wl
 Nk
 Nk
-nE
+CX
 Nk
 Nk
 Nk
 Nk
 TE
-nE
+CX
 Ic
 Ic
 Ic
@@ -437075,10 +437075,10 @@ iE
 jw
 jw
 TF
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
 AN
 AN
 AN
@@ -437342,27 +437342,27 @@ jW
 jW
 jW
 jW
-vI
+jP
 iG
 OV
 VF
 VF
 DY
 DY
-AK
-nE
+No
+CX
 BJ
 GK
 GK
 YE
 Qn
 Gn
-nE
+CX
 HU
 LQ
 XZ
 ft
-nE
+CX
 tG
 nh
 nl
@@ -437377,8 +437377,8 @@ ex
 se
 ZB
 mE
-nE
-nE
+CX
+CX
 BF
 jL
 AN
@@ -437644,42 +437644,42 @@ jW
 jW
 jW
 jW
-YG
+ua
 iG
-nE
-nE
-nE
-nE
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
+CX
+CX
+CX
+CX
 iG
 iG
-nE
+CX
 tk
 tk
-nE
-nE
+CX
+CX
 iG
 iG
 iG
-nE
-nE
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
+CX
+CX
 TU
 TU
 TU
-nE
-nE
-nE
-nE
-nE
-nE
-nE
+CX
+CX
+CX
+CX
+CX
+CX
+CX
 BF
 jL
 jL
@@ -437976,7 +437976,7 @@ Ps
 Ps
 Ps
 Ps
-nE
+CX
 NM
 NM
 NM
@@ -438263,7 +438263,7 @@ jW
 Ps
 Ps
 Ps
-ED
+Jj
 MN
 MN
 MN
@@ -438548,7 +438548,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 jW
@@ -438572,12 +438572,12 @@ nB
 yO
 MN
 MN
-ED
+Jj
 Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -439163,7 +439163,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 ei
 ei
 Ps
@@ -439468,7 +439468,7 @@ jW
 jW
 ei
 ei
-rk
+ow
 Ps
 Ps
 Ps
@@ -439932,7 +439932,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 AN
@@ -439941,9 +439941,9 @@ AN
 AN
 AN
 jW
-HI
+IT
 jW
-HI
+IT
 jW
 jW
 jW
@@ -440550,7 +440550,7 @@ Ps
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 jW
@@ -440835,7 +440835,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 Rm
@@ -441456,7 +441456,7 @@ Ps
 Ps
 Ps
 jW
-HI
+IT
 jW
 jW
 jW
@@ -441742,7 +441742,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 AN
@@ -442488,7 +442488,7 @@ AN
 jL
 jL
 jL
-ED
+Jj
 Ps
 Ps
 Ps
@@ -444195,7 +444195,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 jW
@@ -445166,7 +445166,7 @@ jW
 jW
 jW
 jW
-HI
+IT
 jW
 jW
 AN
@@ -445204,7 +445204,7 @@ jL
 jL
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -445715,7 +445715,7 @@ AN
 AN
 AN
 AN
-HI
+IT
 jW
 jW
 jW
@@ -446335,11 +446335,11 @@ jW
 jW
 jW
 jW
-HI
-HI
-HI
-HI
-HI
+IT
+IT
+IT
+IT
+IT
 jW
 jW
 jW
@@ -447011,7 +447011,7 @@ AN
 jL
 jL
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -448185,7 +448185,7 @@ jL
 jL
 jL
 jL
-ED
+Jj
 Ps
 jL
 jL
@@ -448481,7 +448481,7 @@ KS
 Nf
 jL
 eZ
-ED
+Jj
 Ps
 jL
 jL
@@ -448723,14 +448723,14 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
 jL
 jL
 jL
-ED
+Jj
 Ps
 Ps
 Ps
@@ -448774,12 +448774,12 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 hQ
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 eZ
@@ -448821,7 +448821,7 @@ jL
 jL
 jL
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -449060,7 +449060,7 @@ Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -449072,7 +449072,7 @@ jL
 jL
 jL
 jL
-ED
+Jj
 Ps
 Ps
 Ps
@@ -449093,7 +449093,7 @@ Ps
 Ps
 qP
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -449376,17 +449376,17 @@ jL
 Ps
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
-ED
+Jj
 hQ
 Ps
 Ps
 Ps
 eZ
 eZ
-kq
+dm
 Ps
 Ps
 Ps
@@ -449692,7 +449692,7 @@ Sd
 jL
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
@@ -449723,7 +449723,7 @@ jL
 jL
 jL
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -450002,7 +450002,7 @@ Ps
 Ps
 qP
 Ps
-ED
+Jj
 Ps
 jL
 jL
@@ -450299,15 +450299,15 @@ jL
 jL
 jL
 sf
-ED
+Jj
 Ps
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
@@ -450321,9 +450321,9 @@ jL
 jL
 jL
 jL
-ED
-ED
-ED
+Jj
+Jj
+Jj
 jL
 jL
 jL
@@ -450909,11 +450909,11 @@ jL
 jL
 jL
 Ps
-ED
+Jj
 Ps
 Ps
 Ps
-ED
+Jj
 jL
 jL
 jL
