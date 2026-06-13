@@ -1589,10 +1589,6 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
-"nv" = (
-/obj/item/remains,
-/turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
 "nz" = (
 /obj/structure/table/glass,
 /obj/item/clothing/mask/smokable/cigarette/cigar,
@@ -4755,6 +4751,10 @@
 	},
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"RP" = (
+/obj/item/remains,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "RZ" = (
 /obj/structure/salvageable/machine_os{
@@ -206845,7 +206845,7 @@ Xg
 Xg
 Xc
 js
-nv
+RP
 js
 js
 Xc
@@ -207450,7 +207450,7 @@ Xg
 Tu
 js
 js
-nv
+RP
 SA
 yF
 AN
