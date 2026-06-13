@@ -1510,7 +1510,8 @@
 "mS" = (
 /obj/structure/girder{
 	icon = 'icons/obj/adms.dmi';
-	icon_state = "adms"
+	icon_state = "adms";
+	name = "Scanner"
 	},
 /turf/simulated/open,
 /area/iskhod/outside/forest)
@@ -1587,6 +1588,10 @@
 /turf/simulated/floor/beach/water/ocean{
 	color = "#880808"
 	},
+/area/iskhod/dungeon/outside/caverns)
+"nv" = (
+/obj/item/remains,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "nz" = (
 /obj/structure/table/glass,
@@ -206840,7 +206845,7 @@ Xg
 Xg
 Xc
 js
-js
+nv
 js
 js
 Xc
@@ -207445,7 +207450,7 @@ Xg
 Tu
 js
 js
-js
+nv
 SA
 yF
 AN
