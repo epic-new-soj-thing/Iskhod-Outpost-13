@@ -121,12 +121,12 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/engineering/solars_control)
 "eV" = (
-/obj/effect/window_lwall_spawn/reinforced,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
 "fq" = (
@@ -157,10 +157,10 @@
 "fN" = (
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 1
+	d2 = 2;
+	icon_state = "1-2"
 	},
+/obj/structure/bed/chair,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "fO" = (
@@ -234,30 +234,28 @@
 	},
 /area/iskhod/engineering/solars)
 "hn" = (
-/turf/simulated/shuttle/wall/mining{
-	icon_state = "2,5";
-	opacity = 0
-	},
+/obj/machinery/power/apc,
+/turf/simulated/wall/iskhod_green,
 /area/iskhod/engineering/solars_control)
 "hw" = (
-/obj/structure/closet/crate/solar,
-/obj/machinery/power/apc/hyper{
-	pixel_y = 28;
-	dir = 1
-	},
 /obj/structure/cable{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/oracarpet,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
 "hM" = (
-/obj/structure/bed/chair{
-	dir = 1
-	},
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable,
+/obj/machinery/power/solar_control{
+	dir = 1
+	},
+/obj/item/paper/solarsteup{
+	name = "paper- 'Message from Tacitus, ex-Guild grand master.'"
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
@@ -349,7 +347,7 @@
 /area/iskhod/engineering/solars_control)
 "mo" = (
 /turf/simulated/shuttle/wall/mining{
-	icon_state = "15,5";
+	icon_state = "15,6";
 	opacity = 0
 	},
 /area/iskhod/engineering/solars_control)
@@ -457,13 +455,6 @@
 /obj/structure/table/bench/standard,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
-"qs" = (
-/turf/simulated/shuttle/wall/mining{
-	icon_state = "15,6";
-	name = "Elevator";
-	opacity = 0
-	},
-/area/iskhod/engineering/solars_control)
 "qH" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -503,10 +494,10 @@
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
 "sT" = (
-/obj/structure/closet/crate/solar,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/closet/crate/solar,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "tp" = (
@@ -531,17 +522,14 @@
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars)
 "uP" = (
-/obj/machinery/power/solar_control,
-/obj/structure/cable{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/turf/simulated/floor/carpet/oracarpet,
+/obj/machinery/recharge_station/upgraded_t_three,
+/turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "uY" = (
 /obj/structure/railing/grey{
@@ -570,6 +558,9 @@
 /area/iskhod/engineering/solars_control)
 "vK" = (
 /obj/machinery/vending/coffee,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "vS" = (
@@ -614,6 +605,9 @@
 /area/iskhod/engineering/solars_control)
 "yj" = (
 /obj/machinery/vending/cola,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "za" = (
@@ -667,7 +661,6 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "Bw" = (
-/obj/machinery/power/tracker,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -677,6 +670,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/machinery/power/tracker,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars)
 "BG" = (
@@ -715,17 +709,17 @@
 "CF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/atmos{
-	name = "Atmospherics";
-	req_access = newlist();
-	req_one_access = list(24,10)
-	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/machinery/door/airlock/atmos{
+	name = "Atmospherics";
+	req_access = newlist();
+	req_one_access = list(24,10)
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/engineering/solars_control)
 "Dg" = (
@@ -822,11 +816,11 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "Id" = (
-/obj/random/powercell/low_chance,
 /obj/structure/table/reinforced,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/random/powercell/low_chance,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "IC" = (
@@ -1183,13 +1177,12 @@
 /area/iskhod/engineering/solars_control)
 "YR" = (
 /obj/structure/cable{
-	d1 = 1;
 	d2 = 4;
-	icon_state = "1-4";
-	dir = 4
+	icon_state = "0-4"
 	},
-/turf/simulated/floor/carpet/oracarpet,
-/area/iskhod/engineering/solars_control)
+/obj/machinery/power/solar,
+/turf/simulated/floor/plating/under,
+/area/iskhod/engineering/solars)
 "YU" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
@@ -1198,9 +1191,6 @@
 /obj/item/pen{
 	pixel_x = -1;
 	pixel_y = 3
-	},
-/obj/item/paper/solarsteup{
-	name = "paper- 'Message from Tacitus, ex-Guild grand master.'"
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
@@ -3684,10 +3674,10 @@ oj
 oj
 pZ
 Ay
+Ay
 nz
 lT
 Wv
-hn
 lT
 ZL
 Ay
@@ -3786,8 +3776,8 @@ oj
 oj
 oj
 Ay
+Ay
 Kx
-Dg
 Dg
 Dg
 dr
@@ -3888,8 +3878,8 @@ oj
 ve
 oj
 Ay
+Ay
 Kx
-Dg
 Dg
 Dg
 dr
@@ -3990,8 +3980,8 @@ oj
 oj
 oj
 Ay
+Ay
 Kx
-Dg
 Dg
 Dg
 dr
@@ -4092,9 +4082,9 @@ pZ
 oj
 oj
 Ay
+Ay
 QF
 lT
-qs
 mo
 lT
 kV
@@ -4613,7 +4603,7 @@ pZ
 oj
 Ay
 IC
-Pc
+uP
 CD
 SF
 Id
@@ -4714,11 +4704,11 @@ oj
 oj
 oj
 Ay
-IC
+RR
 Pc
 CD
-uP
-hM
+ux
+ux
 YU
 wz
 oj
@@ -4764,7 +4754,7 @@ Er
 Er
 Er
 Er
-Er
+YR
 Er
 Er
 Er
@@ -4819,9 +4809,9 @@ Ay
 RR
 Ht
 jz
-YR
-fN
 DG
+fN
+hM
 eV
 LN
 LN
@@ -5019,7 +5009,7 @@ oj
 oj
 ve
 oj
-Ay
+hn
 hw
 Jk
 CD
