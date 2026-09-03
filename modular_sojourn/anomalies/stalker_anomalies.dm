@@ -48,7 +48,7 @@
 	addtimer(CALLBACK(src, PROC_REF(check_for_angels)), 16.2)
 
 /obj/structure/anomalies_diet/flashy_coin/proc/check_for_angels(mob/M)
-	for(M in living_mobs_in_view(3, src))
+	for(M in able_mobs_in_oview(3, src))
 		flashy_stun(M)
 
 /obj/structure/anomalies_diet/flashy_coin/proc/loop_timer()
@@ -293,11 +293,11 @@
 
 /obj/structure/anomalies_diet/hell/proc/perma_frost(mob/M)
 	//Yes we stack each time, get cryo'ed
-	for(M in living_mobs_in_view(3, src))
+	for(M in able_mobs_in_oview(3, src))
 		orb(M, temp_for_far_area_subtractor)
-	for(M in living_mobs_in_view(2, src))
+	for(M in able_mobs_in_oview(2, src))
 		orb(M, temp_for_medium_area_subtractor)
-	for(M in living_mobs_in_view(1, src))
+	for(M in able_mobs_in_oview(1, src))
 		orb(M, temp_for_close_area_subtractor)
 
 	addtimer(CALLBACK(src, PROC_REF(perma_frost)), freeze_ray_cooldowns)
@@ -371,7 +371,7 @@
 				organ.nerve_strike_add(1)
 
 /obj/structure/anomalies_diet/thumper/proc/check_for_newtons(mob/M)
-	for(M in living_mobs_in_view(3, src))
+	for(M in able_mobs_in_oview(3, src))
 		gravitational_theory(M)
 
 /obj/structure/anomalies_diet/thumper/proc/warnings_for_newtons()
@@ -755,7 +755,7 @@
 		H.throw_at(src, lanth_of_ice, down_hill, src)
 
 /obj/structure/anomalies_diet/glacier/proc/scaters_in_the_ring(mob/M)
-	for(M in living_mobs_in_view(3, src))
+	for(M in able_mobs_in_oview(3, src))
 		ice_scateing_gone_wrong(M)
 
 /obj/structure/anomalies_diet/glacier/proc/dramatics(mob/M)
