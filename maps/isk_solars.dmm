@@ -1,7 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ad" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
-/turf/simulated/floor/plating/under,
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
 /area/iskhod/engineering/solars_control)
 "aX" = (
 /obj/machinery/light{
@@ -98,9 +100,6 @@
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
-"dr" = (
-/turf/simulated/floor/industrial/navy_large_slates,
-/area/turbolift/mountain/solars)
 "dz" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 4
@@ -119,6 +118,14 @@
 "eD" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/engineering/solars_control)
+"eR" = (
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
 /area/iskhod/engineering/solars_control)
 "eV" = (
 /obj/effect/window_lwall_spawn/reinforced,
@@ -155,7 +162,14 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "fN" = (
-/obj/structure/bed/chair,
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "fO" = (
@@ -233,6 +247,11 @@
 	target_pressure = 5000
 	},
 /turf/simulated/floor/plating/under,
+/area/iskhod/engineering/solars_control)
+"jn" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "13,15"
+	},
 /area/iskhod/engineering/solars_control)
 "jz" = (
 /obj/structure/cable{
@@ -347,8 +366,10 @@
 	},
 /area/turbolift/mountain/solars)
 "nz" = (
-/turf/simulated/floor/plating/under,
-/area/turbolift/mountain/solars)
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,15"
+	},
+/area/iskhod/engineering/solars_control)
 "nS" = (
 /obj/structure/cable/ender{
 	id = "solars";
@@ -443,20 +464,6 @@
 	temperature = 240
 	},
 /area/iskhod/engineering/solars)
-"sv" = (
-/obj/structure/table/reinforced,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/item/stack/cable_coil,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 4
-	},
-/turf/simulated/floor/carpet/oracarpet,
-/area/iskhod/engineering/solars_control)
 "sB" = (
 /turf/simulated/floor/asteroid/dirt/mud{
 	temperature = 240
@@ -480,6 +487,15 @@
 "tp" = (
 /obj/machinery/vending/gamers,
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/solars_control)
+"us" = (
+/obj/machinery/power/solar_control,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable,
+/turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "ux" = (
 /turf/simulated/floor/carpet/oracarpet,
@@ -578,6 +594,11 @@
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
+"xQ" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,18"
+	},
+/area/iskhod/engineering/solars_control)
 "yj" = (
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/dark/orangecorner,
@@ -586,23 +607,6 @@
 /obj/structure/table/marble,
 /obj/machinery/microwave,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/oracarpet,
-/area/iskhod/engineering/solars_control)
-"zm" = (
-/obj/machinery/power/solar_control{
-	dir = 1;
-	pixel_y = -4
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 8
-	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "Ac" = (
@@ -737,6 +741,16 @@
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
+"DZ" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "10,18"
+	},
+/area/iskhod/engineering/solars_control)
+"Ea" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "7,10"
+	},
+/area/iskhod/engineering/solars_control)
 "Eo" = (
 /obj/structure/window/reinforced/iskhod{
 	dir = 4
@@ -756,6 +770,12 @@
 "Et" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/solars_control)
+"EM" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "15,6";
+	opacity = 0
+	},
 /area/iskhod/engineering/solars_control)
 "EY" = (
 /obj/structure/flora/small/snow/rock3,
@@ -808,6 +828,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/oracarpet,
+/area/iskhod/engineering/solars_control)
+"Ir" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "2,6";
+	opacity = 0
+	},
 /area/iskhod/engineering/solars_control)
 "IC" = (
 /obj/machinery/recharge_station/upgraded_t_three,
@@ -1023,9 +1049,11 @@
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "Ts" = (
-/obj/structure/window/reinforced/iskhod{
-	dir = 4
-	},
+/obj/structure/table/reinforced,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "Tx" = (
@@ -1127,6 +1155,11 @@
 "XV" = (
 /obj/machinery/vending/engivend,
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/solars_control)
+"Yj" = (
+/turf/simulated/shuttle/wall/mining{
+	icon_state = "14,21"
+	},
 /area/iskhod/engineering/solars_control)
 "YU" = (
 /obj/structure/table/reinforced,
@@ -2107,11 +2140,11 @@ BI
 BI
 BI
 BI
-oj
-oj
-oj
-oj
-oj
+bm
+bm
+bm
+bm
+bm
 BI
 BI
 BI
@@ -2214,11 +2247,11 @@ oj
 pZ
 oj
 oj
-oj
+bm
 BI
 BI
-oj
-oj
+bm
+bm
 oj
 oj
 oj
@@ -2317,7 +2350,7 @@ oj
 oj
 oj
 oj
-oj
+bm
 BI
 oj
 oj
@@ -2492,12 +2525,12 @@ BI
 BI
 BI
 BI
-oj
-oj
-oj
-oj
-oj
-oj
+bm
+bm
+bm
+bm
+bm
+bm
 oj
 Om
 oj
@@ -3514,7 +3547,7 @@ oj
 hm
 oj
 oj
-Ay
+eR
 Ay
 Ay
 Ay
@@ -3616,12 +3649,12 @@ oj
 oj
 oj
 pZ
+eR
 Ay
-nz
-nz
-nz
-nz
-nz
+DZ
+Yj
+Ir
+Yj
 nz
 Ay
 CD
@@ -3718,12 +3751,12 @@ oj
 oj
 oj
 oj
+eR
 Ay
-nz
+jn
 Dg
 Dg
 Dg
-dr
 nh
 ad
 CD
@@ -3820,12 +3853,12 @@ oj
 oj
 ve
 oj
+eR
 Ay
-nz
+jn
 Dg
 Dg
 Dg
-dr
 nh
 ad
 CD
@@ -3922,12 +3955,12 @@ oj
 oj
 oj
 oj
+eR
 Ay
-nz
+jn
 Dg
 Dg
 Dg
-dr
 nh
 ad
 CD
@@ -4024,13 +4057,13 @@ oj
 pZ
 oj
 oj
+eR
 Ay
-nz
-nz
-nz
-nz
-nz
-nz
+xQ
+Yj
+EM
+Yj
+Ea
 Ay
 CD
 ux
@@ -4126,7 +4159,7 @@ oj
 oj
 oj
 oj
-Ay
+eR
 Ay
 Ay
 Ay
@@ -4750,11 +4783,11 @@ oj
 hm
 Ay
 RR
-QK
-CD
-ux
+Ht
+jz
+us
 fN
-zm
+DG
 eV
 LN
 LN
@@ -4852,11 +4885,11 @@ oj
 oj
 Ay
 sT
-Ht
-jz
-DG
-DG
-sv
+mZ
+CD
+ux
+ux
+ux
 wz
 oj
 oj

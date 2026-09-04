@@ -45901,6 +45901,9 @@
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 8
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/service/changing_room)
 "leT" = (
@@ -88434,7 +88437,7 @@
 "vFG" = (
 /obj/structure/cable/ender{
 	id = "solars";
-	name = "solars power cable"
+	name = "from solars power cable"
 	},
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/cable/yellow{
@@ -98942,6 +98945,12 @@
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/warden)
+"ykY" = (
+/obj/effect/step_trigger/colony_to_crash_2_A,
+/turf/simulated/floor/asteroid/dirt/mud{
+	temperature = 240
+	},
+/area/iskhod/outside/inside_colony/west)
 "ylc" = (
 /obj/structure/sink{
 	dir = 8;
@@ -98953,6 +98962,9 @@
 /obj/effect/decal/cleanable/vomit,
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/service/changing_room)
@@ -180586,8 +180598,8 @@ kLr
 kLr
 kLr
 kLr
-uJZ
-uJZ
+ykY
+ykY
 kLr
 kLr
 kLr
