@@ -52,6 +52,17 @@
 	generate_asteroid = FALSE
 	height = 2
 
+/obj/map_data/river_to_colony
+	name = "Scrap Haven"
+	is_station_level = FALSE
+	is_player_level = TRUE
+	is_contact_level = FALSE
+	is_accessable_level = FALSE
+	is_sealed = TRUE
+	height = 3
+	generate_asteroid = TRUE
+	digsites = "WAR"
+
 /*
 /obj/map_data/beast_cave
 	name = "Beast Cave"
@@ -84,15 +95,4 @@
 	generate_asteroid = TRUE
 	height = 1
 	digsites = "Fossil"
-
-/obj/map_data/river_to_colony
-	name = "Scrap Haven"
-	is_station_level = FALSE
-	is_player_level = TRUE
-	is_contact_level = FALSE
-	is_accessable_level = FALSE
-	is_sealed = TRUE
-	height = 3
-	generate_asteroid = TRUE
-	digsites = "WAR"
 */
