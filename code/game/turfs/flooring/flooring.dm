@@ -791,6 +791,10 @@ var/list/flooring_types
 	icon = 'icons/turf/flooring/beach.dmi'
 	icon_base = "desert"
 
+/decl/flooring/beach/movingsand
+	icon = 'icons/turf/flooring/movingsand.dmi'
+	icon_base = "movingsand"
+
 /decl/flooring/beach/drywater
 	icon = 'icons/turf/flooring/beach.dmi'
 	icon_base = "sand1"

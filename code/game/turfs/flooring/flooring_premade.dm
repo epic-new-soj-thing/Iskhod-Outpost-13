@@ -507,6 +507,13 @@
 	icon_state = "sand"
 	initial_flooring = /decl/flooring/beach/sand
 
+/turf/simulated/floor/beach/movingsand
+	name = "movingsand"
+	icon = 'icons/turf/flooring/movingsand.dmi'
+	icon_state = "movingsand"
+	initial_flooring = /decl/flooring/beach/movingsand
+
+
 /turf/simulated/floor/beach/sand/desert
 	icon_state = "desert"
 	initial_flooring = /decl/flooring/beach/desert
