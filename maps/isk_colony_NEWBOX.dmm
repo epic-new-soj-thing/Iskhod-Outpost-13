@@ -1635,6 +1635,12 @@
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/space)
+"bBE" = (
+/obj/effect/step_trigger/colony_to_crash_2_B,
+/turf/simulated/floor/asteroid/dirt/mud{
+	temperature = 240
+	},
+/area/space)
 "bBI" = (
 /obj/landmark/join/start/assistant,
 /turf/simulated/floor/industrial/black_large_slates,
@@ -2786,6 +2792,12 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark/golden,
+/area/space)
+"cGa" = (
+/obj/effect/step_trigger/colony_to_crash_2_A,
+/turf/simulated/floor/asteroid/dirt/mud{
+	temperature = 240
+	},
 /area/space)
 "cGh" = (
 /obj/effect/window_lwall_spawn,
@@ -148622,8 +148634,8 @@ bHI
 bHI
 bHI
 bHI
-gnM
-gnM
+cGa
+bBE
 bHI
 bHI
 bHI

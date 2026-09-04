@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /obj/structure/railing/grey,
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
@@ -592,7 +592,7 @@
 /turf/simulated/floor/tiled/derelict/red_white_edges,
 /area/iskhod/outside/one_star/fo_internal)
 "dU" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/item/clothing/head/hairflower,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
@@ -603,7 +603,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "dW" = (
 /obj/item/clothing/head/hairflower,
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
@@ -621,7 +621,7 @@
 	},
 /area/iskhod/outside/one_star/fo_internal)
 "ea" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/item/clothing/head/hairflower/white,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
@@ -672,7 +672,7 @@
 /turf/simulated/floor/asteroid/grass/snowjungle,
 /area/iskhod/outside/one_star/fo_outside)
 "ey" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/item/clothing/head/hairflower,
 /obj/structure/railing/grey,
 /turf/simulated/floor/snow/smooth{
@@ -1751,7 +1751,7 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
@@ -2039,7 +2039,7 @@
 /turf/simulated/floor/reinforced,
 /area/iskhod/outside/one_star/fo_internal)
 "nR" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/item/clothing/head/hairflower/white,
 /obj/structure/flora/tree/snow/five,
 /turf/simulated/floor/snow/smooth{
@@ -3239,7 +3239,7 @@
 /turf/simulated/floor/rock/manmade/concrete,
 /area/iskhod/outside/one_star/fo_outside)
 "ve" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
@@ -3349,7 +3349,7 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/random/turret/os,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
@@ -3399,7 +3399,7 @@
 /turf/simulated/floor/carpet/bcarpet,
 /area/iskhod/outside/one_star/fo_internal)
 "vR" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
@@ -4265,7 +4265,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "AQ" = (
 /obj/structure/railing/grey,
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/flora/tree/snow/four,
 /turf/simulated/floor/asteroid/grass/snowjungle,
 /area/iskhod/outside/one_star/fo_outside)
@@ -4311,7 +4311,7 @@
 	},
 /area/iskhod/outside/one_star/fo_outside)
 "Bi" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey{
 	dir = 8
 	},
@@ -5286,7 +5286,7 @@
 /turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_outside)
 "Ie" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
 	dir = 4
@@ -5656,7 +5656,7 @@
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/iskhod/outside/one_star/fo_internal)
 "KO" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey{
 	dir = 8
 	},
@@ -6900,7 +6900,7 @@
 	},
 /area/iskhod/outside/one_star/fo_outside)
 "ST" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/asteroid/grass/snowjungle,
 /area/iskhod/outside/one_star/fo_outside)
 "SW" = (
@@ -7299,7 +7299,7 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
@@ -7338,7 +7338,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_outside)
 "VO" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
 	dir = 8
@@ -7791,7 +7791,7 @@
 /turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/iskhod/outside/one_star/fo_outside)
 "Yt" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush,
 /obj/structure/railing/grey{
 	dir = 4
 	},
