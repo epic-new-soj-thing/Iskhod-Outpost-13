@@ -691,6 +691,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/air_blocker,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/hallway)
 "fJ" = (
@@ -995,6 +996,7 @@
 	req_access = list(7)
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/air_blocker,
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/mixing)
 "ip" = (
@@ -1014,7 +1016,11 @@
 /area/iskhod/rnd/mixing)
 "iu" = (
 /obj/structure/closet/secure_closet/personal/miner,
-/turf/simulated/floor/industrial/navy_slates,
+/obj/item/storage/firstaid/ifak,
+/obj/item/gun/projectile/shotgun/pump,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/obj/item/ammo_magazine/ammobox/shotgun/buckshot,
+/turf/simulated/floor/tiled/steel,
 /area/mine/lockers)
 "iv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1301,9 +1307,14 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/rnd/outpostmachineroom)
+"kx" = (
+/turf/simulated/shuttle/floor/mining,
+/area/turbolift/Mining/underground)
 "kz" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border,
-/turf/simulated/floor/industrial/navy_large_slates,
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
 /area/mine/lockers)
 "kB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1428,13 +1439,6 @@
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/iskhod/rnd/outpostgeneral)
-"lR" = (
-/obj/structure/sign/department/telecoms{
-	pixel_x = -32
-	},
-/obj/structure/closet/secure_closet/personal/miner,
-/turf/simulated/floor/industrial/navy_slates,
-/area/mine/lockers)
 "lT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2056,6 +2060,7 @@
 	name = "Mining Outpost";
 	req_access = list(48)
 	},
+/obj/structure/air_blocker,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/hallway)
 "pO" = (
@@ -2725,13 +2730,6 @@
 	},
 /turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/command/teleporter)
-"ur" = (
-/obj/structure/closet/secure_closet/personal/miner,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/industrial/navy_slates,
-/area/mine/lockers)
 "uu" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/tiled/white,
@@ -3693,6 +3691,7 @@
 	name = "Toxins Lab";
 	req_access = list(7)
 	},
+/obj/structure/air_blocker,
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/mixing)
 "Bf" = (
@@ -3932,9 +3931,6 @@
 /obj/effect/window_lwall_spawn,
 /turf/simulated/floor/plating/under,
 /area/mine/medical)
-"CP" = (
-/turf/simulated/floor/industrial/navy_slates,
-/area/turbolift/Mining/underground)
 "CQ" = (
 /obj/machinery/power/sensor{
 	long_range = 1;
@@ -4228,6 +4224,11 @@
 /obj/machinery/space_heater,
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/lockers)
+"Fg" = (
+/obj/structure/table/rack/shelf,
+/obj/random/firstaid/low_chance,
+/turf/simulated/floor/industrial/navy_slates,
+/area/mine/prep)
 "Fh" = (
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/anomal)
@@ -4577,6 +4578,10 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/mine/hallway)
+"Hx" = (
+/obj/structure/sign/departmentold/mining,
+/turf/simulated/wall/r_wall/iskhod,
+/area/mine/lockers)
 "HD" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled/white/violetcorener,
@@ -7163,7 +7168,10 @@
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/mixing)
 "ZR" = (
-/obj/structure/table/rack,
+/obj/structure/table/rack/shelf,
+/obj/random/firstaid/low_chance,
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/radiation,
 /turf/simulated/floor/industrial/navy_slates,
 /area/mine/prep)
 "ZS" = (
@@ -7189,6 +7197,8 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/radiation,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/mine/medical)
 "ZX" = (
@@ -7215,6 +7225,7 @@
 	req_access = list(7)
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/air_blocker,
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/mixing)
 
@@ -13635,7 +13646,7 @@ el
 el
 VR
 el
-VT
+el
 VT
 VT
 ZR
@@ -13840,7 +13851,7 @@ Et
 Au
 Ku
 va
-eR
+Fg
 Zr
 Cy
 dJ
@@ -14034,9 +14045,9 @@ PT
 SC
 jE
 aM
+aM
 jE
 Qt
-gE
 gE
 eR
 el
@@ -14234,11 +14245,11 @@ Jj
 xs
 kz
 Ma
-CP
-CP
-CP
+kx
+kx
+kx
+kx
 RS
-gE
 gE
 UE
 el
@@ -14436,11 +14447,11 @@ WS
 YC
 kz
 Ma
-CP
-CP
-CP
+kx
+kx
+kx
+kx
 RS
-gE
 gE
 lD
 el
@@ -14638,11 +14649,11 @@ Jj
 Qs
 kz
 Ma
-CP
-CP
-CP
+kx
+kx
+kx
+kx
 RS
-gE
 gE
 UE
 el
@@ -14838,13 +14849,13 @@ fV
 fA
 Tk
 IV
-PT
+Hx
 Ly
 jE
 UU
+UU
 jE
 YA
-gE
 gE
 Kl
 el
@@ -15242,9 +15253,9 @@ VP
 lJ
 MW
 XH
-lR
 iu
-ur
+iu
+iu
 iu
 gE
 hc
