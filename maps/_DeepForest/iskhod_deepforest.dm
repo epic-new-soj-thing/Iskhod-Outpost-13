@@ -63,7 +63,6 @@
 	generate_asteroid = TRUE
 	digsites = "WAR"
 
-/*
 /obj/map_data/beast_cave
 	name = "Beast Cave"
 	is_station_level = FALSE
@@ -75,6 +74,7 @@
 	height = 1
 	digsites = "TEMPLE"
 
+/*
 /obj/map_data/the_vault //No longer currently used
 	name = "Bunker Vault"
 	is_station_level = FALSE
