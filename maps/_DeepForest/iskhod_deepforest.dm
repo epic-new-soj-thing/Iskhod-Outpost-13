@@ -1,10 +1,10 @@
 //#include "map/old/_Deep_Forest.dmm"
-//#include "map/old/_Beast_Cave.dmm"
-//#include "map/old/_Greyson_Field_Office.dmm"
 //#include "map/old/_Prepper_Bunker.dmm"
 //#include "map/old/_River_Forest.dmm"
-//#include "map/old/_River_To_Colony.dmm"
 
+#include "map/_Beast_Cave.dmm"
+#include "map/_Greyson_Field_Office.dmm"
+#include "map/_River_To_Colony.dmm"
 #include "map/_Isk_DeepForest.dmm"
 #include "map/_Isk_ExcelCompound.dmm"
 #include "map/_Isk_Spaceport.dmm"
