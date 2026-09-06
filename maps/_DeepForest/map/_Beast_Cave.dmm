@@ -2939,6 +2939,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /obj/machinery/light/small,
+/obj/machinery/space_heater,
 /turf/simulated/floor/wood/wild5,
 /area/iskhod/outside/forest/swamp_hut)
 "alA" = (
@@ -14320,13 +14321,6 @@
 /obj/random/spider_trap_burrowing/low_chance,
 /turf/simulated/floor/rock/dark,
 /area/iskhod/outside/forest/beast_cave_light)
-"aWd" = (
-/obj/effect/decal/cleanable/rubble,
-/obj/structure/boulder,
-/turf/simulated/floor/asteroid/dirt/burned,
-/area/iskhod/dungeon/outside/prepper/alpha{
-	requires_power = 0
-	})
 "aWf" = (
 /obj/structure/flora/small/snow/rock2,
 /turf/simulated/floor/asteroid/dirt/mud,
@@ -16925,15 +16919,15 @@ rmo
 ylr
 qWH
 aqD
-aEq
+aqD
 aqD
 azY
 aQL
-aWd
-ahP
-ahP
-aAX
-ahP
+aMc
+axX
+axX
+axX
+axX
 aUO
 aUO
 aEv
@@ -17723,7 +17717,7 @@ azx
 aAA
 aDw
 aHb
-aHb
+aHr
 aEq
 dkK
 iGu
@@ -17925,7 +17919,7 @@ aAA
 aDw
 aDw
 aLU
-aHb
+aHr
 aEq
 sAV
 iGu
