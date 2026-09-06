@@ -12,12 +12,7 @@
 "ae" = (
 /obj/structure/table/onestar,
 /obj/random/oddity_guns,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "ah" = (
 /obj/structure/salvageable/autolathe,
@@ -68,7 +63,9 @@
 "ax" = (
 /obj/structure/invislight,
 /obj/effect/window_lwall_spawn/smartspawn/onestar,
-/turf/simulated/floor/tiled/steel/brown_perforated,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "ay" = (
 /obj/structure/largecrate,
@@ -91,12 +88,7 @@
 /obj/structure/salvageable/console_os{
 	dir = 8
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "aI" = (
 /obj/random/surgery_tool/low_chance,
@@ -212,18 +204,11 @@
 /obj/item/tool/pickaxe/drill/onestar,
 /turf/simulated/floor/tiled/derelict/red_white_edges,
 /area/iskhod/outside/one_star/fo_internal)
-"bC" = (
-/obj/structure/table/onestar,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/iskhod/outside/one_star/fo_internal)
 "bD" = (
 /obj/item/stack/material/wood,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "bF" = (
 /obj/machinery/vending/one_star/food,
@@ -267,12 +252,7 @@
 /obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate/secure/loot,
 /obj/item/storage/firstaid/greyson/multi,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "bS" = (
 /obj/item/gun/energy/cog,
@@ -282,12 +262,21 @@
 /area/iskhod/outside/one_star/fo_internal)
 "bU" = (
 /obj/random/mob/roomba/job,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "bW" = (
 /obj/structure/bed/chair/custom/onestar/red,
 /obj/item/trash/cigbutt/toha,
 /turf/simulated/floor/tiled/derelict,
+/area/iskhod/outside/one_star/fo_outside)
+"bZ" = (
+/obj/effect/window_lwall_spawn/smartspawn/onestar,
+/obj/structure/invislight,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "ca" = (
 /obj/structure/table/onestar,
@@ -302,17 +291,10 @@
 "cf" = (
 /obj/item/remains,
 /obj/item/clothing/mask/smokable/cigarette/os,
-/turf/simulated/floor/rock/manmade/road,
-/area/iskhod/outside/one_star/fo_outside)
-"ch" = (
-/obj/machinery/vending/cola,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
-/area/iskhod/outside/one_star/fo_internal)
+/area/iskhod/outside/one_star/fo_outside)
 "ci" = (
 /obj/structure/table/rack/shelf,
 /obj/item/grenade/chem_grenade/cleaner,
@@ -323,7 +305,9 @@
 "cj" = (
 /obj/machinery/door/airlock/vault/bolted,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "cl" = (
 /obj/effect/decal/cleanable/dirt,
@@ -336,7 +320,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "cm" = (
 /obj/structure/largecrate,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "co" = (
 /obj/structure/invislight,
@@ -393,7 +379,9 @@
 /turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/iskhod/outside/one_star/fo_internal)
 "cF" = (
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "cG" = (
 /obj/structure/lattice,
@@ -422,12 +410,7 @@
 "cP" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/item/trash/material/metal,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "cU" = (
 /obj/structure/table/glass,
@@ -487,7 +470,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "dn" = (
 /obj/structure/multiz/ladder,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "do" = (
 /obj/structure/railing/grey{
@@ -540,7 +525,9 @@
 	name = "parking outline"
 	},
 /obj/random/mob/roomba/job,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "dy" = (
 /obj/structure/low_wall/onestar,
@@ -554,7 +541,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "dB" = (
 /obj/structure/railing,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "dE" = (
 /obj/random/mob/roomba/job,
@@ -613,12 +602,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "dY" = (
 /obj/random/closet_tech,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "ea" = (
 /obj/structure/flora/bush,
@@ -669,7 +653,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "ex" = (
 /mob/living/carbon/superior/robot/gp/synth,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "ey" = (
 /obj/structure/flora/bush,
@@ -795,7 +781,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "fq" = (
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "fs" = (
 /obj/item/remains/deer,
@@ -883,24 +871,10 @@
 /obj/random/powercell/low_chance,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/iskhod/outside/one_star/fo_internal)
-"ge" = (
-/mob/living/carbon/superior/robot/gp/synth,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/iskhod/outside/one_star/fo_internal)
 "gg" = (
 /obj/item/material/shard/shrapnel/scrap,
 /obj/item/remains/human,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "gh" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
@@ -996,7 +970,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "gH" = (
 /mob/living/carbon/superior/robot/gp/custodian/engineer,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "gI" = (
 /obj/item/paper_bin,
@@ -1029,7 +1005,9 @@
 	name = "parking outline"
 	},
 /obj/structure/closet/crate,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "gZ" = (
 /turf/simulated/wall/rock/snow,
@@ -1062,12 +1040,7 @@
 /obj/structure/closet/crate,
 /obj/random/junkfood,
 /obj/random/junkfood,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "hj" = (
 /obj/structure/closet/crate/trashcart,
@@ -1092,10 +1065,7 @@
 	dir = 8
 	},
 /obj/structure/railing,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -1106,21 +1076,11 @@
 "hv" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /mob/living/carbon/superior/xenomorph/runner,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "hz" = (
 /obj/structure/salvageable/computer_os,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "hD" = (
 /obj/structure/cyberplant,
@@ -1252,11 +1212,15 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "iI" = (
 /obj/structure/railing,
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "iJ" = (
 /obj/structure/bed/padded,
@@ -1407,12 +1371,7 @@
 "jB" = (
 /obj/structure/table/onestar,
 /obj/item/pc_part/drive/disk/design/onestar/trouble_shooter,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "jD" = (
 /obj/structure/sign/department/armory{
@@ -1455,12 +1414,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "jV" = (
 /obj/structure/salvageable/implant_container_os,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "jY" = (
 /obj/random/furniture/pottedplant,
@@ -1549,7 +1503,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "kz" = (
 /obj/random/mob/roomba/job,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "kC" = (
 /obj/structure/table/onestar,
@@ -1637,7 +1593,9 @@
 	name = "parking outline"
 	},
 /obj/structure/largecrate,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "li" = (
 /obj/structure/table/onestar,
@@ -1648,16 +1606,13 @@
 /obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate/secure/loot,
 /obj/item/storage/firstaid/greyson/burn,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "ll" = (
 /obj/structure/table/onestar,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "lq" = (
 /obj/structure/table/onestar,
@@ -1714,12 +1669,7 @@
 "lK" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /obj/item/trash/material/metal,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "lL" = (
 /mob/living/carbon/superior/robot/gp/roomba/trip/armored,
@@ -1855,7 +1805,9 @@
 /obj/item/cell/medium/hyper{
 	rigged = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "mG" = (
 /obj/structure/table/onestar,
@@ -1892,12 +1844,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "mP" = (
 /obj/machinery/light/floor,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "mQ" = (
 /mob/living/carbon/superior/robot/gp/custodian/engineer,
@@ -1928,7 +1875,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "nc" = (
 /mob/living/carbon/superior/robot/gp/roomba,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "ng" = (
 /obj/machinery/vending/coffee,
@@ -1994,7 +1943,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "nz" = (
 /obj/structure/multiz/ladder/up,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_internal)
 "nC" = (
 /obj/structure/railing,
@@ -2100,7 +2051,9 @@
 /obj/structure/bed/chair/custom/onestar/red{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "oh" = (
 /obj/effect/window_lwall_spawn/smartspawn/onestar,
@@ -2112,12 +2065,7 @@
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/greyson_inhaler/burn,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "oo" = (
 /obj/effect/floor_decal/industrial/danger{
@@ -2195,12 +2143,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "oX" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "pd" = (
 /obj/structure/table/onestar,
@@ -2232,7 +2175,9 @@
 	dir = 4
 	},
 /obj/structure/railing,
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "po" = (
 /obj/machinery/light/floor{
@@ -2321,12 +2266,15 @@
 	dir = 1;
 	icon_state = "railing0"
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
+/area/iskhod/outside/one_star/fo_internal)
+"pR" = (
+/obj/effect/floor_decal/spline/fancy/three_quarters,
+/obj/structure/closet/crate,
+/obj/random/medical,
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "pS" = (
 /obj/structure/railing/grey{
@@ -2361,7 +2309,9 @@
 "pZ" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "qb" = (
 /obj/item/stack/material/gold/random,
@@ -2394,10 +2344,7 @@
 	dir = 1;
 	icon_state = "railing0"
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -2421,7 +2368,9 @@
 "qs" = (
 /obj/item/target,
 /obj/structure/target_stake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "qt" = (
 /turf/simulated/mineral/planet,
@@ -2446,21 +2395,11 @@
 /area/iskhod/outside/one_star/fo_internal)
 "qD" = (
 /mob/living/carbon/superior/xenomorph/spitter,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "qE" = (
 /mob/living/carbon/superior/xenomorph/runner/ravager,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "qF" = (
 /obj/structure/bed/chair/custom/onestar/red,
@@ -2495,7 +2434,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "qS" = (
 /obj/structure/flora/grass/brown,
@@ -2553,7 +2494,9 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "rg" = (
 /obj/structure/salvageable/console_os,
@@ -2595,12 +2538,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "ro" = (
 /obj/structure/closet/l3closet/janitor,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "rp" = (
 /obj/structure/railing/grey{
@@ -2657,12 +2595,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "rG" = (
 /obj/structure/closet/onestar/tier3/special,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "rH" = (
 /obj/machinery/light/floor,
@@ -2704,28 +2637,20 @@
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson/multi/empty,
 /obj/item/greyson_inhaler,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "rT" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "rW" = (
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "rX" = (
 /obj/machinery/portable_atmospherics/powered/scrubber/yggdrasil/cold,
@@ -2748,12 +2673,7 @@
 	dir = 4;
 	pixel_x = -5
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "sa" = (
 /obj/random/mob/roomba/job,
@@ -2879,7 +2799,9 @@
 /obj/effect/floor_decal/industrial/outline/yellow{
 	name = "parking outline"
 	},
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "sW" = (
 /obj/structure/sink{
@@ -2908,10 +2830,6 @@
 /obj/structure/salvageable/computer_os,
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/outside/one_star/fo_internal)
-"tc" = (
-/obj/random/mob/roomba/range,
-/turf/simulated/floor/rock/manmade/road,
-/area/iskhod/outside/one_star/fo_outside)
 "td" = (
 /obj/structure/table/rack/shelf,
 /obj/random/tool/low_chance,
@@ -2989,12 +2907,7 @@
 "tH" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/item/scrap_lump,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "tI" = (
 /obj/machinery/door/airlock{
@@ -3037,7 +2950,9 @@
 /turf/simulated/floor/tiled/steel/panels,
 /area/iskhod/outside/one_star/fo_internal)
 "tT" = (
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_internal)
 "tV" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
@@ -3183,7 +3098,9 @@
 	dir = 8
 	},
 /obj/structure/railing,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "uR" = (
 /obj/machinery/door/airlock/external,
@@ -3236,7 +3153,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "ve" = (
 /obj/structure/flora/bush,
@@ -3259,7 +3178,9 @@
 "vh" = (
 /obj/structure/table/onestar,
 /obj/item/gun/energy/cog,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "vj" = (
 /obj/structure/table/onestar,
@@ -3268,10 +3189,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "vm" = (
 /mob/living/carbon/superior/robot/gp/synth/epistol,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_outside)
@@ -3309,12 +3227,7 @@
 "vu" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate/secure/loot,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "vv" = (
 /obj/structure/railing/grey,
@@ -3360,12 +3273,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "vD" = (
 /obj/machinery/door/airlock/vault/bolted,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "vF" = (
 /obj/structure/closet/crate/trashcart,
@@ -3460,7 +3368,9 @@
 "wj" = (
 /obj/structure/target_stake,
 /obj/item/target,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "wk" = (
 /obj/structure/table/onestar,
@@ -3489,12 +3399,7 @@
 	dir = 4;
 	pixel_x = -5
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "wu" = (
 /obj/effect/shuttle_landmark/vasiliy_field_office,
@@ -3507,7 +3412,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "wv" = (
 /mob/living/carbon/superior/robot/gp/synth,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "wx" = (
 /obj/structure/bed/chair/custom/onestar/red{
@@ -3659,16 +3566,13 @@
 /area/iskhod/outside/one_star/fo_outside)
 "xp" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_internal)
 "xq" = (
 /mob/living/carbon/superior/xenomorph/runner/panther,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "xv" = (
 /obj/structure/table/onestar,
@@ -3680,7 +3584,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "xx" = (
 /obj/item/trash/cigbutt/os,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "xB" = (
 /mob/living/carbon/superior/robot/gp/roomba/gun_ba,
@@ -3705,12 +3611,7 @@
 "xL" = (
 /obj/item/material/shard/shrapnel/scrap,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "xN" = (
 /obj/random/mob/roomba/range,
@@ -3789,12 +3690,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "yl" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "ym" = (
 /obj/structure/closet/crate/bin,
@@ -3854,7 +3750,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "yw" = (
 /obj/machinery/pipedispenser,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "yx" = (
 /mob/living/carbon/superior/robot/gp/roomba/trip/armored,
@@ -3876,12 +3774,7 @@
 /obj/random/junkfood,
 /obj/random/junkfood,
 /obj/random/junkfood,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "yD" = (
 /obj/item/tank/onestar_regenerator,
@@ -3910,12 +3803,7 @@
 /obj/random/pack/tech_loot/low_chance,
 /obj/random/pack/tech_loot,
 /obj/random/pack/tech_loot,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "yI" = (
 /obj/effect/window_lwall_spawn/smartspawn/onestar,
@@ -3972,12 +3860,7 @@
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson/multi/empty,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "yZ" = (
 /obj/machinery/door/airlock,
@@ -4044,7 +3927,9 @@
 	name = "parking outline"
 	},
 /obj/item/stack/material/wood,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "zw" = (
 /obj/structure/table/rack/shelf,
@@ -4096,12 +3981,7 @@
 "zH" = (
 /obj/structure/table/onestar,
 /obj/random/common_oddities/always_spawn,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "zI" = (
 /obj/structure/table/onestar,
@@ -4146,7 +4026,9 @@
 	dir = 4
 	},
 /mob/living/carbon/superior/robot/gp/synth/epistol/rifle,
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "zW" = (
 /obj/structure/table/onestar,
@@ -4165,6 +4047,11 @@
 /obj/structure/table/onestar,
 /turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/iskhod/outside/one_star/fo_internal)
+"Ah" = (
+/obj/machinery/door/blast/shutters,
+/obj/structure/invislight,
+/turf/simulated/floor/tiled/dark/cargo,
+/area/iskhod/outside/one_star/fo_outside)
 "Ao" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/item/trash/material/metal,
@@ -4204,15 +4091,6 @@
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_outside)
-"Az" = (
-/mob/living/carbon/superior/robot/gp/custodian/engineer,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/iskhod/outside/one_star/fo_internal)
 "AA" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/snow/smooth{
@@ -4267,7 +4145,12 @@
 /obj/structure/railing/grey,
 /obj/structure/flora/bush,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "AR" = (
 /mob/living/carbon/superior/robot/gp/roomba/gun_ba,
@@ -4275,13 +4158,16 @@
 /area/iskhod/outside/one_star/fo_internal)
 "AU" = (
 /obj/structure/salvageable/autolathe_os,
+/turf/simulated/floor/tiled/dark/cargo,
+/area/iskhod/outside/one_star/fo_internal)
+"AW" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0";
 	oxygen = 21.8366;
 	nitrogen = 82.1472;
-	temperature = 240
+	temperature = s
 	},
-/area/iskhod/outside/one_star/fo_internal)
+/area/iskhod/outside/one_star/fo_outside)
 "AZ" = (
 /obj/effect/window_lwall_spawn/smartspawn/onestar,
 /obj/structure/invislight,
@@ -4414,7 +4300,9 @@
 /turf/simulated/floor/carpet/blucarpet,
 /area/iskhod/outside/one_star/fo_internal)
 "BE" = (
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "BI" = (
 /obj/effect/decal/cleanable/blood,
@@ -4442,7 +4330,9 @@
 "BM" = (
 /obj/structure/table/onestar,
 /obj/item/storage/deferred/crate/iron_lock_security_uniform,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "BO" = (
 /obj/structure/coatrack,
@@ -4464,7 +4354,9 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Ca" = (
 /obj/structure/invislight,
@@ -4491,10 +4383,7 @@
 /obj/random/lathe_disk/advanced/onestar,
 /obj/item/storage/box/data_disk,
 /obj/random/mob/roomba/mecha,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -4571,19 +4460,10 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/rock/manmade/concrete,
-/area/iskhod/outside/one_star/fo_outside)
-"CZ" = (
-/obj/structure/bed/chair/custom/onestar/red{
-	dir = 1
-	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/concrete{
 	temperature = 240
 	},
-/area/iskhod/outside/one_star/fo_internal)
+/area/iskhod/outside/one_star/fo_outside)
 "De" = (
 /obj/effect/shuttle_landmark/greyson_field,
 /turf/simulated/floor/tiled/dark/cargo,
@@ -4626,7 +4506,9 @@
 /obj/structure/bed/chair/custom/onestar/red{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Dr" = (
 /obj/random/mob/roomba/range,
@@ -4753,7 +4635,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "DW" = (
 /obj/machinery/portable_atmospherics/canister/empty,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Ef" = (
 /obj/structure/table/onestar,
@@ -4769,12 +4653,7 @@
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson/burn/empty,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Ek" = (
 /obj/machinery/light/floor,
@@ -4809,7 +4688,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Es" = (
 /mob/living/carbon/superior/robot/gp/synth/epistol/rifle,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Et" = (
 /mob/living/simple/hostile/megafauna/one_star{
@@ -4899,7 +4780,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Ff" = (
 /mob/living/carbon/superior/robot/gp/roomba/gun_ba/plasma,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Fg" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -4919,12 +4802,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Fk" = (
 /obj/structure/showcase/horrific_experiment_cryo,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Fq" = (
 /obj/structure/flora/small/bushc2,
@@ -4963,7 +4841,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "FD" = (
 /obj/structure/invislight,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "FE" = (
 /obj/machinery/light/floor,
@@ -5033,12 +4913,7 @@
 	pixel_x = -5
 	},
 /mob/living/carbon/superior/robot/gp/synth/epistol/rifle,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "Ge" = (
 /obj/random/turret/os,
@@ -5048,7 +4923,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Gh" = (
 /obj/structure/sink{
@@ -5066,7 +4943,9 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Gn" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -5130,7 +5009,9 @@
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/iskhod/outside/one_star/fo_internal)
 "GI" = (
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "GJ" = (
 /obj/random/mob/roomba/range/low,
@@ -5153,7 +5034,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "GT" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "GV" = (
 /turf/simulated/floor/tiled/dark/cargo,
@@ -5218,11 +5101,15 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Hj" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Hl" = (
 /mob/living/carbon/superior/robot/gp/synth/ripley,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Hn" = (
 /obj/random/powercell/low_chance,
@@ -5322,12 +5209,7 @@
 /obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate,
 /obj/random/medical,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Ir" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -5382,10 +5264,6 @@
 /obj/item/greyson_inhaler,
 /turf/simulated/floor/reinforced,
 /area/iskhod/outside/one_star/fo_internal)
-"IF" = (
-/obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
-/area/iskhod/outside/one_star/fo_outside)
 "IH" = (
 /obj/structure/table/onestar,
 /obj/item/reagent_containers/condiment/sugar,
@@ -5500,7 +5378,9 @@
 "JH" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "JI" = (
 /turf/simulated/floor/tiled/derelict/red_white_edges,
@@ -5513,6 +5393,13 @@
 /obj/structure/closet/onestar/tier3/mineral,
 /turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
+"JO" = (
+/obj/machinery/door/airlock,
+/obj/structure/invislight,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
 "JP" = (
 /obj/item/tool/crowbar/onestar,
 /obj/structure/table/onestar,
@@ -5531,7 +5418,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "JS" = (
 /obj/machinery/pipelayer,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "JU" = (
 /obj/machinery/door/airlock/external,
@@ -5574,10 +5463,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -5626,10 +5512,7 @@
 	dir = 2
 	},
 /obj/structure/invislight,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_outside)
@@ -5672,12 +5555,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "KQ" = (
 /obj/item/remains/human,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "KR" = (
 /obj/machinery/washing_machine,
@@ -5686,12 +5564,7 @@
 "KU" = (
 /obj/machinery/door/blast/shutters,
 /obj/structure/invislight,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/outside/one_star/fo_outside)
 "KV" = (
 /obj/structure/table/rack/shelf,
@@ -5704,18 +5577,15 @@
 "KX" = (
 /obj/item/material/shard/shrapnel/scrap,
 /obj/item/trash/material/metal,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "KY" = (
 /obj/structure/bed/chair/custom/onestar/red{
 	dir = 4
 	},
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "KZ" = (
 /obj/effect/decal/cleanable/blood/gibs,
@@ -5743,7 +5613,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Le" = (
 /obj/structure/closet/crate,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Lg" = (
 /obj/structure/sink/kitchen{
@@ -5754,12 +5626,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Lh" = (
 /obj/item/material/shard/shrapnel/scrap,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Lk" = (
 /obj/structure/flora/tree/sif,
@@ -5814,7 +5681,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "LF" = (
 /obj/machinery/portable_atmospherics/canister/empty/nitrogen,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "LG" = (
 /mob/living/carbon/superior/robot/gp/synth,
@@ -5829,7 +5698,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "LI" = (
 /obj/random/mob/roomba/range,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "LM" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -5896,12 +5767,7 @@
 "Mc" = (
 /mob/living/carbon/superior/xenomorph/runner/panther,
 /obj/item/trash/material/metal,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Mf" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -5992,26 +5858,20 @@
 /obj/effect/decal/cleanable/cobweb2,
 /obj/item/stack/material/silk,
 /obj/random/lathe_disk/advanced/onestar,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
 "MR" = (
 /obj/structure/table/onestar,
 /obj/random/tool/advanced/onestar/low_chance,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "MS" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "MU" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -6027,6 +5887,14 @@
 "MV" = (
 /turf/simulated/floor/tiled/white,
 /area/iskhod/outside/one_star/fo_internal)
+"MY" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
 "MZ" = (
 /obj/structure/flora/small/snow/rock5,
 /turf/simulated/floor/snow/smooth{
@@ -6067,12 +5935,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Nl" = (
 /mob/living/carbon/superior/xenomorph/warrior/bull,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Nm" = (
 /obj/structure/table/onestar,
@@ -6104,12 +5967,7 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Nw" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Nx" = (
 /obj/structure/bed/chair/custom/onestar{
@@ -6256,17 +6114,10 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Os" = (
 /obj/item/trash/material/metal,
-/turf/simulated/floor/rock/manmade/road,
-/area/iskhod/outside/one_star/fo_outside)
-"Ot" = (
-/obj/machinery/vending/snack,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
-/area/iskhod/outside/one_star/fo_internal)
+/area/iskhod/outside/one_star/fo_outside)
 "Ow" = (
 /obj/random/mob/roomba/job,
 /turf/simulated/floor/tiled/derelict,
@@ -6283,7 +6134,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "OH" = (
 /obj/machinery/door/airlock/multi_tile/glass,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "OK" = (
 /obj/item/stack/material/steel/random,
@@ -6404,10 +6257,7 @@
 /obj/item/stack/material/silk,
 /obj/random/lathe_disk/advanced/onestar,
 /obj/item/storage/box/data_disk,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -6436,12 +6286,7 @@
 /obj/structure/closet/crate,
 /obj/random/powercell/low_chance,
 /obj/random/powercell/low_chance,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "PL" = (
 /obj/structure/table/onestar,
@@ -6464,12 +6309,7 @@
 "PO" = (
 /obj/machinery/light/floor,
 /obj/item/remains/human,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "PP" = (
 /obj/machinery/papershredder,
@@ -6531,7 +6371,9 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Qn" = (
 /obj/item/stack/material/plastic/random,
@@ -6564,7 +6406,15 @@
 	dir = 4
 	},
 /mob/living/carbon/superior/robot/gp/synth/epistol/rifle,
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
+"QA" = (
+/obj/structure/flora/bush,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "QB" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
@@ -6624,12 +6474,7 @@
 "QN" = (
 /obj/item/remains/human,
 /mob/living/carbon/superior/xenomorph/runner/ravager,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "QO" = (
 /obj/structure/salvageable/autolathe_os,
@@ -6663,12 +6508,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "QY" = (
 /obj/structure/door_assembly,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Rb" = (
 /obj/random/powercell/low_chance,
@@ -6680,16 +6520,15 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Re" = (
 /obj/structure/closet/crate/trashcart,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_outside)
 "Rj" = (
 /obj/structure/boulder,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_internal)
 "Rl" = (
 /obj/structure/invislight,
@@ -6772,11 +6611,15 @@
 "RM" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "RP" = (
 /obj/random/mob/roomba/any,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "RS" = (
 /obj/structure/bed/chair/custom/onestar/red{
@@ -6899,10 +6742,6 @@
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_outside)
-"ST" = (
-/obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
-/area/iskhod/outside/one_star/fo_outside)
 "SW" = (
 /obj/structure/table/onestar,
 /obj/item/gun/energy/cog,
@@ -6921,12 +6760,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "SZ" = (
 /obj/structure/lattice,
@@ -7007,7 +6841,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Tx" = (
 /obj/item/stack/rods,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Ty" = (
 /obj/structure/table/onestar,
@@ -7033,10 +6869,7 @@
 /obj/machinery/door/blast/shutters{
 	name = "Crate Shutter"
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -7049,7 +6882,9 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "TO" = (
 /obj/item/remains,
@@ -7061,7 +6896,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "TT" = (
 /obj/structure/low_wall/onestar,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "TW" = (
 /obj/structure/flora/tree/pine,
@@ -7078,10 +6915,7 @@
 	name = "Crate Shutter"
 	},
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
+/turf/simulated/floor/rock/manmade/road{
 	temperature = 240
 	},
 /area/iskhod/outside/one_star/fo_internal)
@@ -7149,6 +6983,9 @@
 /obj/item/pc_part/drive/disk/design/onestar,
 /obj/item/pc_part/drive/disk/design/onestar/medical,
 /turf/simulated/floor/tiled/derelict/red_white_edges,
+/area/iskhod/outside/one_star/fo_internal)
+"Uw" = (
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Ux" = (
 /obj/random/junkfood/onlypizza,
@@ -7234,6 +7071,11 @@
 /mob/living/carbon/superior/robot/gp/stalker/dual,
 /turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
+"Vk" = (
+/obj/effect/window_lwall_spawn/smartspawn/onestar,
+/obj/structure/invislight,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/outside/one_star/fo_outside)
 "Vl" = (
 /obj/structure/bed/chair/custom/onestar{
 	dir = 1
@@ -7243,16 +7085,13 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Vn" = (
 /mob/living/carbon/superior/xenomorph/runner,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Vo" = (
 /obj/item/stack/rods,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Vp" = (
 /mob/living/carbon/superior/robot/gp/roomba,
@@ -7281,6 +7120,10 @@
 	},
 /turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_outside)
+"VA" = (
+/obj/structure/salvageable/autolathe_os,
+/turf/simulated/floor/tiled/derelict,
+/area/iskhod/outside/one_star/fo_internal)
 "VB" = (
 /obj/structure/bed/chair/custom/onestar/red{
 	dir = 4
@@ -7365,12 +7208,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "VT" = (
 /obj/item/trash/cigbutt/toha,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "VU" = (
 /obj/structure/table/onestar,
@@ -7388,12 +7226,20 @@
 /obj/random/tool/advanced/onestar/low_chance,
 /turf/simulated/floor/tiled/derelict/red_white_edges,
 /area/iskhod/outside/one_star/fo_internal)
+"VZ" = (
+/obj/random/mob/roomba/range,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
 "Wc" = (
 /obj/effect/spider/stickyweb,
 /obj/machinery/door/blast/shutters{
 	name = "Crate Shutter"
 	},
-/turf/simulated/floor/tiled/derelict/white_small_edges,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_internal)
 "Wd" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -7426,7 +7272,9 @@
 /area/iskhod/outside/one_star/fo_outside)
 "Wl" = (
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Wp" = (
 /obj/structure/table/rack/shelf,
@@ -7485,16 +7333,13 @@
 /obj/structure/salvageable/console_os{
 	dir = 4
 	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "WF" = (
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "WH" = (
 /obj/item/oddity/common/book_omega/closed,
@@ -7512,7 +7357,9 @@
 /obj/structure/bed/chair/custom/onestar/red{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "WL" = (
 /obj/structure/mopbucket,
@@ -7566,11 +7413,6 @@
 	nitrogen = 82.1472;
 	temperature = 240
 	},
-/area/iskhod/outside/one_star/fo_outside)
-"Xh" = (
-/obj/structure/railing/grey,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
 /area/iskhod/outside/one_star/fo_outside)
 "Xi" = (
 /obj/machinery/light/floor,
@@ -7701,7 +7543,9 @@
 	name = "Greyson Positronic VIP Dorms"
 	},
 /obj/structure/invislight,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "XX" = (
 /obj/machinery/door/airlock/vault/bolted,
@@ -7737,12 +7581,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Ye" = (
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Yg" = (
 /obj/structure/table/onestar,
@@ -7753,6 +7592,13 @@
 /obj/item/clothing/head/helmet/laserproof/iron_lock_security,
 /obj/item/clothing/under/iron_lock_security,
 /turf/simulated/floor/carpet/purcarpet,
+/area/iskhod/outside/one_star/fo_internal)
+"Yi" = (
+/obj/effect/floor_decal/spline/fancy/three_quarters,
+/obj/structure/closet/crate,
+/obj/random/medical,
+/obj/item/storage/firstaid/greyson/burn/empty,
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "Yk" = (
 /obj/structure/bed/chair/custom/onestar/red{
@@ -7765,12 +7611,7 @@
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson/empty,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "Yp" = (
 /obj/effect/floor_decal/spline/fancy/three_quarters,
@@ -7784,7 +7625,9 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Yr" = (
 /obj/random/cluster/roaches,
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Ys" = (
 /obj/structure/invislight,
@@ -7842,7 +7685,9 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/rock/manmade/road,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "YK" = (
 /obj/structure/table/onestar,
@@ -7889,7 +7734,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Za" = (
 /mob/living/carbon/superior/robot/gp/custodian,
@@ -7900,7 +7747,9 @@
 	dir = 8
 	},
 /obj/structure/railing,
-/turf/simulated/floor/rock/manmade/concrete,
+/turf/simulated/floor/rock/manmade/concrete{
+	temperature = 240
+	},
 /area/iskhod/outside/one_star/fo_outside)
 "Zg" = (
 /mob/living/carbon/superior/robot/gp/roomba/gun_ba/plasma,
@@ -7930,12 +7779,7 @@
 /area/iskhod/outside/one_star/fo_internal)
 "Zu" = (
 /obj/item/trash/material/metal,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
 "Zw" = (
 /obj/structure/table/onestar,
@@ -7959,12 +7803,7 @@
 "ZF" = (
 /obj/structure/bed/chair/custom/onestar/red,
 /obj/item/trash/cigbutt/toha,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
+/turf/simulated/floor/tiled/derelict,
 /area/iskhod/outside/one_star/fo_internal)
 "ZH" = (
 /obj/item/remains,
@@ -7981,10 +7820,22 @@
 /obj/machinery/light/floor,
 /turf/simulated/floor/tiled/cafe,
 /area/iskhod/outside/one_star/fo_internal)
+"ZL" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
 "ZM" = (
 /obj/structure/closet/onestar/tier3/mineral,
 /turf/simulated/floor/tiled/derelict/red_white_edges,
 /area/iskhod/outside/one_star/fo_internal)
+"ZN" = (
+/obj/structure/low_wall/onestar,
+/turf/simulated/floor/rock/manmade/road{
+	temperature = 240
+	},
+/area/iskhod/outside/one_star/fo_outside)
 "ZP" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/item/clothing/head/hairflower/yellow,
@@ -8403,7 +8254,7 @@ cF
 cF
 cF
 cF
-PN
+cF
 Rl
 pZ
 Rl
@@ -8522,7 +8373,7 @@ Je
 MV
 En
 ZT
-PN
+cF
 ZT
 ZT
 ZT
@@ -14939,7 +14790,7 @@ cF
 GI
 PN
 PN
-PN
+AW
 GI
 cF
 sU
@@ -15796,14 +15647,14 @@ FD
 Rl
 fC
 fC
-zU
-zU
-zU
-zU
-zU
-zU
-zU
-zU
+Vk
+Vk
+Vk
+Vk
+Vk
+Vk
+Vk
+Vk
 fC
 fC
 fC
@@ -16584,12 +16435,12 @@ cF
 GI
 fC
 fC
-zU
+Vk
 KU
 KU
 KU
 KU
-zU
+Vk
 fC
 fC
 fC
@@ -19065,7 +18916,7 @@ bS
 JG
 JG
 JG
-bC
+IC
 Qu
 Qu
 Qu
@@ -22392,11 +22243,11 @@ no
 no
 no
 gC
-zU
-zU
-zU
-zU
-zU
+Vk
+Vk
+Vk
+Vk
+Vk
 gC
 no
 no
@@ -22543,13 +22394,13 @@ no
 no
 no
 no
-zU
-zU
+Vk
+Vk
 PN
 HR
 PN
-zU
-zU
+Vk
+Vk
 no
 no
 no
@@ -22695,13 +22546,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -22847,13 +22698,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 ka
 PN
 Uc
 PN
-zU
+Vk
 no
 no
 no
@@ -22999,13 +22850,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -23151,13 +23002,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -23271,16 +23122,16 @@ cF
 GI
 fC
 fC
-zU
-zU
-zU
+bZ
+bZ
+bZ
 fC
 ry
 So
 fC
-zU
-zU
-zU
+bZ
+bZ
+bZ
 fC
 fC
 GI
@@ -23303,13 +23154,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 LP
 PN
 HR
 PN
-zU
+Vk
 no
 no
 no
@@ -23455,13 +23306,13 @@ no
 no
 jt
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 jt
 no
@@ -23572,7 +23423,7 @@ cF
 cF
 GI
 Bi
-zU
+bZ
 SW
 JG
 JG
@@ -23587,7 +23438,7 @@ JG
 JG
 fc
 SW
-zU
+bZ
 VO
 GI
 cF
@@ -23607,13 +23458,13 @@ no
 no
 Uk
 no
-zU
+Vk
 PN
 PN
 PN
 ao
 PN
-zU
+Vk
 no
 Uk
 no
@@ -23724,7 +23575,7 @@ cF
 cF
 GI
 Gn
-zU
+bZ
 vI
 JG
 JG
@@ -23739,7 +23590,7 @@ JG
 JG
 JG
 FR
-zU
+bZ
 Mf
 GI
 cF
@@ -23759,13 +23610,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 HR
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -23876,7 +23727,7 @@ cF
 cF
 GI
 tY
-zU
+bZ
 IC
 Kk
 JG
@@ -23891,7 +23742,7 @@ JG
 JG
 up
 Pj
-zU
+bZ
 sv
 GI
 cF
@@ -23911,13 +23762,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 TW
 PN
-zU
+Vk
 no
 no
 no
@@ -24063,13 +23914,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -24215,13 +24066,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 HR
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -24367,13 +24218,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 ka
 PN
-zU
+Vk
 no
 no
 no
@@ -24519,13 +24370,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -24636,7 +24487,7 @@ cF
 cF
 GI
 sx
-zU
+bZ
 fl
 JG
 JG
@@ -24651,7 +24502,7 @@ JG
 JG
 fc
 FR
-zU
+bZ
 OU
 GI
 cF
@@ -24671,13 +24522,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 Uc
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -24788,7 +24639,7 @@ cF
 cF
 GI
 Gn
-zU
+bZ
 oa
 cy
 JG
@@ -24803,7 +24654,7 @@ JG
 lz
 Bq
 oa
-zU
+bZ
 Mf
 GI
 cF
@@ -24823,13 +24674,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 HR
-zU
+Vk
 no
 no
 no
@@ -24940,7 +24791,7 @@ cF
 cF
 GI
 tY
-zU
+bZ
 vI
 JG
 JG
@@ -24955,7 +24806,7 @@ JG
 JG
 JG
 fl
-zU
+bZ
 sv
 GI
 cF
@@ -24975,13 +24826,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -25127,13 +24978,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 ao
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -25279,13 +25130,13 @@ no
 no
 yp
 no
-zU
+Vk
 PN
 ka
 PN
 LP
 PN
-zU
+Vk
 no
 yp
 no
@@ -25431,13 +25282,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -25583,13 +25434,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -25700,7 +25551,7 @@ cF
 cF
 GI
 Bi
-zU
+bZ
 fl
 JG
 JG
@@ -25715,7 +25566,7 @@ JG
 JG
 fc
 FR
-zU
+bZ
 VO
 GI
 cF
@@ -25735,13 +25586,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 ka
 PN
-zU
+Vk
 no
 no
 no
@@ -25852,7 +25703,7 @@ cF
 cF
 GI
 Ly
-zU
+bZ
 oa
 cy
 JG
@@ -25867,7 +25718,7 @@ JG
 lz
 Bq
 oa
-zU
+bZ
 uZ
 GI
 cF
@@ -25887,13 +25738,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 TW
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -26004,7 +25855,7 @@ cF
 cF
 GI
 Yt
-zU
+bZ
 rg
 JG
 JG
@@ -26019,7 +25870,7 @@ JG
 JG
 JG
 uk
-zU
+bZ
 Ie
 GI
 cF
@@ -26039,13 +25890,13 @@ no
 no
 no
 no
-zU
+Vk
 PN
 PN
 PN
 PN
 PN
-zU
+Vk
 no
 no
 no
@@ -26191,13 +26042,13 @@ no
 no
 no
 no
-zU
-zU
+Vk
+Vk
 PN
 HR
 PN
-zU
-zU
+Vk
+Vk
 no
 no
 no
@@ -26311,16 +26162,16 @@ PN
 PN
 fC
 fC
-zU
-zU
-zU
+bZ
+bZ
+bZ
 fC
 ax
 ax
 fC
-zU
-zU
-zU
+bZ
+bZ
+bZ
 fC
 fC
 PN
@@ -26344,11 +26195,11 @@ no
 no
 no
 gC
-zU
-zU
-zU
-zU
-zU
+Vk
+Vk
+Vk
+Vk
+Vk
 gC
 no
 no
@@ -28509,12 +28360,12 @@ wD
 wD
 wD
 wK
-yn
+Uw
 WX
 Zu
 Lh
 WX
-yn
+Uw
 wK
 wK
 wD
@@ -28664,7 +28515,7 @@ wK
 Lh
 lK
 xq
-yn
+Uw
 WX
 Mc
 mR
@@ -28818,7 +28669,7 @@ Vn
 Lh
 WX
 gg
-yn
+Uw
 mR
 jV
 zH
@@ -28963,13 +28814,13 @@ wD
 wK
 wK
 jB
-yn
+Uw
 wK
 WX
 Lh
-yn
+Uw
 cP
-yn
+Uw
 WX
 mR
 hz
@@ -29049,34 +28900,34 @@ rd
 PN
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 PN
@@ -29114,18 +28965,18 @@ qn
 wD
 wK
 Fk
-yn
-yn
+Uw
+Uw
 wK
-yn
-yn
+Uw
+Uw
 WX
-yn
-yn
+Uw
+Uw
 Nw
 mR
 hz
-yn
+Uw
 rG
 wK
 wD
@@ -29201,6 +29052,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -29227,8 +29079,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -29266,14 +29117,14 @@ qn
 qn
 wK
 qE
-yn
+Uw
 mP
 oX
-yn
+Uw
 WX
-yn
+Uw
 Zu
-yn
+Uw
 QY
 xL
 PO
@@ -29353,6 +29204,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -29379,8 +29231,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -29421,15 +29272,15 @@ AU
 aF
 aF
 wK
-yn
-yn
-yn
-yn
-yn
+Uw
+Uw
+Uw
+Uw
+Uw
 Zu
 mR
 hz
-yn
+Uw
 rG
 wK
 wD
@@ -29505,6 +29356,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -29531,8 +29383,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -29575,10 +29426,10 @@ wK
 wK
 Nl
 Ye
-yn
-yn
-yn
-yn
+Uw
+Uw
+Uw
+Uw
 wK
 wK
 wK
@@ -29657,7 +29508,7 @@ rd
 PN
 cF
 cF
-PN
+cF
 PN
 PN
 PN
@@ -29684,7 +29535,7 @@ PN
 PN
 PN
 WW
-PN
+cF
 cF
 cF
 PN
@@ -29725,11 +29576,11 @@ AU
 WD
 WD
 wK
-yn
-yn
+Uw
+Uw
 Vn
 Zu
-yn
+Uw
 Ye
 mR
 hz
@@ -29809,6 +29660,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -29835,8 +29687,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -29874,14 +29725,14 @@ wV
 qn
 wK
 QN
-yn
+Uw
 mP
 oX
-yn
-yn
+Uw
+Uw
 KQ
-yn
-yn
+Uw
+Uw
 QY
 KX
 mP
@@ -29961,6 +29812,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -29987,8 +29839,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30026,14 +29877,14 @@ wV
 qn
 wK
 Fk
-yn
-yn
+Uw
+Uw
 wK
 tH
-yn
-yn
-yn
-yn
+Uw
+Uw
+Uw
+Uw
 qD
 mR
 hz
@@ -30113,6 +29964,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30139,8 +29991,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30179,17 +30030,17 @@ qn
 wK
 wK
 zH
-yn
+Uw
 wK
-yn
-yn
-yn
+Uw
+Uw
+Uw
 tH
-yn
-yn
+Uw
+Uw
 mR
 hz
-yn
+Uw
 wK
 wK
 wD
@@ -30265,6 +30116,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30291,8 +30143,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30333,12 +30184,12 @@ wK
 wK
 zH
 wK
-yn
-yn
-yn
-yn
-yn
-yn
+Uw
+Uw
+Uw
+Uw
+Uw
+Uw
 mR
 jV
 zH
@@ -30417,6 +30268,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30443,8 +30295,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30486,11 +30337,11 @@ wK
 wK
 wK
 KQ
-yn
-yn
-yn
+Uw
+Uw
+Uw
 yl
-yn
+Uw
 mR
 wK
 wK
@@ -30569,6 +30420,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30595,8 +30447,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30639,8 +30490,8 @@ wD
 wK
 rG
 ro
-yn
-yn
+Uw
+Uw
 ro
 rG
 wK
@@ -30721,6 +30572,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30747,8 +30599,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30873,6 +30724,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -30899,8 +30751,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -30943,8 +30794,8 @@ wD
 wD
 wD
 wK
-yn
-yn
+Uw
+Uw
 wK
 wD
 wD
@@ -31025,6 +30876,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31051,8 +30903,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31177,6 +31028,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31203,8 +31055,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31245,12 +31096,12 @@ iS
 yn
 yn
 mR
-yn
-yn
-yn
-yn
-yn
-yn
+no
+no
+no
+no
+no
+no
 mR
 Lk
 yn
@@ -31329,6 +31180,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31355,8 +31207,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31397,12 +31248,12 @@ yn
 Lk
 yn
 mR
-yn
-yn
+no
+no
 rZ
 Gc
-yn
-yn
+no
+no
 mR
 yn
 yn
@@ -31481,6 +31332,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31507,8 +31359,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31549,12 +31400,12 @@ yn
 yn
 yn
 mR
-yn
-yn
-yn
-yn
-yn
-yn
+no
+no
+no
+no
+no
+no
 mR
 Tf
 yn
@@ -31633,6 +31484,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31659,8 +31511,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31701,12 +31552,12 @@ wK
 wK
 wK
 wK
-yn
-yn
-wt
-wt
-yn
-yn
+no
+no
+jt
+jt
+no
+no
 wK
 wK
 wK
@@ -31785,6 +31636,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31811,8 +31663,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -31854,10 +31705,10 @@ wD
 wD
 wK
 wK
-yn
-yn
-yn
-yn
+no
+no
+no
+no
 wK
 wK
 wD
@@ -31937,6 +31788,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -31963,8 +31815,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -32089,6 +31940,7 @@ rd
 PN
 cF
 cF
+cF
 PN
 PN
 PN
@@ -32115,8 +31967,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 PN
@@ -32219,56 +32070,56 @@ DF
 DF
 DF
 DF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-Ya
-PN
-iI
-wV
-wV
-wV
-rd
-PN
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+Es
+cF
+dB
+wV
+wV
+wV
+iH
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 PN
@@ -32368,11 +32219,11 @@ PN
 DF
 MR
 MR
-yn
-yn
-nE
-PN
-PN
+no
+no
+JO
+cF
+cF
 cF
 cF
 cF
@@ -32519,12 +32370,12 @@ PN
 PN
 DF
 MR
-yn
+no
 VT
-Ot
+Zs
 DF
-PN
-PN
+cF
+cF
 cF
 cF
 cF
@@ -32671,12 +32522,31 @@ PN
 PN
 DF
 SY
-yn
-Az
+no
+Hq
 ZF
-zU
+bZ
 PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+dB
+wV
+wV
+wV
+iH
+cF
+cF
 cF
 cF
 PN
@@ -32689,11 +32559,6 @@ PN
 PN
 PN
 PN
-iI
-wV
-wV
-wV
-rd
 PN
 PN
 PN
@@ -32710,22 +32575,8 @@ PN
 PN
 PN
 PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
 cF
 PN
 iI
@@ -32822,16 +32673,16 @@ PN
 PN
 PN
 DF
-AU
+VA
 VT
-yn
+no
 VT
-zU
-PN
+bZ
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -32876,10 +32727,10 @@ PN
 PN
 PN
 PN
-PN
-PN
 cF
-PN
+cF
+cF
+cF
 iI
 wV
 wV
@@ -32974,16 +32825,16 @@ PN
 PN
 PN
 DF
-dY
-ge
-yn
-dY
+GW
+LG
+no
+GW
 DF
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33028,8 +32879,8 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
+cF
 cF
 cF
 dB
@@ -33126,16 +32977,16 @@ PN
 PN
 PN
 DF
-dY
-ge
+GW
+LG
 VT
-dY
+GW
 DF
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33181,7 +33032,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 cF
@@ -33278,16 +33129,16 @@ PN
 PN
 PN
 DF
-AU
-yn
-yn
-yn
-zU
-PN
+VA
+no
+no
+no
+bZ
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33431,15 +33282,15 @@ PN
 PN
 DF
 SY
-yn
-Az
-yn
-zU
-PN
+no
+Hq
+no
+bZ
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33583,15 +33434,15 @@ PN
 PN
 DF
 MR
-CZ
-yn
-ch
+Ju
+no
+hs
 DF
-PN
-PN
 cF
 cF
-PN
+cF
+cF
+cF
 PN
 PN
 PN
@@ -33737,13 +33588,13 @@ DF
 MR
 MR
 VT
-yn
+no
 nE
-PN
-PN
 cF
 cF
-PN
+cF
+cF
+cF
 PN
 PN
 PN
@@ -33891,11 +33742,11 @@ DF
 DF
 DF
 DF
-PN
-PN
 cF
 cF
-PN
+cF
+cF
+cF
 PN
 PN
 PN
@@ -34044,10 +33895,10 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -34196,10 +34047,10 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -34283,7 +34134,7 @@ qn
 wK
 AK
 Ym
-In
+pR
 no
 gC
 wK
@@ -34348,10 +34199,10 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -34434,8 +34285,8 @@ wV
 qn
 Sd
 no
-In
-Ej
+pR
+Yi
 no
 no
 iw
@@ -34500,10 +34351,10 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -34652,10 +34503,10 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -34738,8 +34589,8 @@ wV
 qn
 wK
 no
-In
-In
+pR
+pR
 no
 no
 wK
@@ -34798,16 +34649,16 @@ PN
 PN
 PN
 PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
 cF
 cF
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 PN
 PN
 PN
@@ -34890,7 +34741,7 @@ wV
 qn
 wK
 no
-In
+pR
 rT
 no
 no
@@ -34950,7 +34801,6 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
 cF
@@ -34959,7 +34809,8 @@ cF
 cF
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -35102,7 +34953,6 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
 cF
@@ -35111,7 +34961,8 @@ cF
 cF
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -35195,7 +35046,7 @@ qn
 wK
 no
 lj
-In
+pR
 no
 no
 iw
@@ -35254,16 +35105,16 @@ PN
 PN
 PN
 PN
-PN
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 PN
 PN
 PN
@@ -35346,7 +35197,7 @@ wV
 qn
 wK
 no
-In
+pR
 yU
 no
 no
@@ -35406,10 +35257,10 @@ PN
 PN
 PN
 JE
-PN
 cF
 cF
-PN
+cF
+cF
 DU
 PN
 PN
@@ -35558,10 +35409,10 @@ CX
 CX
 CX
 CX
-CX
+MY
 cF
 cF
-CX
+MY
 CX
 CX
 CX
@@ -36809,8 +36660,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -36961,8 +36812,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37113,8 +36964,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37265,8 +37116,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37417,8 +37268,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37534,7 +37385,7 @@ vd
 vd
 vd
 Dq
-vd
+Gf
 cF
 cF
 vd
@@ -37569,8 +37420,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37628,12 +37479,12 @@ DF
 GI
 GI
 GI
-GI
-Xh
-PN
+ZL
+yR
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -37686,7 +37537,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -37721,8 +37572,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37779,13 +37630,13 @@ qn
 DF
 GI
 Wl
-GI
-GI
-GI
+QA
+LI
 PN
 cF
 cF
-kZ
+cF
+VZ
 PN
 PN
 PN
@@ -37838,7 +37689,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -37873,8 +37724,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -37930,14 +37781,14 @@ wV
 DF
 DF
 GI
-ST
+QA
 GI
-GI
-GI
+QA
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -37981,16 +37832,16 @@ PN
 PN
 PN
 PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 PN
@@ -38026,7 +37877,7 @@ PN
 cF
 cF
 vm
-nC
+iI
 wV
 wV
 wV
@@ -38085,11 +37936,11 @@ GI
 GI
 GI
 JH
-IF
-PN
+yR
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -38133,9 +37984,9 @@ PN
 PN
 PN
 PN
-PN
-kS
-kS
+cF
+ZN
+ZN
 cF
 cF
 cF
@@ -38177,8 +38028,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -38238,14 +38089,14 @@ TT
 TT
 TT
 TT
-PN
 cF
 cF
 cF
 cF
 cF
 cF
-KU
+cF
+Ah
 vJ
 vJ
 vJ
@@ -38285,8 +38136,8 @@ PN
 PN
 PN
 PN
-PN
-kS
+cF
+ZN
 dn
 cF
 cF
@@ -38329,8 +38180,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -38390,14 +38241,14 @@ QQ
 QQ
 QQ
 TT
-PN
 cF
 cF
 cF
 cF
 cF
 cF
-KU
+cF
+Ah
 vJ
 vJ
 vJ
@@ -38437,9 +38288,9 @@ PN
 PN
 PN
 PN
-PN
-kS
-kS
+cF
+ZN
+ZN
 cF
 cF
 cF
@@ -38481,8 +38332,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+iI
 wV
 wV
 wV
@@ -38542,14 +38393,14 @@ QQ
 PV
 QQ
 TT
-PN
 cF
 cF
 cF
 cF
 cF
 cF
-KU
+cF
+Ah
 vJ
 vJ
 vJ
@@ -38589,16 +38440,16 @@ PN
 PN
 PN
 PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 PN
@@ -38633,8 +38484,8 @@ PN
 PN
 cF
 cF
-PN
-nC
+cF
+dB
 wV
 wV
 wV
@@ -38694,14 +38545,14 @@ QQ
 QQ
 QQ
 TT
-PN
 cF
 cF
 cF
 cF
 cF
 cF
-KU
+cF
+Ah
 vJ
 vJ
 vJ
@@ -38750,7 +38601,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -38846,10 +38697,10 @@ QQ
 QQ
 QQ
 TT
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -38902,7 +38753,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -38998,10 +38849,10 @@ mi
 QQ
 Dp
 TT
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -39054,7 +38905,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39089,8 +38940,8 @@ PN
 PN
 cF
 cF
-PN
-iI
+cF
+dB
 wV
 wV
 wV
@@ -39150,10 +39001,10 @@ QQ
 QQ
 QQ
 TT
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -39206,7 +39057,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39241,7 +39092,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -39302,12 +39153,12 @@ TT
 TT
 TT
 TT
-PN
+cF
+cF
 cF
 cF
 PN
-PN
-PN
+kZ
 PN
 fC
 vJ
@@ -39358,7 +39209,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39393,7 +39244,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -39449,15 +39300,15 @@ wV
 wV
 DF
 DF
+QA
 GI
 GI
-GI
-ST
-IF
-PN
+QA
+yR
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -39510,7 +39361,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39545,7 +39396,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -39605,20 +39456,20 @@ GI
 GI
 RM
 LI
-GI
 PN
+cF
+cF
 cF
 cF
 PN
 PN
 PN
-PN
 fC
 fC
 fC
 fC
 fC
-xd
+FD
 KA
 fC
 wK
@@ -39662,7 +39513,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39697,7 +39548,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -39757,8 +39608,9 @@ GI
 fq
 GI
 GI
-GI
 PN
+cF
+cF
 cF
 cF
 PN
@@ -39768,8 +39620,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 fC
@@ -39779,7 +39630,7 @@ LU
 Rl
 PN
 cF
-PN
+cF
 PN
 Rl
 JM
@@ -39814,7 +39665,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 PN
@@ -39849,7 +39700,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -39910,7 +39761,8 @@ GI
 GT
 GI
 AQ
-PN
+cF
+cF
 cF
 cF
 PN
@@ -39920,8 +39772,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 fC
@@ -39931,7 +39782,7 @@ JI
 Ca
 cF
 cF
-PN
+cF
 PN
 Rl
 JM
@@ -39966,42 +39817,42 @@ PN
 PN
 PN
 kZ
-PN
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-iI
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-rd
-PN
-PN
-PN
-PN
-PN
-PN
-PN
 cF
 cF
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+dB
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+iH
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 iI
 wV
 wV
@@ -40062,7 +39913,8 @@ DF
 DF
 DF
 DF
-PN
+cF
+cF
 cF
 cF
 PN
@@ -40072,8 +39924,7 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
 cF
 cF
 fC
@@ -40083,7 +39934,7 @@ WH
 Rl
 PN
 cF
-PN
+cF
 PN
 mX
 pK
@@ -40118,7 +39969,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 cF
@@ -40153,7 +40004,7 @@ cF
 cF
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -40217,8 +40068,7 @@ jp
 cF
 cF
 cF
-PN
-PN
+cF
 PN
 PN
 PN
@@ -40228,6 +40078,7 @@ PN
 PN
 cF
 cF
+cF
 fC
 fC
 fC
@@ -40235,7 +40086,7 @@ fC
 fC
 PN
 cF
-PN
+cF
 PN
 mX
 mK
@@ -40270,7 +40121,7 @@ PN
 PN
 PN
 PN
-PN
+cF
 cF
 cF
 cF
@@ -40305,7 +40156,7 @@ cF
 cF
 cF
 cF
-PN
+cF
 iI
 wV
 wV
@@ -40366,7 +40217,8 @@ nT
 OM
 pq
 DF
-PN
+cF
+cF
 cF
 cF
 PN
@@ -40376,8 +40228,8 @@ PN
 PN
 PN
 PN
-PN
-PN
+cF
+cF
 cF
 cF
 PN
@@ -40385,9 +40237,8 @@ PN
 PN
 PN
 PN
-PN
 cF
-PN
+cF
 PN
 mX
 Oq
@@ -40422,42 +40273,42 @@ PN
 PN
 PN
 PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-iI
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-wV
-rd
-PN
-PN
-PN
 cF
 cF
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+dB
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+wV
+iH
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 iI
 wV
 wV
@@ -40521,8 +40372,7 @@ AZ
 PN
 cF
 cF
-PN
-PN
+cF
 PN
 PN
 PN
@@ -40532,7 +40382,8 @@ PN
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -40602,10 +40453,10 @@ wV
 rd
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -40673,8 +40524,7 @@ AZ
 PN
 cF
 cF
-PN
-PN
+cF
 PN
 PN
 PN
@@ -40684,7 +40534,8 @@ PN
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -40754,10 +40605,10 @@ wV
 rd
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -40825,8 +40676,7 @@ DF
 PN
 cF
 cF
-PN
-PN
+cF
 PN
 PN
 PN
@@ -40836,14 +40686,15 @@ PN
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
 PN
 PN
 cF
-PN
+cF
 PN
 mX
 Oq
@@ -40906,10 +40757,10 @@ wV
 rd
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -40977,8 +40828,7 @@ DF
 PN
 cF
 cF
-PN
-PN
+cF
 PN
 PN
 PN
@@ -40988,14 +40838,15 @@ PN
 PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
 PN
 PN
 cF
-PN
+cF
 PN
 mX
 mK
@@ -41058,10 +40909,10 @@ wV
 rd
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -41129,7 +40980,7 @@ AZ
 PN
 cF
 cF
-PN
+cF
 PN
 PN
 PN
@@ -41210,10 +41061,10 @@ wV
 Qm
 CX
 CX
-CX
+MY
 cF
 cF
-CX
+MY
 CX
 CX
 CX
@@ -41281,7 +41132,7 @@ AZ
 PN
 cF
 cF
-PN
+cF
 PN
 PN
 PN
@@ -41430,10 +41281,10 @@ wx
 nT
 TA
 DF
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -41585,7 +41436,7 @@ jp
 cF
 cF
 cF
-PN
+cF
 PN
 PN
 PN
@@ -41734,10 +41585,10 @@ DF
 DF
 DF
 DF
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -41889,7 +41740,7 @@ PN
 PN
 cF
 cF
-PN
+cF
 PN
 PN
 PN
@@ -42033,18 +41884,18 @@ wV
 wV
 DF
 DF
-PN
-PN
-PN
-PN
-PN
-PN
 cF
 cF
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 sU
 cF
@@ -42489,18 +42340,18 @@ wV
 wV
 DF
 DF
-PN
-PN
-PN
-kZ
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+VZ
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 cF
@@ -43553,7 +43404,7 @@ wV
 wV
 DF
 DF
-tc
+VZ
 sU
 DF
 Lr
@@ -46012,12 +45863,12 @@ cF
 cF
 sU
 cF
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
 DF
 JI
 JI
@@ -46468,12 +46319,12 @@ cF
 cF
 sU
 cF
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
 NP
 Zg
 JI
@@ -46924,12 +46775,12 @@ cF
 cF
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
 DF
 JI
 JI

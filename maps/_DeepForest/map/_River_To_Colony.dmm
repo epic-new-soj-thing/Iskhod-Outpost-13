@@ -41,7 +41,9 @@
 /area/colony/exposedsun/crashed_shop)
 "aD" = (
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "aG" = (
 /obj/structure/catwalk,
@@ -200,7 +202,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "dj" = (
 /obj/random/mob/voidwolf,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "dk" = (
 /obj/structure/urinal{
@@ -702,7 +706,9 @@
 /area/colony/exposedsun/crashed_shop)
 "lf" = (
 /mob/living/simple/hostile/hell_pig/wendigo,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "lp" = (
 /obj/item/trash/material/metal,
@@ -877,7 +883,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "oi" = (
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "oq" = (
 /turf/simulated/floor/carpet/bcarpet,
@@ -982,7 +990,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "pp" = (
 /obj/random/mob/voidwolf,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "pr" = (
 /obj/item/trash/material/metal,
@@ -1027,7 +1037,9 @@
 /obj/item/stack/rods/random,
 /obj/item/stack/material/steel/random,
 /obj/structure/flora/small/lavarock3,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "qB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1278,11 +1290,15 @@
 "uj" = (
 /obj/item/scrap_lump,
 /obj/item/trash/material/metal,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "ur" = (
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "ux" = (
 /obj/structure/flora/small/snow/boulder2,
@@ -1422,7 +1438,9 @@
 /area/colony/exposedsun/crashed_shop)
 "wL" = (
 /obj/structure/flora/small/grassa2,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "wS" = (
 /obj/structure/urinal{
@@ -1491,7 +1509,9 @@
 "xZ" = (
 /obj/item/scrap_lump,
 /obj/item/stack/rods/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "yf" = (
 /obj/item/stack/rods/random,
@@ -1881,7 +1901,9 @@
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "DP" = (
 /obj/item/scrap_lump,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "DT" = (
 /obj/structure/boulder,
@@ -1892,7 +1914,9 @@
 /area/colony/exposedsun/crashed_shop)
 "Ed" = (
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Eh" = (
 /obj/item/scrap_lump,
@@ -2044,7 +2068,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "GK" = (
 /obj/item/trash/material/metal,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "GL" = (
 /obj/structure/table/steel_reinforced,
@@ -2053,7 +2079,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "GM" = (
 /obj/item/stack/material/refined_scrap/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "GN" = (
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -2133,7 +2161,9 @@
 /area/colony/exposedsun/crashed_shop)
 "Hw" = (
 /obj/item/stack/material/plasteel/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "HC" = (
 /obj/structure/catwalk,
@@ -2152,7 +2182,9 @@
 /area/colony/exposedsun/crashed_shop)
 "HJ" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "HM" = (
 /turf/simulated/wall/r_wall,
@@ -2338,11 +2370,15 @@
 /obj/item/scrap_lump,
 /obj/item/stack/rods/random,
 /obj/item/stack/material/steel/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "KK" = (
 /obj/structure/flora/small/snow/rock7,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "KN" = (
 /obj/structure/scrap/medical/large,
@@ -2427,11 +2463,15 @@
 "LG" = (
 /obj/item/stack/rods/random,
 /obj/structure/flora/small/lavarock3,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "LH" = (
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "LK" = (
 /obj/structure/table/steel_reinforced,
@@ -2503,7 +2543,9 @@
 "MC" = (
 /obj/item/remains,
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "MD" = (
 /turf/simulated/floor/tiled/cafe,
@@ -2581,7 +2623,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "Nw" = (
 /obj/item/remains/ribcage,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Ny" = (
 /obj/random/scrap/dense_weighted,
@@ -2862,7 +2906,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "Se" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Sr" = (
 /obj/structure/invislight,
@@ -2891,7 +2937,9 @@
 /area/colony/exposedsun/crashed_shop)
 "Ta" = (
 /obj/structure/flora/rock/variant2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Te" = (
 /obj/item/scrap_lump,
@@ -3031,7 +3079,9 @@
 /turf/simulated/floor/rock/grey,
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "UD" = (
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "UE" = (
 /turf/simulated/floor/icewater,
@@ -3089,11 +3139,15 @@
 /area/colony/exposedsun/crashed_shop)
 "Vx" = (
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Vy" = (
 /obj/item/stack/material/steel/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "VE" = (
 /obj/structure/bed/chair/comfy/black{
@@ -3172,7 +3226,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "WE" = (
 /obj/item/stack/rods/random,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "WG" = (
 /mob/living/carbon/superior/human/voidwolf/elite/myrmidon,
@@ -3210,7 +3266,9 @@
 /area/colony/exposedsun/crashed_shop/workshop)
 "Xi" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Xp" = (
 /obj/item/material/shard/shrapnel/scrap,
@@ -3262,7 +3320,9 @@
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Yc" = (
 /obj/structure/flora/small/trailrocka1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Ye" = (
 /obj/structure/scrap/vehicle,
@@ -3293,7 +3353,9 @@
 /turf/simulated/floor/plating/under,
 /area/colony/exposedsun/crashed_shop)
 "Yw" = (
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/colony/exposedsun/crashed_shop/bottom_floor)
 "Yy" = (
 /turf/simulated/floor/wood_old,

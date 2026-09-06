@@ -97,7 +97,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/invislight,
 /obj/random/cluster/tengolo,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaw" = (
 /obj/random/mob/croaker/low_chance,
@@ -115,7 +117,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaB" = (
 /obj/structure/largecrate,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaC" = (
 /obj/structure/curtain/medical,
@@ -162,7 +166,9 @@
 "aaJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/remains/mouse,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaL" = (
 /obj/structure/flora/small/rock1,
@@ -221,12 +227,16 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aaV" = (
 /obj/structure/flora/small/lavarock3,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aaX" = (
 /obj/structure/table/steel,
@@ -246,7 +256,9 @@
 	})
 "aaZ" = (
 /obj/random/traps/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abb" = (
 /obj/effect/decal/cleanable/rubble,
@@ -255,16 +267,22 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "abd" = (
 /obj/random/mob/mukwah,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/traps/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abf" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abg" = (
 /obj/structure/invislight,
@@ -355,16 +373,22 @@
 "abv" = (
 /obj/structure/flora/small/snow/boulder2,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "abw" = (
 /obj/item/honey_frame/frameless,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aby" = (
 /obj/item/remains/mouse,
@@ -374,7 +398,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "abz" = (
 /obj/structure/flora/small/snow/rock2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "abA" = (
 /obj/item/remains/mummy1,
@@ -385,7 +411,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/grille,
 /obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "abC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -563,11 +591,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock2,
 /obj/random/traps/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "acl" = (
 /obj/structure/flora/small/rock1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "acn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -595,7 +627,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "acq" = (
 /obj/item/remains/mouse,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "acr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -615,7 +649,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "acu" = (
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "acv" = (
 /obj/structure/flora/small/snow/rock2,
@@ -699,7 +735,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/lavarock1,
 /obj/random/traps/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "acP" = (
 /obj/structure/flora/bush,
@@ -902,7 +940,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "ado" = (
 /obj/structure/flora/small/snow/rock7,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adp" = (
 /obj/structure/flora/small/lavarock1,
@@ -917,11 +957,15 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "ads" = (
 /obj/random/junk/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adt" = (
 /obj/random/cluster/roaches/lower_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adv" = (
 /obj/structure/flora/small/lavarock3,
@@ -948,7 +992,9 @@
 /obj/random/traps/low_chance,
 /obj/structure/flora/small/lavarock1,
 /obj/structure/flora/small/snow/rock2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adz" = (
 /obj/random/traps/low_chance,
@@ -982,7 +1028,9 @@
 /obj/random/traps/low_chance,
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adH" = (
 /obj/structure/flora/small/lavarock3,
@@ -998,7 +1046,9 @@
 "adJ" = (
 /obj/random/traps/low_chance,
 /obj/structure/flora/small/snow/rock2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adK" = (
 /obj/structure/closet/crate/trashcart,
@@ -1069,7 +1119,9 @@
 "adV" = (
 /obj/structure/flora/small/snow/boulder2,
 /obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "adW" = (
 /obj/structure/low_wall,
@@ -1095,7 +1147,9 @@
 "adZ" = (
 /obj/structure/flora/small/snow/rock2,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aea" = (
 /obj/random/structures/low_chance,
@@ -1152,7 +1206,9 @@
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aet" = (
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeu" = (
 /obj/random/structures/low_chance,
@@ -1167,20 +1223,28 @@
 "aex" = (
 /obj/structure/flora/bush,
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aey" = (
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeC" = (
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aeE" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1190,25 +1254,35 @@
 "aeG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aeH" = (
 /obj/structure/flora/bush,
 /obj/item/remains/deer,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeI" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeJ" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeM" = (
 /obj/item/remains/deer,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1238,7 +1312,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aeR" = (
 /obj/random/junk/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeT" = (
 /obj/structure/boulder,
@@ -1248,7 +1324,9 @@
 	})
 "aeU" = (
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aeX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1257,17 +1335,23 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aeZ" = (
 /obj/structure/flora/ausbushes/genericbush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afb" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/small/busha1,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afc" = (
 /obj/random/rig/damaged,
 /mob/living/simple/hostile/sargoyle,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "afd" = (
 /obj/random/powercell/small_safe,
@@ -1275,12 +1359,16 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "afe" = (
 /obj/structure/flora/small/busha1,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afi" = (
 /obj/random/material_rare,
 /obj/random/material_resources,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "afj" = (
 /obj/random/mob/croaker/low_chance,
@@ -1290,12 +1378,16 @@
 "afk" = (
 /obj/structure/flora/bush,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afl" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple/hostile/bear/polar,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "afm" = (
 /obj/structure/boulder,
@@ -1303,11 +1395,15 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "afn" = (
 /obj/structure/flora/small/busha2,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afp" = (
 /obj/item/remains/mouse,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1326,29 +1422,39 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "afu" = (
 /obj/structure/flora/tree/sif,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afv" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afw" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/item/remains/mouse,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afx" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afz" = (
 /obj/structure/boulder,
 /obj/structure/barricade,
 /obj/structure/invislightsmall,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afA" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
@@ -1367,7 +1473,9 @@
 	})
 "afC" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afD" = (
 /obj/random/junk/nondense,
@@ -1376,29 +1484,39 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "afE" = (
 /obj/structure/flora/small/snow/rock4,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afF" = (
 /obj/structure/flora/small/snow/rock5,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afG" = (
 /obj/structure/flora/bush,
 /obj/random/junk,
 /obj/item/trash/chips,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afH" = (
 /obj/structure/flora/small/snow/rock5,
 /obj/random/junk,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afI" = (
 /obj/structure/flora/small/snow/rock4,
 /obj/structure/bed,
 /obj/item/trash/cigbutt,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afJ" = (
 /obj/effect/damagedfloor/fire,
@@ -1406,20 +1524,26 @@
 /obj/item/trash/cigbutt,
 /obj/item/trash/mre,
 /obj/item/trash/mre_can,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afK" = (
 /obj/structure/flora/bush,
 /obj/random/material_ore,
 /obj/random/material_rare,
 /obj/random/material_resources,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afL" = (
 /obj/structure/flora/small/snow/rock5,
 /obj/random/mecha/low_chance,
 /obj/item/trash/cigbutt,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afM" = (
 /obj/structure/flora/grass/brown,
@@ -1427,26 +1551,34 @@
 /obj/random/mecha_equipment/low_chance,
 /obj/random/mecha_equipment/low_chance,
 /obj/item/trash/cigbutt,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afN" = (
 /obj/structure/flora/small/snow/rock4,
 /obj/random/junk,
 /obj/item/trash/cigbutt,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afQ" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afR" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/item/trash/candy/proteinbar,
 /obj/item/trash/cheesie,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afS" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1455,57 +1587,77 @@
 /obj/random/medical,
 /obj/random/medical,
 /obj/item/trash/chips,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afT" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afU" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/random/gun_shotgun,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afV" = (
 /obj/structure/flora/bush,
 /obj/item/trash/cigbutt,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afW" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/grass/brown,
 /obj/item/trash/candy/proteinbar,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afX" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/item/trash/cigbutt,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afY" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/item/trash/candy/proteinbar,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "afZ" = (
 /obj/structure/flora/bush,
 /obj/random/junk,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agc" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agd" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "age" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1514,25 +1666,33 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agf" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agh" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agi" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agj" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1541,12 +1701,16 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agl" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agm" = (
 /obj/structure/flora/grass/both,
@@ -1555,23 +1719,31 @@
 "agn" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ago" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/structure/flora/bush,
 /obj/item/remains/mouse,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agp" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agq" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1598,21 +1770,27 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agw" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agx" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agy" = (
 /turf/simulated/floor/asteroid/dirt/mud,
@@ -1646,19 +1824,25 @@
 /obj/structure/flora/bush,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agG" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agI" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agJ" = (
 /obj/structure/flora/ausbushes/palebush,
@@ -1698,19 +1882,25 @@
 "agU" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agV" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agW" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "agY" = (
 /obj/effect/decal/cleanable/dirt/snow,
@@ -1733,19 +1923,25 @@
 "ahd" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahe" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahf" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahg" = (
 /obj/structure/flora/ausbushes/palebush,
@@ -1769,7 +1965,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "ahn" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahs" = (
 /obj/random/common_oddities,
@@ -1779,7 +1977,9 @@
 /obj/random/gun_shotgun,
 /obj/item/remains/tajaran,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aht" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -1788,17 +1988,23 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahw" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/snow,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahy" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/small/snow/rock4,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahz" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -1830,26 +2036,34 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahH" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahI" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahJ" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahK" = (
 /obj/structure/flora/small/snow/rock2,
@@ -1866,7 +2080,9 @@
 "ahL" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/small/snow/rock4,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahN" = (
 /obj/structure/flora/ausbushes/pointybush,
@@ -1903,24 +2119,32 @@
 "ahT" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahU" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahV" = (
 /obj/random/oddity_guns,
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahX" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/item/remains/mouse,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ahY" = (
 /turf/simulated/floor/asteroid/dirt/flood,
@@ -1928,7 +2152,9 @@
 "aia" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aib" = (
 /obj/structure/flora/small/busha1,
@@ -1970,13 +2196,17 @@
 /obj/structure/flora/bush,
 /obj/structure/flora/bush,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aii" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aij" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -1985,13 +2215,17 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aik" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aim" = (
 /obj/effect/decal/cleanable/rubble,
@@ -2012,7 +2246,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aio" = (
 /obj/random/mob/vox/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aip" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
@@ -2057,7 +2293,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aiw" = (
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aix" = (
 /obj/structure/flora/small/snow/rock2,
@@ -2073,7 +2311,9 @@
 "aiA" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aiB" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -2083,7 +2323,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aiC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2115,7 +2357,9 @@
 "aiG" = (
 /obj/structure/flora/bush,
 /obj/item/remains/mouse,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aiH" = (
 /obj/structure/flora/small/snow/rock5,
@@ -2159,7 +2403,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aiQ" = (
 /obj/structure/flora/small/snow/rock8,
@@ -2167,11 +2413,15 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aiR" = (
 /obj/structure/flora/small/snow/boulder1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aiS" = (
 /obj/structure/flora/small/snow/rock5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aiY" = (
 /obj/structure/flora/grass/brown,
@@ -2216,34 +2466,46 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "ajc" = (
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ajd" = (
 /obj/structure/flora/small/busha1,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aje" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/bush,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ajf" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ajg" = (
 /obj/structure/flora/small/busha2,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ajh" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aji" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2441,11 +2703,15 @@
 "ajK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ajL" = (
 /obj/structure/flora/small/lavarock1,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ajN" = (
 /obj/item/remains/tajaran,
@@ -2490,7 +2756,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/random/mob/mukwah,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ajV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2506,7 +2774,9 @@
 "ajX" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ajY" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2529,12 +2799,16 @@
 "akc" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "akd" = (
 /obj/structure/flora/bush,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ake" = (
 /obj/structure/flora/bush,
@@ -2594,7 +2868,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/bush,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "akq" = (
 /obj/effect/decal/cleanable/rubble,
@@ -2604,13 +2880,17 @@
 "akr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aks" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock6,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2622,7 +2902,9 @@
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2649,7 +2931,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akz" = (
 /obj/structure/flora/small/lavarock1,
@@ -2740,12 +3024,16 @@
 "akP" = (
 /obj/structure/flora/small/lavarock1,
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akQ" = (
 /obj/structure/flora/small/lavarock1,
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2754,7 +3042,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "akS" = (
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "akT" = (
 /obj/structure/flora/small/snow/boulder1,
@@ -2868,17 +3158,23 @@
 "aln" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/remains/tajaran,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alo" = (
 /obj/structure/flora/small/lavarock1,
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alp" = (
 /obj/structure/flora/small/lavarock1,
 /obj/item/remains/mouse,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alq" = (
 /obj/structure/flora/small/lavarock1,
@@ -2947,7 +3243,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder2,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2966,13 +3264,17 @@
 /obj/structure/flora/small/lavarock1,
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka4,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3028,7 +3330,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alN" = (
 /obj/structure/flora/small/lavarock1,
@@ -3050,7 +3354,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "alR" = (
 /obj/structure/flora/small/lavarock1,
@@ -3120,12 +3426,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ame" = (
 /obj/random/scrap/moderate_weighted/low_chance,
@@ -3156,12 +3466,16 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ami" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amj" = (
 /obj/structure/flora/small/bushb1,
@@ -3248,7 +3562,9 @@
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/remains/deer,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amw" = (
 /obj/structure/flora/small/snow/rock6,
@@ -3261,7 +3577,9 @@
 "amy" = (
 /obj/random/junk/nondense,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amz" = (
 /obj/structure/flora/small/snow/rock6,
@@ -3295,13 +3613,17 @@
 "amF" = (
 /obj/structure/flora/small/snow/rock6,
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amG" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/boulder1,
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "amH" = (
 /obj/random/knife/low_chance,
@@ -3486,7 +3808,9 @@
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "anl" = (
 /obj/effect/spider/stickyweb,
@@ -3562,11 +3886,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "anA" = (
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "anB" = (
 /obj/effect/spider/stickyweb,
@@ -3705,13 +4033,17 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/trailrocka4,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "anZ" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aoa" = (
 /obj/effect/spider/stickyweb,
@@ -3744,7 +4076,9 @@
 "aof" = (
 /obj/structure/flora/small/lavarock1,
 /obj/item/remains/deer,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aog" = (
 /obj/structure/flora/small/trailrocka4,
@@ -3757,7 +4091,9 @@
 "aoi" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/item/remains/mouse,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aoj" = (
 /obj/structure/flora/bush,
@@ -3769,7 +4105,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/remains/deer,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aol" = (
 /obj/effect/spider/stickyweb,
@@ -3916,7 +4254,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoO" = (
 /obj/random/mob/roomba/mecha/low,
@@ -3925,57 +4265,77 @@
 "aoP" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoQ" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoR" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoS" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoU" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoV" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoW" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoX" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoY" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aoZ" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "apb" = (
 /obj/structure/railing/grey,
@@ -3989,7 +4349,9 @@
 "apd" = (
 /obj/item/tool/weldingtool/advanced,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ape" = (
 /obj/effect/spider/stickyweb,
@@ -4047,7 +4409,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "apo" = (
 /obj/effect/spider/stickyweb,
@@ -4065,7 +4429,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "apr" = (
 /obj/effect/spider/stickyweb,
@@ -4091,13 +4457,17 @@
 "apx" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "apy" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "apA" = (
 /mob/living/simple/goose,
@@ -4195,7 +4565,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "apP" = (
 /obj/random/cluster/tengolo,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "apR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4370,7 +4742,9 @@
 "aqr" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aqt" = (
 /obj/effect/spider/stickyweb,
@@ -4384,7 +4758,9 @@
 /obj/structure/catwalk{
 	icon_state = "catwalk-broken"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aqw" = (
 /obj/structure/salvageable/computer_os{
@@ -4443,7 +4819,9 @@
 "aqE" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/boulder,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aqF" = (
 /obj/item/tool/wrench/big_wrench,
@@ -4559,7 +4937,9 @@
 	})
 "aqW" = (
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aqX" = (
 /turf/open/pool,
@@ -4569,7 +4949,9 @@
 "aqY" = (
 /obj/structure/barricade,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -4732,7 +5114,9 @@
 	pixel_x = 12;
 	pixel_y = 18
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -4819,7 +5203,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "arG" = (
 /obj/structure/table/woodentable,
@@ -4852,7 +5238,9 @@
 	})
 "arM" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arN" = (
 /obj/effect/floor_decal/industrial/warningdust,
@@ -4863,7 +5251,9 @@
 "arO" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arP" = (
 /obj/structure/disposalpipe/broken{
@@ -4881,7 +5271,9 @@
 	})
 "arQ" = (
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "arS" = (
 /obj/structure/boulder,
@@ -4892,19 +5284,27 @@
 	})
 "arT" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arV" = (
 /obj/structure/flora/small/lavarock1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arW" = (
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arX" = (
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "arY" = (
 /obj/structure/catwalk,
@@ -4949,18 +5349,24 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "ash" = (
 /obj/structure/boulder,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "asi" = (
 /obj/structure/light_stick/red,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "asj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ask" = (
 /obj/effect/decal/cleanable/dirt/snow,
@@ -4993,7 +5399,9 @@
 	})
 "aso" = (
 /obj/structure/scrap/food,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5004,7 +5412,9 @@
 	},
 /obj/structure/low_wall,
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5012,13 +5422,17 @@
 /obj/structure/flora/small/lavarock1,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ass" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ast" = (
 /obj/structure/window/reinforced{
@@ -5028,7 +5442,9 @@
 /obj/structure/girder{
 	name = "Connector"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5133,7 +5549,9 @@
 "asJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/lavarock1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "asK" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -5202,7 +5620,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "asU" = (
 /obj/effect/decal/cleanable/blood/drip,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "asW" = (
 /obj/structure/window/reinforced,
@@ -5219,7 +5639,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/snow/two,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "asY" = (
 /turf/simulated/wall/cloth,
@@ -5241,7 +5663,9 @@
 	})
 "atb" = (
 /obj/structure/scrap/guns,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5274,7 +5698,9 @@
 "atf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/small/snow/boulder1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "atg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5356,11 +5782,15 @@
 "ats" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "att" = (
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5416,7 +5846,9 @@
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/iskhod/outside/forest/beast_cave_dark)
 "atC" = (
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5509,7 +5941,9 @@
 	})
 "atQ" = (
 /obj/random/scrap/beacon,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -5599,7 +6033,9 @@
 "aug" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "auh" = (
 /obj/structure/salvageable/computer_os{
@@ -5621,7 +6057,9 @@
 "auj" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aul" = (
 /obj/structure/ameridian_crystal,
@@ -5814,7 +6252,9 @@
 "auN" = (
 /obj/structure/flora/small/lavarock3,
 /obj/random/cluster/roaches,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "auO" = (
 /obj/machinery/light/small{
@@ -5966,7 +6406,9 @@
 /area/iskhod/outside/forest/swamp_hut)
 "avs" = (
 /obj/machinery/beehive,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "avt" = (
 /obj/item/seeds/shandseed,
@@ -6095,17 +6537,23 @@
 	})
 "avO" = (
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "avP" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "avQ" = (
 /obj/structure/flora/tree/snow/snow,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "avT" = (
 /obj/structure/table/marble,
@@ -6313,7 +6761,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "awx" = (
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -6408,7 +6858,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "awQ" = (
 /obj/random/material_ore,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "awR" = (
 /obj/structure/salvageable/computer_os{
@@ -6432,7 +6884,9 @@
 "awU" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "awV" = (
 /obj/effect/spider/stickyweb,
@@ -6443,7 +6897,9 @@
 /obj/structure/grille,
 /obj/structure/low_wall,
 /obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "awZ" = (
 /obj/structure/flora/small/snow/rock2,
@@ -6452,7 +6908,9 @@
 "axb" = (
 /obj/structure/flora/bush,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "axc" = (
 /obj/structure/flora/small/snow/rock5,
@@ -6460,7 +6918,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "axd" = (
 /obj/random/rubber_ammo,
@@ -6473,7 +6933,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "axe" = (
 /obj/structure/flora/small/snow/rock1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "axf" = (
 /obj/item/reagent_containers/pill/antitox,
@@ -6555,7 +7017,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "axu" = (
 /obj/structure/snowfall{
@@ -6575,7 +7039,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/random/junk/nondense,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "axy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6584,7 +7050,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "axz" = (
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "axA" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -6593,7 +7061,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "axB" = (
 /turf/simulated/mineral,
@@ -6677,7 +7147,9 @@
 	})
 "axL" = (
 /mob/living/simple/hostile/render,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "axM" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -6712,7 +7184,9 @@
 	})
 "axQ" = (
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "axR" = (
 /obj/structure/flora/small/snow/boulder2,
@@ -6756,7 +7230,9 @@
 	pixel_x = -15
 	},
 /obj/structure/scrap/guns,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -6768,7 +7244,9 @@
 "ayc" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ayd" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -6819,7 +7297,9 @@
 /obj/structure/grille,
 /obj/structure/low_wall,
 /obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ayk" = (
 /mob/living/carbon/superior/vox/wasp,
@@ -6933,7 +7413,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ayD" = (
 /obj/random/mob/vox/low_chance,
@@ -6977,7 +7459,9 @@
 "ayK" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/trailrocka5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "ayL" = (
 /obj/random/science,
@@ -7020,7 +7504,9 @@
 	})
 "ayS" = (
 /obj/structure/flora/small/snow/rock5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "ayU" = (
 /obj/structure/catwalk{
@@ -7125,7 +7611,9 @@
 "azk" = (
 /obj/structure/flora/small/trailrockb5,
 /mob/living/simple/hostile/sargoyle,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "azl" = (
 /obj/item/honey_frame/frameless,
@@ -7139,7 +7627,9 @@
 	})
 "azo" = (
 /obj/item/clothing/glasses/welding,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "azp" = (
 /obj/structure/catwalk{
@@ -7212,7 +7702,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "azE" = (
 /obj/structure/scrap/food/large,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "azF" = (
 /turf/simulated/wall/wood_old,
@@ -7278,7 +7770,9 @@
 	})
 "azR" = (
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "azS" = (
 /obj/effect/floor_decal/corner_techfloor_grid,
@@ -7335,7 +7829,9 @@
 "azZ" = (
 /obj/structure/flora/bush,
 /obj/random/mob/mukwah,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAa" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -7362,7 +7858,9 @@
 	})
 "aAe" = (
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -7409,7 +7907,9 @@
 	})
 "aAn" = (
 /obj/structure/scrap/cloth/large,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAp" = (
 /obj/structure/snowfall{
@@ -7448,17 +7948,23 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aAu" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAv" = (
 /obj/structure/catwalk,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aAw" = (
 /obj/effect/floor_decal/industrial_plant/border_sides,
@@ -7536,13 +8042,17 @@
 /turf/simulated/floor/asteroid/dirt/flood,
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAI" = (
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aAJ" = (
 /mob/living/simple/hostile/dino{
 	faction = "deathclaw"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAK" = (
 /obj/item/reagent_containers/glass/beaker/vial,
@@ -7593,7 +8103,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aAR" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aAS" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -7610,7 +8122,9 @@
 	})
 "aAT" = (
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aAU" = (
 /obj/item/remains/mummy1,
@@ -7638,11 +8152,15 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/snow,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aAZ" = (
 /obj/item/remains/tajaran,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBa" = (
 /obj/effect/spider/stickyweb,
@@ -7687,7 +8205,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBl" = (
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aBm" = (
 /obj/structure/salvageable/computer_os{
@@ -7722,14 +8242,18 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBs" = (
 /obj/structure/flora/stump/small,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aBt" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBu" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
@@ -7756,7 +8280,9 @@
 "aBx" = (
 /obj/structure/flora/grass/brown,
 /obj/random/mob/vox/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aBy" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -7795,7 +8321,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aBD" = (
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -7840,7 +8368,9 @@
 "aBI" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aBJ" = (
 /obj/machinery/door/airlock/hatch{
@@ -8036,7 +8566,9 @@
 "aCx" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aCy" = (
 /obj/item/reagent_containers/glass/bucket,
@@ -8126,7 +8658,9 @@
 "aCP" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/random/material_ore,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aCR" = (
 /obj/structure/catwalk,
@@ -8200,7 +8734,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aDc" = (
 /obj/item/honey_frame/filled,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aDd" = (
 /obj/machinery/door/airlock/maintenance_interior,
@@ -8228,7 +8764,9 @@
 "aDi" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aDj" = (
 /obj/item/tool_upgrade/productivity/diamond_blade,
@@ -8435,7 +8973,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aDL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8447,7 +8987,9 @@
 "aDM" = (
 /obj/structure/grille,
 /obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aDN" = (
 /obj/random/gun_shotgun/low_chance,
@@ -8478,7 +9020,9 @@
 	})
 "aDS" = (
 /obj/item/tool/weldingtool/advanced,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aDT" = (
 /obj/effect/decal/cleanable/rubble,
@@ -8546,7 +9090,9 @@
 	})
 "aEc" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEe" = (
 /obj/structure/table/bench/steel,
@@ -8574,7 +9120,9 @@
 	})
 "aEi" = (
 /obj/structure/scrap/cloth,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEk" = (
 /obj/effect/floor_decal/industrial/warningdust{
@@ -8591,7 +9139,9 @@
 /mob/living/simple/hostile/scarybat{
 	faction = "sargoyle"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEm" = (
 /obj/structure/bed/chair/office/light{
@@ -8615,11 +9165,15 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEo" = (
 /obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEp" = (
 /obj/item/honey_frame/filled,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aEq" = (
 /obj/structure/boulder,
@@ -8745,7 +9299,9 @@
 "aEN" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aEO" = (
 /obj/effect/spider/cocoon,
@@ -8764,7 +9320,9 @@
 	})
 "aEQ" = (
 /obj/structure/invislightsmall,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aER" = (
 /obj/structure/low_wall,
@@ -8806,7 +9364,9 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aEW" = (
 /obj/structure/flora/pottedplant/shoot,
@@ -8864,13 +9424,17 @@
 	name = "WhiteGuard turret"
 	},
 /obj/structure/low_wall,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aFe" = (
 /obj/random/mecha/damaged,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aFf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8895,7 +9459,9 @@
 "aFj" = (
 /obj/structure/flora/small/snow/boulder1,
 /obj/structure/scrap/food/large,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aFk" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -8908,7 +9474,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aFl" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aFm" = (
 /obj/structure/flora/small/snow/rock3,
@@ -8983,11 +9551,15 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aFx" = (
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aFy" = (
 /obj/structure/closet/onestar/tier3/special,
@@ -9117,7 +9689,9 @@
 "aFQ" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/random/mob/mukwah,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aFR" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -9130,7 +9704,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aFS" = (
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aFU" = (
 /obj/effect/decal/cleanable/rubble,
@@ -9232,7 +9808,9 @@
 /obj/structure/girder{
 	name = "Connector"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -9251,14 +9829,18 @@
 "aGl" = (
 /obj/effect/spider/stickyweb,
 /obj/structure/flora/bush,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aGm" = (
 /obj/structure/flora/small/snow/boulder2,
 /obj/structure/scrap/food/large,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aGo" = (
 /mob/living/carbon/superior/roach/tazntz,
@@ -9414,7 +9996,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aGM" = (
 /obj/random/science,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aGN" = (
 /obj/machinery/door/blast/regular{
@@ -9509,7 +10093,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aHb" = (
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aHc" = (
 /obj/structure/table/rack,
@@ -9561,7 +10147,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/random/mob/undergroundmob/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aHk" = (
 /obj/effect/spider/stickyweb,
@@ -9577,7 +10165,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aHm" = (
 /obj/structure/ameridian_crystal,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -9753,7 +10343,9 @@
 /obj/effect/floor_decal/industrial/outputgate{
 	name = "Machinery"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aHQ" = (
 /obj/structure/snowfall{
@@ -9948,7 +10540,9 @@
 /obj/structure/railing/grey,
 /obj/structure/boulder,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aIv" = (
 /obj/structure/flora/small/snow/rock1,
@@ -9977,7 +10571,9 @@
 "aIz" = (
 /obj/structure/flora/small/snow/rock5,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aIA" = (
 /obj/structure/flora/grass/both,
@@ -10029,7 +10625,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/bush,
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aIK" = (
 /obj/structure/railing/grey{
@@ -10039,7 +10637,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aIL" = (
 /obj/item/remains/xeno,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aIM" = (
 /obj/structure/flora/small/snow/rock2,
@@ -10079,7 +10679,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aIR" = (
 /obj/random/mob/mukwah,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aIS" = (
 /obj/structure/shuttle_part/cargo{
@@ -10131,7 +10733,9 @@
 "aJa" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aJb" = (
 /obj/structure/flora/small/rock1,
@@ -10176,7 +10780,9 @@
 "aJh" = (
 /obj/random/scrap/dense_weighted,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aJi" = (
 /obj/structure/scrap/cloth,
@@ -10280,7 +10886,9 @@
 	})
 "aJz" = (
 /obj/structure/scrap/guns/large,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -10349,7 +10957,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aJI" = (
 /obj/effect/spider/eggcluster,
@@ -10427,7 +11037,9 @@
 "aJU" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/snow,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aJV" = (
 /obj/machinery/papershredder,
@@ -10574,7 +11186,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aKs" = (
 /obj/machinery/beehive,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aKt" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -10596,7 +11210,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aKx" = (
 /obj/structure/bed/chair/sofa/brown/left,
@@ -10664,7 +11280,9 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aKL" = (
 /obj/structure/boulder,
@@ -10685,7 +11303,9 @@
 	})
 "aKN" = (
 /obj/structure/scrap/food,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aKO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10726,7 +11346,9 @@
 	})
 "aKU" = (
 /obj/random/mob/nightmare,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aKV" = (
 /obj/structure/flora/grass/both,
@@ -10772,7 +11394,9 @@
 	})
 "aLa" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aLc" = (
 /obj/structure/girder{
@@ -10830,7 +11454,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aLk" = (
 /obj/item/spider_shadow_trap/burrowing,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -10911,7 +11537,9 @@
 	})
 "aLC" = (
 /obj/random/rig_module/rare/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aLD" = (
 /obj/structure/multiz/ladder/up,
@@ -10923,7 +11551,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aLF" = (
 /obj/random/junk/nondense,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aLG" = (
 /turf/simulated/floor/asteroid/shale,
@@ -10985,7 +11615,9 @@
 "aLO" = (
 /obj/effect/spider/stickyweb,
 /obj/structure/scrap/guns,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -10997,7 +11629,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aLR" = (
 /obj/structure/table/bench/wooden,
@@ -11013,7 +11647,9 @@
 /turf/simulated/floor/asteroid/dirt/mud,
 /area/iskhod/outside/forest/beast_cave_light)
 "aLU" = (
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aLV" = (
 /obj/random/scrap/dense_weighted,
@@ -11109,7 +11745,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aMj" = (
 /obj/item/remains,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aMk" = (
 /obj/random/scrap/dense_weighted,
@@ -11130,13 +11768,17 @@
 	})
 "aMm" = (
 /obj/structure/window/reinforced,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aMo" = (
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aMp" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
@@ -11164,7 +11806,9 @@
 "aMt" = (
 /obj/item/clothing/head/hardhat,
 /obj/item/remains,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aMu" = (
 /obj/structure/boulder,
@@ -11250,7 +11894,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aMF" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aMG" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -11269,7 +11915,9 @@
 /obj/effect/floor_decal/industrial/inputgate{
 	name = "Machinery"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aMI" = (
 /obj/structure/bed/chair/office/light,
@@ -11284,7 +11932,9 @@
 	})
 "aMJ" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aMK" = (
 /obj/random/mob/roaches/low_chance,
@@ -11303,7 +11953,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aMO" = (
 /obj/structure/low_wall,
@@ -11437,7 +12089,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aNk" = (
 /turf/simulated/wall/untinted/onestar_reinforced{
@@ -11548,7 +12202,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aNF" = (
 /obj/structure/catwalk,
@@ -11606,7 +12262,9 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aNO" = (
 /obj/structure/bed/chair{
@@ -11618,7 +12276,9 @@
 	})
 "aNP" = (
 /obj/structure/scrap_cube,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -11649,13 +12309,17 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/remains/mouse,
 /obj/random/cluster/roaches,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aNU" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aNV" = (
 /obj/structure/table/rack/shelf,
@@ -11693,7 +12357,9 @@
 	})
 "aOb" = (
 /mob/living/simple/hostile/samak,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aOc" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -11702,7 +12368,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aOd" = (
 /obj/structure/boulder,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aOe" = (
 /obj/machinery/telecomms/relay{
@@ -11717,7 +12385,9 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aOf" = (
 /obj/structure/flora/small/snow/rock6,
@@ -11789,7 +12459,9 @@
 	})
 "aOq" = (
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aOr" = (
 /obj/structure/flora/small/lavarock3,
@@ -11864,7 +12536,9 @@
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aOE" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -11904,7 +12578,9 @@
 "aON" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/ameridian_crystal,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -11947,7 +12623,9 @@
 "aOU" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/rock5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aOV" = (
 /obj/structure/flora/small/snow/boulder1,
@@ -11996,7 +12674,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPc" = (
 /obj/structure/barricade,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -12035,7 +12715,9 @@
 "aPk" = (
 /obj/structure/boulder,
 /obj/random/spider_trap_burrowing,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPl" = (
 /obj/structure/flora/grass/brown,
@@ -12051,7 +12733,9 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aPm" = (
 /mob/living/simple/fennec,
@@ -12070,7 +12754,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aPp" = (
 /obj/item/oddity/common/old_radio,
@@ -12078,7 +12764,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aPq" = (
 /obj/structure/flora/bush,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPr" = (
 /obj/structure/bed/chair/office/light{
@@ -12154,7 +12842,9 @@
 	})
 "aPz" = (
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -12199,7 +12889,9 @@
 "aPF" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/rock1,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPG" = (
 /obj/random/scrap/dense_weighted,
@@ -12265,7 +12957,9 @@
 "aPN" = (
 /obj/structure/flora/small/trailrocka5,
 /obj/random/material_ore,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPO" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -12283,7 +12977,9 @@
 "aPQ" = (
 /obj/structure/flora/small/snow/rock1,
 /obj/random/medical,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aPR" = (
 /obj/structure/low_wall,
@@ -12321,7 +13017,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/trailrocka2,
 /obj/random/material_ore,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aQb" = (
 /obj/structure/table/reinforced,
@@ -12436,7 +13134,9 @@
 	name = "Machinery"
 	},
 /obj/structure/flora/grass/brown,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aQy" = (
 /obj/structure/flora/small/snow/rock6,
@@ -12529,7 +13229,9 @@
 	},
 /obj/structure/boulder,
 /obj/structure/invislight,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aQO" = (
 /obj/structure/table/woodentable,
@@ -12697,7 +13399,9 @@
 "aRh" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aRj" = (
 /obj/structure/table/onestar,
@@ -12722,7 +13426,9 @@
 	})
 "aRm" = (
 /obj/structure/barricade,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aRn" = (
 /obj/structure/railing/grey{
@@ -12781,7 +13487,9 @@
 "aRx" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/random/cluster/golem,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -12931,7 +13639,9 @@
 "aRT" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aRU" = (
 /obj/structure/closet/body_bag,
@@ -12940,7 +13650,9 @@
 "aRV" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/pine,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aRW" = (
 /obj/machinery/power/smes/batteryrack,
@@ -12974,11 +13686,15 @@
 	})
 "aSa" = (
 /obj/item/honey_frame/frameless,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aSb" = (
 /obj/structure/flora/small/snow/boulder2,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aSc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12996,7 +13712,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aSg" = (
 /obj/structure/railing/grey{
@@ -13023,7 +13741,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aSk" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aSl" = (
 /obj/random/spider_trap_burrowing/low_chance,
@@ -13039,7 +13759,9 @@
 	dir = 4;
 	pixel_x = 0
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -13161,7 +13883,9 @@
 "aSG" = (
 /obj/structure/flora/small/snow/boulder2,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aSH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13274,7 +13998,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aTa" = (
 /obj/random/cluster/roaches,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aTb" = (
 /obj/machinery/door/airlock/vault/bolted{
@@ -13326,7 +14052,9 @@
 "aTh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aTj" = (
 /turf/simulated/floor/tiled/derelict/red_white_edges,
@@ -13428,7 +14156,9 @@
 /mob/living/simple/hostile/scarybat{
 	faction = "sargoyle"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aTy" = (
 /obj/structure/disposalpipe/segment,
@@ -13470,7 +14200,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aTD" = (
 /obj/structure/flora/bush,
@@ -13490,7 +14222,9 @@
 "aTF" = (
 /obj/structure/flora/ausbushes/brflowers,
 /mob/living/simple/hostile/snake,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aTI" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
@@ -13817,7 +14551,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aUE" = (
 /obj/structure/flora/tree/snow/two,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aUF" = (
 /obj/structure/girder/displaced,
@@ -13870,7 +14606,9 @@
 "aUQ" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aUR" = (
 /obj/structure/flora/grass/brown,
@@ -13887,7 +14625,9 @@
 "aUT" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/three,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aUU" = (
 /obj/structure/table/steel,
@@ -13912,7 +14652,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aUX" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -14036,14 +14778,18 @@
 "aVp" = (
 /obj/structure/boulder,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aVq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/scrap/food,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aVr" = (
 /obj/machinery/shower{
@@ -14173,7 +14919,9 @@
 /mob/living/simple/hostile/scarybat{
 	faction = "sargoyle"
 	},
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aVG" = (
 /obj/structure/sign/warning/hazard_biohazard{
@@ -14319,7 +15067,9 @@
 	})
 "aWc" = (
 /obj/random/spider_trap_burrowing/low_chance,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aWf" = (
 /obj/structure/flora/small/snow/rock2,
@@ -14347,7 +15097,9 @@
 "aWl" = (
 /obj/structure/boulder,
 /obj/random/spider_trap,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aWm" = (
 /obj/structure/salvageable/server_os,
@@ -14377,7 +15129,9 @@
 	dir = 1
 	},
 /obj/structure/railing/grey,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aWs" = (
 /obj/random/material_resources,
@@ -14470,7 +15224,9 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/tree/sif,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aWF" = (
 /obj/structure/flora/small/snow/rock4,
@@ -14479,7 +15235,9 @@
 "aWG" = (
 /obj/effect/decal/cleanable/rubble,
 /mob/living/simple/hostile/sargoyle,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aWH" = (
 /obj/structure/flora/grass/both,
@@ -14599,7 +15357,9 @@
 /obj/structure/railing/grey{
 	dir = 1
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXe" = (
 /obj/effect/floor_decal/industrial/warningwhite,
@@ -14658,7 +15418,9 @@
 "aXp" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/tree/dead,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXq" = (
 /obj/item/ammo_magazine/ammobox/rifle_75,
@@ -14690,7 +15452,9 @@
 	})
 "aXv" = (
 /mob/living/simple/hostile/sargoyle,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aXw" = (
 /obj/machinery/door/airlock/glass,
@@ -14757,7 +15521,9 @@
 /area/iskhod/outside/forest/beast_cave_dark)
 "aXI" = (
 /obj/structure/largecrate,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aXJ" = (
 /obj/structure/girder,
@@ -14799,7 +15565,9 @@
 "aXO" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/invislightsmall,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXP" = (
 /obj/structure/boulder,
@@ -14817,7 +15585,9 @@
 	layer = 3.8;
 	name = "tree jumping viper"
 	},
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXR" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central2{
@@ -14827,7 +15597,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aXT" = (
 /obj/structure/flora/small/bushb3,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXU" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -14856,7 +15628,9 @@
 "aXY" = (
 /obj/structure/flora/small/snow/rock6,
 /obj/random/mob/vox/low_chance,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aXZ" = (
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -14907,7 +15681,9 @@
 "aYg" = (
 /obj/structure/flora/small/snow/rock5,
 /obj/structure/invislightsmall,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aYh" = (
 /obj/machinery/computer{
@@ -14928,7 +15704,9 @@
 "aYj" = (
 /obj/structure/railing/grey,
 /obj/structure/flora/small/bushb3,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aYk" = (
 /obj/effect/decal/cleanable/dirt/snow,
@@ -15003,7 +15781,9 @@
 /obj/effect/decal/cleanable/rubble,
 /obj/random/junk/nondense,
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aYu" = (
 /obj/item/remains/mummy2,
@@ -15043,7 +15823,9 @@
 	icon_state = "metal3"
 	},
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aYC" = (
 /obj/structure/railing,
@@ -15062,7 +15844,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "aYF" = (
 /obj/structure/flora/small/trailrockb5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aYG" = (
 /obj/effect/spider/stickyweb,
@@ -15093,7 +15877,9 @@
 /area/iskhod/dungeon/outside/prepper/alpha)
 "aYL" = (
 /obj/structure/flora/small/trailrocka5,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aYN" = (
 /obj/structure/sign/warning/secure_area,
@@ -15136,12 +15922,16 @@
 "aYT" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/machinery/portable_atmospherics/powered/scrubber/yggdrasil/cold,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aYV" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/sif,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aYW" = (
 /turf/simulated/floor/industrial/black_large_slates,
@@ -15212,7 +16002,9 @@
 /obj/structure/flora/bush,
 /obj/structure/boulder,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aZg" = (
 /obj/structure/salvageable/console_os{
@@ -15228,7 +16020,9 @@
 	dir = 1
 	},
 /obj/machinery/door/blast/shutters,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
@@ -15330,7 +16124,9 @@
 "aZw" = (
 /obj/structure/flora/grass/brown,
 /obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aZx" = (
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -15346,7 +16142,9 @@
 	})
 "aZy" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "aZz" = (
 /obj/structure/shuttle_part/cargo{
@@ -15457,13 +16255,17 @@
 	})
 "aZO" = (
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
 	})
 "aZQ" = (
 /obj/random/oddity_guns,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aZR" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -15498,7 +16300,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/invislight,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "aZY" = (
 /obj/structure/girder/displaced,
@@ -15507,7 +16311,9 @@
 "aZZ" = (
 /obj/structure/flora/small/trailrockb5,
 /obj/random/material_ore,
-/turf/simulated/floor/rock/dark,
+/turf/simulated/floor/rock/dark{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "bsP" = (
 /obj/effect/decal/cleanable/rubble,
@@ -15633,7 +16439,9 @@
 "dIG" = (
 /obj/structure/flora/small/busha2,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "dZs" = (
 /obj/structure/cable{
@@ -15714,7 +16522,9 @@
 "eWy" = (
 /obj/item/remains/mouse,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "fic" = (
 /obj/structure/boulder,
@@ -16012,7 +16822,9 @@
 /area/iskhod/outside/forest/beast_cave_light)
 "lXr" = (
 /obj/random/scrap/dense_weighted,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_dark)
 "mbI" = (
 /obj/random/contraband,
@@ -16473,7 +17285,9 @@
 "uwh" = (
 /obj/structure/flora/bush,
 /obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/asteroid/grass/snowjungle,
+/turf/simulated/floor/asteroid/grass/snowjungle{
+	temperature = 240
+	},
 /area/iskhod/outside/forest/beast_cave_light)
 "uPN" = (
 /obj/structure/cable{
