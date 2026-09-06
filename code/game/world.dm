@@ -49,7 +49,7 @@ var/global/realtime
 	to_chat(world, span_boldannounce(num2text(temptime)))
 	shiftedtime = temptime - 946708560
 	to_chat(world, span_boldannounce(num2text(shiftedtime)))
-	realtime = shiftedtime / 10
+	realtime = shiftedtime * 10
 	to_chat(world, span_boldannounce(num2text(realtime)))
 	to_chat(world, span_boldannounce("outproc"))
 	return realtime
