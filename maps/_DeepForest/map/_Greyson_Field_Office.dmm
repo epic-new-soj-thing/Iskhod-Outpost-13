@@ -4160,14 +4160,6 @@
 /obj/structure/salvageable/autolathe_os,
 /turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/outside/one_star/fo_internal)
-"AW" = (
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = s
-	},
-/area/iskhod/outside/one_star/fo_outside)
 "AZ" = (
 /obj/effect/window_lwall_spawn/smartspawn/onestar,
 /obj/structure/invislight,
@@ -7594,7 +7586,6 @@
 /turf/simulated/floor/carpet/purcarpet,
 /area/iskhod/outside/one_star/fo_internal)
 "Yi" = (
-/obj/effect/floor_decal/spline/fancy/three_quarters,
 /obj/structure/closet/crate,
 /obj/random/medical,
 /obj/item/storage/firstaid/greyson/burn/empty,
@@ -14790,7 +14781,7 @@ cF
 GI
 PN
 PN
-AW
+PN
 GI
 cF
 sU
@@ -32549,32 +32540,32 @@ cF
 cF
 cF
 cF
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
-PN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
 cF
 cF
 cF
@@ -32738,10 +32729,10 @@ rd
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33346,10 +33337,10 @@ rd
 PN
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 PN
@@ -33498,10 +33489,10 @@ Qm
 CX
 PN
 PN
-PN
 cF
 cF
-PN
+cF
+cF
 PN
 PN
 CX
@@ -33650,10 +33641,10 @@ wV
 wV
 zV
 CX
-CX
+MY
 cF
 cF
-CX
+MY
 CX
 Qx
 wV
