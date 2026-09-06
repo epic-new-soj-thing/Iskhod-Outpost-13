@@ -14415,7 +14415,7 @@
 	requires_power = 0
 	})
 "aUg" = (
-/obj/map_data/iskhod_df,
+/obj/map_data/beast_cave,
 /turf/unsimulated/mineral/cold,
 /area/iskhod/dungeon/outside/prepper/alpha{
 	requires_power = 0
