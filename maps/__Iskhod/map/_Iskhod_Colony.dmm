@@ -12170,6 +12170,11 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/maintenance/undergroundfloor2south)
+"cVq" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "cVB" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/wood/wild3,
@@ -12413,6 +12418,10 @@
 /obj/machinery/atmospherics/unary/vent_pump,
 /turf/simulated/floor/industrial/checker_large,
 /area/iskhod/crew_quarters/kitchen)
+"cZb" = (
+/obj/structure/flora/small/lavarock2,
+/turf/simulated/floor/beach/sand,
+/area/iskhod/maintenance/undergroundfloor2south)
 "cZg" = (
 /obj/structure/cable/cyan{
 	d1 = 2;
@@ -16019,6 +16028,9 @@
 /obj/random/junk,
 /turf/simulated/floor/industrial/cafe_large,
 /area/iskhod/dungeon/outside/abandoned_outpost)
+"dSG" = (
+/turf/simulated/floor/asteroid/dirt,
+/area/iskhod/maintenance/undergroundfloor2south)
 "dSH" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -28256,6 +28268,9 @@
 /obj/machinery/door/airlock/maintenance_cargo,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/maintenance/substation/surface)
+"gQB" = (
+/turf/simulated/floor/beach/sand,
+/area/iskhod/maintenance/undergroundfloor2south)
 "gQF" = (
 /obj/structure/closet/crate,
 /obj/random/lowkeyrandom,
@@ -40379,6 +40394,9 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/main/f1section3)
+"jMb" = (
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "jMc" = (
 /turf/simulated/wall/r_wall/iskhod_green,
 /area/iskhod/rnd/misc_lab)
@@ -43306,6 +43324,10 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/medical/genetics)
+"kxi" = (
+/obj/structure/flora/small/lavarock1,
+/turf/simulated/floor/beach/sand,
+/area/iskhod/maintenance/undergroundfloor2south)
 "kxk" = (
 /obj/machinery/smartfridge/secure/medbay/organs,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -44518,6 +44540,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/medbay/uppercor)
+"kLM" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "kLN" = (
 /obj/machinery/button/remote/blast_door{
 	name = "Supermatter Blast Shields";
@@ -47410,6 +47436,9 @@
 "lxm" = (
 /turf/simulated/wall/r_wall/iskhod_green,
 /area/iskhod/engineering/engine_room)
+"lxz" = (
+/turf/simulated/wall/wood,
+/area/iskhod/maintenance/undergroundfloor2south)
 "lxK" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
@@ -53257,6 +53286,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/medical/bathroom)
+"mWp" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/obj/structure/flora/rock/variant2{
+	layer = 4
+	},
+/turf/simulated/floor/beach/water/shallow,
+/area/iskhod/maintenance/undergroundfloor2south)
 "mWw" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -55929,6 +55966,12 @@
 /obj/random/mecha_equipment/low_chance,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/maintenance/undergroundfloor2east)
+"nAJ" = (
+/obj/structure/table/reinforced,
+/obj/item/device/lighting/toggleable/lantern,
+/obj/item/device/lighting/toggleable/lantern,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/maintenance/undergroundfloor1south)
 "nAR" = (
 /obj/structure/sign/department/morgue{
 	pixel_y = 32
@@ -60283,6 +60326,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/command/bridge)
+"oFQ" = (
+/obj/structure/flora/big/bush3,
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "oFT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -63827,6 +63874,10 @@
 /obj/random/closet_maintloot,
 /turf/simulated/floor/rock/dark,
 /area/iskhod/maintenance/undergroundfloor2south)
+"pyE" = (
+/obj/item/device/lighting/toggleable/lantern,
+/turf/simulated/floor/beach/sand,
+/area/iskhod/maintenance/undergroundfloor2south)
 "pyS" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -66116,6 +66167,10 @@
 /obj/structure/closet/secure_closet/personal/scientist,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/rbreakroom)
+"qdo" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/maintenance/undergroundfloor1south)
 "qdp" = (
 /obj/landmark/join/start/medspec,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -71189,6 +71244,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial,
 /area/iskhod/recreation/fight_club)
+"rpH" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/obj/structure/flora/rock/variant1{
+	layer = 4
+	},
+/turf/simulated/floor/beach/water/shallow,
+/area/iskhod/maintenance/undergroundfloor2south)
 "rpN" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
@@ -71768,6 +71831,11 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section3)
+"ryQ" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/turf/simulated/floor/beach/water/shallow,
+/area/iskhod/maintenance/undergroundfloor2south)
 "ryX" = (
 /turf/simulated/floor/reinforced/plasma,
 /area/iskhod/engineering/atmos)
@@ -75904,6 +75972,11 @@
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/medbay)
+"sBL" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/turf/simulated/floor/beach/sand,
+/area/iskhod/maintenance/undergroundfloor2south)
 "sBV" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
@@ -78594,6 +78667,14 @@
 	temperature = 80
 	},
 /area/iskhod/command/tcommsat/chamber)
+"tkb" = (
+/obj/structure/flora/tree/jungle/variant4{
+	name = "Yggdrasil";
+	desc = "You feel warm being near the tree that holds up the heavens."
+	},
+/obj/structure/invislight,
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "tkk" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 10
@@ -94934,6 +95015,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/medical/genetics)
+"xlN" = (
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/asteroid/grass,
+/area/iskhod/maintenance/undergroundfloor2south)
 "xlP" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "7,13"
@@ -97114,6 +97199,11 @@
 "xOP" = (
 /turf/simulated/floor/carpet/sblucarpet,
 /area/iskhod/medical/psych)
+"xOS" = (
+/obj/effect/overlay/water,
+/obj/effect/overlay/water/top,
+/turf/simulated/floor/asteroid/dirt,
+/area/iskhod/maintenance/undergroundfloor2south)
 "xPg" = (
 /obj/structure/bed/chair/shuttle,
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -109491,8 +109581,8 @@ yib
 mnz
 mnz
 mnz
-mnz
-mnz
+rtq
+rtq
 mnz
 mnz
 mnz
@@ -109692,9 +109782,9 @@ mnz
 mnz
 mnz
 mnz
-mnz
-mnz
-mnz
+nAJ
+qdo
+rtq
 mnz
 mnz
 mnz
@@ -147459,21 +147549,21 @@ nKb
 nKb
 jDL
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -147661,21 +147751,21 @@ iFe
 nKb
 nKb
 jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -147863,21 +147953,21 @@ iFe
 iFe
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+nKb
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -148065,21 +148155,21 @@ iFe
 iFe
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+nKb
+lxz
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -148268,20 +148358,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+iUC
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -148470,20 +148560,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+iUC
+iUC
+iUC
+dSG
+dSG
+dSG
+dSG
+dSG
+dSG
+dSG
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -148672,20 +148762,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+dSG
+dSG
+jMb
+jMb
+jMb
+oFQ
+xlN
+cVq
+jMb
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -148874,20 +148964,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+jMb
+jMb
+jMb
+tkb
+jMb
+jMb
+kLM
+jMb
+dSG
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -149076,20 +149166,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+jMb
+jMb
+jMb
+jMb
+jMb
+dSG
+dSG
+dSG
+gQB
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -149278,20 +149368,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+dSG
+xlN
+cVq
+dSG
+dSG
+gQB
+gQB
+cZb
+gQB
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -149480,20 +149570,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+dSG
+dSG
+dSG
+gQB
+kxi
+xOS
+xOS
+xOS
+xOS
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -149682,20 +149772,20 @@ iFe
 nKb
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+lxz
+dSG
+dSG
+dSG
+pyE
+sBL
+sBL
+ryQ
+ryQ
+ryQ
+ryQ
+lxz
+nKb
+nKb
 jDL
 jDL
 jDL
@@ -149884,20 +149974,20 @@ iFe
 nKb
 nKb
 nKb
+lxz
+sBL
+sBL
+sBL
+sBL
+ryQ
+ryQ
+ryQ
+ryQ
+ryQ
+ryQ
+lxz
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
-jDL
+nKb
 jDL
 jDL
 jDL
@@ -150086,20 +150176,20 @@ iFe
 nKb
 nKb
 nKb
+lxz
+ryQ
+ryQ
+ryQ
+ryQ
+ryQ
+ryQ
+ryQ
+tnk
+rpH
+mWp
+lxz
 nKb
 nKb
-jDL
-jDL
-jDL
-jDL
-jDL
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-jDL
 jDL
 jDL
 jDL
@@ -150288,18 +150378,18 @@ iFe
 nKb
 nKb
 nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
-nKb
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
+lxz
 nKb
 nKb
 jDL
