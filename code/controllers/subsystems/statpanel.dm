@@ -25,7 +25,7 @@ SUBSYSTEM_DEF(statpanels)
 		global_data = list(
 			"Storyteller: [master_storyteller ? master_storyteller : "being democratically elected"]",
 			"Round ID: [game_id]",
-			"Real Server Time: [time2text(world.timeofday, "YYYY-MM-DD hh:mm:ss")]",
+			"Real Server Time: [time2text(world.realtime, "YYYY-MM-DD hh:mm:ss")]",
 			"Colony Time: [stationtime2text()]",
 			"Colony Date: [stationdate2text()]",
 			"Round Duration: [roundduration2text()]",
