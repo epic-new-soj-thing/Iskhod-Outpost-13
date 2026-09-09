@@ -207,7 +207,7 @@ GLOBAL_REAL(Master, /datum/controller/master) = new
 	//to_chat(world, span_boldannounce("DEBUG REALTIME BYPASS"))
 	//to_chat(world, span_boldannounce(num2text(realtime_bypass())))
 	//to_chat(world, span_boldannounce(time2text(realtime_bypass())))
-	log_world(time2text(realtime_bypass()))
+	//log_world(time2text(realtime_bypass()))
 	
 	// Sort subsystems by init_order, so they initialize in the correct order.
 	sortTim(subsystems, GLOBAL_PROC_REF(cmp_subsystem_init))

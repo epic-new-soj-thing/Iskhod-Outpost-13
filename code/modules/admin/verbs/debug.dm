@@ -901,12 +901,12 @@ ADMIN_VERB_ADD(/client/proc/view_runtimes, R_DEBUG, FALSE)
 	set desc = "Open the Runtime Viewer"
 	error_cache.showTo(usr)
 
-ADMIN_VERB_ADD(/client/proc/test_realtime_bypass, R_DEBUG, FALSE)
-/client/proc/test_realtime_bypass()
-	set category = "Debug"
-	set name = "Test Realtime Bypass"
-	set desc = "Triggers the realtime_bypass Proc for debugging purposes."
-	realtime_bypass()
+//ADMIN_VERB_ADD(/client/proc/test_realtime_bypass, R_DEBUG, FALSE)
+///client/proc/test_realtime_bypass()
+// 	set category = "Debug"
+//	set name = "Test Realtime Bypass"
+//	set desc = "Triggers the realtime_bypass Proc for debugging purposes."
+//	realtime_bypass()
 
 ADMIN_VERB_ADD(/client/proc/spawn_disciple, R_DEBUG, FALSE)
 /client/proc/spawn_disciple()
