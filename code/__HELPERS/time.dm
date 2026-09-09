@@ -34,8 +34,8 @@ var/next_station_date_change = 1 DAYS
 		update_time = TRUE
 	if(!station_date || update_time)
 		var/extra_days = round(station_time_in_ticks / (1 DAYS)) DAYS
-		var/timeofday = world.timeofday + extra_days
-		station_date = num2text((text2num(time2text(timeofday, "YYYY")) + 634)) + "-" + time2text(timeofday, "MM-DD")
+		var/realtime = world.realtime + extra_days
+		station_date = num2text((text2num(time2text(realtime, "YYYY")) + 634)) + "-" + time2text(timeofday, "MM-DD")
 	return station_date
 
 /proc/time_stamp()
