@@ -1322,7 +1322,9 @@
 "eu" = (
 /turf/unsimulated/beach/sand{
 	icon_state = "beach";
-	tag = "icon-beach"
+	tag = "icon-beach";
+	nitrogen = 82.1472;
+	oxygen = 21.8366
 	},
 /area/holodeck/source_beach)
 "ev" = (
