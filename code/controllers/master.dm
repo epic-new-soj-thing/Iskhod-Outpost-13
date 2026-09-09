@@ -204,9 +204,9 @@ GLOBAL_REAL(Master, /datum/controller/master) = new
 		init_subtypes(/datum/controller/subsystem, subsystems)
 
 	to_chat(world, span_boldannounce("Initializing subsystems..."))
-	to_chat(world, span_boldannounce("DEBUG REALTIME BYPASS"))
-	to_chat(world, span_boldannounce(num2text(realtime_bypass())))
-	to_chat(world, span_boldannounce(time2text(realtime_bypass())))
+	//to_chat(world, span_boldannounce("DEBUG REALTIME BYPASS"))
+	//to_chat(world, span_boldannounce(num2text(realtime_bypass())))
+	//to_chat(world, span_boldannounce(time2text(realtime_bypass())))
 	log_world(time2text(realtime_bypass()))
 	
 	// Sort subsystems by init_order, so they initialize in the correct order.

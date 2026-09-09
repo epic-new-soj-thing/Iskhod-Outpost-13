@@ -43,16 +43,16 @@ var/global/realtime
 /proc/realtime_bypass()
 	// for some reason on the Iskhod Outpost 13 server box, world.realtime returns 0 instead of an actual number, this proc is designed to bypass using a system execution command to get the realtime.
 	// all "world.realtime" procs were replaceall'd with "world.realtime_bypass" - MushyP / RpR-DeeJay
-	to_chat(world, span_boldannounce("inproc"))
+	//to_chat(world, span_boldannounce("inproc"))
 	shell("date +%s > byondtime.txt")
 	temptime = text2num(file2text("byondtime.txt"))
-	to_chat(world, span_boldannounce(num2text(temptime)))
+	//to_chat(world, span_boldannounce(num2text(temptime)))
 	shiftedtime = temptime - 946708560
-	to_chat(world, span_boldannounce(num2text(shiftedtime)))
+	//to_chat(world, span_boldannounce(num2text(shiftedtime)))
 	realtime = shiftedtime * 10
-	to_chat(world, span_boldannounce(num2text(realtime)))
-	to_chat(world, span_boldannounce(time2text(realtime)))
-	to_chat(world, span_boldannounce("outproc"))
+	//to_chat(world, span_boldannounce(num2text(realtime)))
+	//to_chat(world, span_boldannounce(time2text(realtime)))
+	//to_chat(world, span_boldannounce("outproc"))
 	return realtime
 
 /proc/generate_gameid()
