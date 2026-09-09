@@ -90,14 +90,14 @@ var/next_station_date_change = 1 DAYS
 	. = text2num(time2text(world.time + (roundstart_hour HOURS), "hh"))
 
 /proc/worlddate2text()
-	return num2text(game_year) + "-" + time2text(world.timeofday, "MM-DD")
+	return num2text(game_year) + "-" + time2text(world.realtime, "MM-DD")
 
 
 /* Returns 1 if it is the selected month and day */
 proc/isDay(var/month, var/day)
 	if(isnum(month) && isnum(day))
-		var/MM = text2num(time2text(world.timeofday, "MM")) // get the current month
-		var/DD = text2num(time2text(world.timeofday, "DD")) // get the current day
+		var/MM = text2num(time2text(world.realtime, "MM")) // get the current month
+		var/DD = text2num(time2text(world.realtime, "DD")) // get the current day
 		if(month == MM && day == DD)
 			return 1
 

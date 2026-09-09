@@ -115,7 +115,7 @@ var/global/Holiday = null
 	if(!Holiday)
 		//Friday the 13th
 		if(DD == 13)
-			if(time2text(world.timeofday, "DDD") == "Fri")
+			if(time2text(world.realtime, "DDD") == "Fri")
 				Holiday = "Friday the 13th"
 
 //Allows GA and GM to set the Holiday variable

@@ -530,7 +530,7 @@ ADMIN_VERB_ADD(/client/proc/DB_import_bans_from_file, R_ADMIN|R_MOD, TRUE)
 			var/DBQuery/select_query = dbcon.NewQuery("SELECT id, time, type, reason, job, duration, expiration_time, target_id, banned_by_id, unbanned, unbanned_by_id, unbanned_time, ip, cid FROM bans WHERE 1 [playersearch] [adminsearch] [ipsearch] [cidsearch] [bantypesearch] ORDER BY time DESC LIMIT 100")
 			select_query.Execute()
 
-			var/now = time2text(world.realtime, "YYYY-MM-DD hh:mm:ss") // MUST BE the same format as SQL gives us the dates in, and MUST be least to most specific (i.e. year, month, day not day, month, year)
+			var/now = addtext(time2text(world.realtime, "YYYY-MM-DD"), " ", time2text(world.timeofday, "hh:mm:ss")) // MUST BE the same format as SQL gives us the dates in, and MUST be least to most specific (i.e. year, month, day not day, month, year)
 
 			while(select_query.NextRow())
 				var/banid = select_query.item[1]

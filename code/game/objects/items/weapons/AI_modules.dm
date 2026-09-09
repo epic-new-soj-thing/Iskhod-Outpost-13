@@ -82,7 +82,7 @@ AI MODULES
 	target.show_laws()
 
 /obj/item/aiModule/proc/log_law_changes(var/mob/living/silicon/ai/target, var/mob/sender)
-	var/time = time2text(world.realtime,"hh:mm:ss")
+	var/time = time2text(world.timeofday,"hh:mm:ss")
 	lawchanges.Add("[time] <B>:</B> [sender.name]([sender.key]) used [src.name] on [target.name]([target.key])")
 	log_and_message_admins("used [src.name] on [target.name]([target.key])")
 

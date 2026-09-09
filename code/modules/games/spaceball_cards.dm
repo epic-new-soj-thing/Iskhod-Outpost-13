@@ -6,7 +6,7 @@
 /obj/item/pack/spaceball/New()
 	var/datum/playingcard/P
 	var/i
-	var/year = 634 + text2num(time2text(world.timeofday, "YYYY"))
+	var/year = 634 + text2num(time2text(world.realtime, "YYYY"))
 	for(i=0;i<5;i++)
 		P = new()
 		if(prob(1))
