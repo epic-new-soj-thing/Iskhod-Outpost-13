@@ -63,7 +63,7 @@ SUBSYSTEM_DEF(vote)
 	vote_start_time = world.time
 
 	for(var/client/C in voters)
-		C << browse(interface(C),"window=vote")
+		C << browse(interface(C),"window=vote;size=500x1000")
 
 	var/text = "[poll.name] vote started by [poll.initiator]."
 	log_vote(text)
@@ -93,8 +93,10 @@ SUBSYSTEM_DEF(vote)
 	var/admin = check_rights(R_ADMIN|R_MOD|R_FUN, FALSE, C)
 
 	voters |= C
-
+	data += "<a href='?src=\ref[src];close=1' style='position:absolute;right:50px'>Close</a>"
 	if(active_vote)
+		if(admin)
+			data += "(<a href='?src=\ref[src];cancel=1'>Cancel Vote</a>) "
 		data += "<h2>Vote: '[active_vote.question]'</h2>"
 		data += "Time Left: [active_vote.time - get_vote_time()] s<br>"
 		data += "Started by: <b>[active_vote.initiator]</b><hr>"
@@ -130,8 +132,7 @@ SUBSYSTEM_DEF(vote)
 			data += "</td><td align = 'center'>[c_votes]</td></tr>"
 
 		data += "</table><hr>"
-		if(admin)
-			data += "(<a href='?src=\ref[src];cancel=1'>Cancel Vote</a>) "
+		
 	else
 		var/any_votes = FALSE
 		data += "<h2>Start a vote:</h2><hr><ul>"
@@ -156,7 +157,6 @@ SUBSYSTEM_DEF(vote)
 			data += "<li><i>There is no available votes here now.</i></li>"
 
 		data += "</ul><hr>"
-	data += "<a href='?src=\ref[src];close=1' style='position:absolute;right:50px'>Close</a>"
 	return HTML_SKELETON_TITLE("Voting Panel", data)
 
 
