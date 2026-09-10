@@ -49,14 +49,14 @@
 /obj/structure/undies_wardrobe/interact(var/mob/living/carbon/human/H)
 	var/id = H.GetIdCard()
 
-	var/dat = list()
+	var/dat = ""
 	dat += "<b>Underwear</b><br><hr>"
 	dat += "You may claim [id ? length(GLOB.underwear.categories) - LAZYACCESS(amount_of_underwear_by_id_card, id) : 0] more article\s this shift.<br><br>"
 	dat += "<b>Available Categories</b><br><hr>"
 	for(var/datum/category_group/underwear/UWC in GLOB.underwear.categories)
 		dat += "[UWC.name] <a href='?src=\ref[src];select_underwear=[UWC.name]'>(Select)</a><br>"
-	dat = jointext(dat,null)
-	show_browser(H, HTML_SKELETON(dat), "window=wardrobe;size=400x250")
+
+	H << browse(HTML_SKELETON(dat), "window=Wardrobe;size=420x420")
 
 /obj/structure/undies_wardrobe/proc/human_who_can_use_underwear(var/mob/living/carbon/human/H)
 	if(!istype(H) || !H.form || !(H.form.appearance_flags & HAS_UNDERWEAR))
