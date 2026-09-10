@@ -68,7 +68,7 @@
 
 	output += "</div>"
 
-	panel = new(src, "Welcome","Welcome", 210, 280, src)
+	panel = new(src, "Welcome","Welcome", 250, 340, src)
 	panel.set_window_options("can_close=0")
 	panel.set_content(output)
 	panel.open()
