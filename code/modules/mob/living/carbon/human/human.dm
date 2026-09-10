@@ -306,16 +306,7 @@ var/list/rank_prefix = list(\
 /mob/living/carbon/human/proc/rank_prefix_name(name)
 	var/prefix = get_id_rank()
 	if(prefix)
-		if(!name || !length(name))
-			return prefix
-		var/list/name_parts = splittext(name, " ")
-		if(name_parts.len <= 1)
-			return prefix
-		name_parts.Cut(1, 2)
-		var/rest_of_name = trim(jointext(name_parts, " "))
-		if(!length(rest_of_name))
-			return prefix
-		return "[prefix] [rest_of_name]"
+		return "[prefix] [name]"
 	return name
 
 
