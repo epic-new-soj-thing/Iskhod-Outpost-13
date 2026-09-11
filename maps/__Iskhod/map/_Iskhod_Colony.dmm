@@ -2989,7 +2989,7 @@
 /area/iskhod/rnd/robotics)
 "aJM" = (
 /obj/machinery/computer/guestpass{
-	pixel_x = 32
+	pixel_x = -32
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/sechall)
