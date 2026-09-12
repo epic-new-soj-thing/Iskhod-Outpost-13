@@ -856,11 +856,14 @@
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
 "aJv" = (
-/obj/structure/sign/department/operational{
-	pixel_y = 32
-	},
-/obj/machinery/light{
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/machinery/door/firedoor/multi_tile,
+/obj/effect/floor_decal/corner/paleblue/border{
 	dir = 1
+	},
+/obj/machinery/door/airlock/glass_medical{
+	name = "Storage";
+	req_one_access = list(5,19,45,63, 64)
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
@@ -954,6 +957,14 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0
+	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
 "aMQ" = (
@@ -1043,7 +1054,7 @@
 	pixel_x = 26
 	},
 /obj/machinery/suit_storage_unit/medical,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "aQh" = (
 /obj/machinery/suit_storage_unit/nt/custodian,
@@ -1202,6 +1213,15 @@
 /obj/machinery/door/airlock/maintenance_medical{
 	name = "Cryogenic Storage";
 	req_access = list(5)
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
@@ -1893,7 +1913,9 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
 "buI" = (
-/obj/structure/closet/lasertag/yellow,
+/obj/structure/bed/chair/office{
+	dir = 4
+	},
 /turf/simulated/floor/wood/wild1,
 /area/space)
 "buS" = (
@@ -1955,7 +1977,7 @@
 /area/space)
 "bwi" = (
 /obj/machinery/body_scanconsole,
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "bwm" = (
 /obj/structure/table/marble,
@@ -2318,7 +2340,7 @@
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "bIp" = (
 /obj/structure/sign/warning/nosmoking/small{
@@ -3133,6 +3155,15 @@
 	name = "Medical Front Desk Shutters";
 	id = "medbay_front_shutters"
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "cnD" = (
@@ -3366,14 +3397,14 @@
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "czh" = (
-/obj/structure/curtain/medical,
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /obj/item/device/radio/intercom{
 	dir = 1;
 	pixel_y = -26
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/obj/structure/curtain/open/privacy,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "czo" = (
 /obj/structure/window/reinforced/iskhod{
@@ -4315,10 +4346,13 @@
 /obj/item/roller/compact,
 /obj/item/roller/compact,
 /obj/structure/table/rack/shelf,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "djA" = (
 /obj/structure/medical_stand/anesthetic,
+/obj/structure/closet/wall_mounted{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "djG" = (
@@ -4656,6 +4690,10 @@
 /area/space)
 "dtn" = (
 /obj/machinery/papershredder,
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -26
+	},
 /turf/simulated/floor/wood,
 /area/space)
 "dtu" = (
@@ -4747,17 +4785,22 @@
 /area/space)
 "dws" = (
 /obj/machinery/light,
-/obj/structure/closet/lasertag/blue,
+/obj/structure/closet/secure_closet/personal,
 /turf/simulated/floor/wood/wild1,
 /area/space)
 "dwu" = (
-/obj/machinery/atmospherics/unary/vent_pump{
-	dir = 4
+/obj/effect/window_lwall_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 8
 	},
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "dwB" = (
 /obj/effect/floor_decal/industrial/road/warning2,
@@ -5214,7 +5257,7 @@
 "dKZ" = (
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "dLg" = (
 /obj/structure/sign/department/bar,
@@ -5293,13 +5336,13 @@
 /turf/simulated/floor/wood/wild3,
 /area/space)
 "dMB" = (
-/obj/structure/curtain/medical,
 /obj/structure/bed,
 /obj/structure/window/basic/iskhod{
 	dir = 8
 	},
 /obj/item/bedsheet/medical,
-/turf/simulated/floor/tiled/dark/techfloor,
+/obj/structure/curtain/open/privacy,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "dNh" = (
 /obj/structure/coatrack,
@@ -7421,7 +7464,7 @@
 /obj/structure/window/basic/iskhod{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "fnD" = (
 /obj/structure/sign/faction/neotheology_cross/gold{
@@ -7520,7 +7563,7 @@
 /obj/machinery/sleeper{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "frI" = (
 /obj/structure/window/reinforced/iskhod{
@@ -7575,7 +7618,7 @@
 /obj/effect/floor_decal/industrial/loading{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "fsX" = (
 /obj/structure/bed/chair/shuttle{
@@ -9086,12 +9129,11 @@
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "gvt" = (
-/obj/machinery/alarm{
-	dir = 8;
-	pixel_x = 28
-	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/structure/closet/wall_mounted{
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
@@ -9663,14 +9705,11 @@
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/space)
 "gPZ" = (
-/obj/machinery/atmospherics/unary/vent_pump{
-	dir = 8
-	},
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 28
 	},
-/turf/simulated/floor/wood/wild3,
+/turf/simulated/floor/asteroid/grass,
 /area/space)
 "gQJ" = (
 /obj/structure/sign/levels/deck2,
@@ -10062,6 +10101,15 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
+	},
 /turf/simulated/floor/industrial/fixed,
 /area/space)
 "heI" = (
@@ -10147,6 +10195,15 @@
 "hhF" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
+	},
 /turf/simulated/floor/industrial/fixed,
 /area/space)
 "hie" = (
@@ -10858,6 +10915,15 @@
 	req_one_access = list(5,45,64);
 	name = "front desk"
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "hKx" = (
@@ -10873,7 +10939,7 @@
 /area/space)
 "hLc" = (
 /obj/effect/floor_decal/industrial/loading,
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "hLf" = (
 /obj/effect/floor_decal/industrial/warningred,
@@ -12425,7 +12491,7 @@
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "iSg" = (
 /turf/simulated/floor/rock/dark,
@@ -12708,9 +12774,6 @@
 	dir = 2
 	},
 /obj/item/soap,
-/obj/effect/floor_decal/corner_techfloor_grid{
-	dir = 5
-	},
 /obj/structure/window/basic/iskhod{
 	dir = 4
 	},
@@ -12720,6 +12783,9 @@
 	},
 /obj/machinery/shower{
 	pixel_y = 16
+	},
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
@@ -13532,9 +13598,17 @@
 /turf/simulated/floor/wood/wild3,
 /area/space)
 "jFx" = (
-/obj/machinery/hologram/holopad,
-/obj/landmark/join/start/nurse,
-/turf/simulated/floor/tiled/white/cargo,
+/obj/effect/window_lwall_spawn/reinforced/polarized,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "jFz" = (
 /obj/structure/table/gamblingtable,
@@ -14168,6 +14242,15 @@
 	name = "Medical Front Desk Shutters";
 	id = "medbay_front_shutters"
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "kbR" = (
@@ -14183,10 +14266,18 @@
 /turf/simulated/floor/wood/wild3,
 /area/space)
 "kcD" = (
-/obj/item/modular_computer/telescreen/preset/medical{
-	pixel_y = -32
+/obj/effect/window_lwall_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
 	},
-/turf/simulated/floor/tiled/white/cyancorner,
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "kcU" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -14393,12 +14484,6 @@
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
-"kil" = (
-/obj/item/modular_computer/telescreen/preset/medical{
-	pixel_x = 32
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
-/area/space)
 "kio" = (
 /obj/machinery/camera/network/medbay{
 	dir = 1
@@ -14572,6 +14657,15 @@
 	id = "medbay_front_shutters"
 	},
 /obj/item/device/eftpos/medical,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "kme" = (
@@ -15398,6 +15492,15 @@
 	req_access = newlist();
 	req_one_access = list(5,19,45,63, 64)
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
 "kRE" = (
@@ -15436,11 +15539,15 @@
 /turf/simulated/floor/fixed/hydrotile,
 /area/space)
 "kTk" = (
-/obj/structure/closet/secure_closet/personal/patient,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white/techfloor,
+/obj/structure/closet/wardrobe/misc/pjs,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "kTv" = (
 /obj/structure/table/rack,
@@ -16237,6 +16344,14 @@
 	name = "Medical Lobby";
 	req_one_access = list(5,19,45,63, 64);
 	id_tag = "medbay_door"
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
@@ -17338,10 +17453,12 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/space)
 "mfm" = (
-/obj/structure/closet/secure_closet/personal,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -28
+	},
+/obj/structure/bed/chair/office{
+	dir = 8
 	},
 /turf/simulated/floor/wood/wild1,
 /area/space)
@@ -17799,7 +17916,7 @@
 /obj/structure/window/basic/iskhod{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "mvG" = (
 /obj/structure/sign/levels/deck3,
@@ -17935,15 +18052,18 @@
 /turf/simulated/floor/tiled/dark/panels,
 /area/space)
 "mzV" = (
-/obj/structure/medical_stand/anesthetic,
-/obj/machinery/computer/operating{
+/obj/effect/window_lwall_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
 	density = 0;
-	pixel_y = 30
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
 	},
-/obj/structure/closet/wall_mounted{
-	pixel_x = 32
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
+/turf/simulated/floor/plating/under,
 /area/space)
 "mAn" = (
 /obj/structure/closet/jcloset,
@@ -20142,7 +20262,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "okp" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
@@ -20594,6 +20714,11 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/iskhod/right{
 	req_one_access = list(5,45,64)
+	},
+/obj/machinery/door/blast/shutters{
+	dir = 2;
+	id = "chemistry_shutters";
+	name = "Chemistry Shutters"
 	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
@@ -21486,7 +21611,7 @@
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "phP" = (
 /obj/structure/crematorium,
@@ -21506,11 +21631,16 @@
 	req_access = newlist();
 	req_one_access = list(5,19,45,63, 64)
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/techfloor,
-/area/space)
-"pio" = (
-/obj/structure/closet/lasertag/red,
-/turf/simulated/floor/wood/wild1,
 /area/space)
 "piX" = (
 /obj/machinery/atmospherics/omni/filter{
@@ -21635,14 +21765,8 @@
 /turf/simulated/floor/plating/under,
 /area/space)
 "pnn" = (
-/obj/machinery/camera/network/medbay{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/box/white,
-/obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
+/obj/machinery/atmospherics/unary/vent_pump,
+/turf/simulated/floor/industrial/ceramic,
 /area/space)
 "pnE" = (
 /obj/machinery/door/firedoor/multi_tile,
@@ -21821,12 +21945,18 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/space)
 "ptB" = (
-/obj/machinery/light,
-/obj/item/device/radio/intercom{
-	dir = 1;
-	pixel_y = -26
+/obj/effect/window_lwall_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
 	},
-/turf/simulated/floor/tiled/white/cyancorner,
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "ptG" = (
 /obj/machinery/vending/dinnerware,
@@ -22015,6 +22145,9 @@
 	pixel_x = -28;
 	pixel_y = 5
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "pBM" = (
@@ -22187,6 +22320,15 @@
 	req_one_access = list(5,19,45,63, 64)
 	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "pHN" = (
@@ -22955,7 +23097,6 @@
 /turf/simulated/floor/greengrid,
 /area/space)
 "qhU" = (
-/obj/structure/curtain/medical,
 /obj/structure/bed,
 /obj/structure/window/basic/iskhod{
 	dir = 8
@@ -22965,7 +23106,8 @@
 	dir = 1;
 	pixel_y = -28
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/obj/structure/curtain/open/privacy,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "qif" = (
 /obj/structure/sign/faction/neotheology_cross/gold{
@@ -23354,21 +23496,20 @@
 /turf/simulated/floor/industrial/cafe_large,
 /area/space)
 "quZ" = (
-/obj/structure/closet/lasertag/green,
-/turf/simulated/floor/wood/wild1,
+/obj/item/modular_computer/telescreen/preset/medical{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "qvt" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border,
-/obj/effect/floor_decal/corner/paleblue/border{
-	dir = 1
+/obj/structure/flora/pottedplant/minitree,
+/obj/machinery/button/remote/blast_door{
+	id = "MedbayTotalLockdown";
+	name = "Medbay Total Lockdown Control";
+	pixel_y = 25
 	},
-/obj/machinery/door/airlock/glass_medical{
-	id_tag = "medbay_exit";
-	name = "Medbay";
-	req_access = newlist();
-	req_one_access = list(5,19,45,63, 64)
-	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/wood,
 /area/space)
 "qvB" = (
 /obj/structure/flora/tree/snow/four,
@@ -24849,6 +24990,14 @@
 	name = "Cryogenic Storage";
 	req_access = list(5)
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "rtz" = (
@@ -24934,7 +25083,7 @@
 "rvm" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/hatch/blue,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "rvs" = (
 /obj/structure/shuttle_part/science{
@@ -25066,7 +25215,7 @@
 /obj/structure/window/basic/iskhod{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "rzr" = (
 /obj/machinery/door/firedoor,
@@ -25150,6 +25299,9 @@
 	pixel_x = 32
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/atmospherics/unary/vent_pump{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "rBQ" = (
@@ -25840,8 +25992,12 @@
 /turf/simulated/floor/industrial/white_large_slates,
 /area/space)
 "sdH" = (
-/obj/structure/closet/secure_closet/personal/patient,
-/turf/simulated/floor/tiled/white/techfloor,
+/obj/structure/closet/wardrobe/misc/pjs,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "sej" = (
 /obj/machinery/door/airlock/maintenance_medical{
@@ -25851,6 +26007,15 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/industrial/fixed,
 /area/space)
 "seq" = (
@@ -26142,18 +26307,23 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "srz" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border,
-/obj/effect/floor_decal/corner/paleblue/border{
-	dir = 1
+/obj/effect/window_lwall_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	dir = 2;
+	id = "chemistry_shutters";
+	name = "Chemistry Shutters"
 	},
-/obj/machinery/door/firedoor/multi_tile,
-/obj/machinery/door/airlock/glass_medical{
-	id_tag = "medbay_exit";
-	name = "Medbay";
-	req_access = newlist();
-	req_one_access = list(5,19,45,63, 64)
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
 	},
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "srH" = (
 /obj/machinery/hologram/holopad,
@@ -26200,6 +26370,15 @@
 /obj/machinery/door/airlock/glass_medical{
 	name = "Front Desk";
 	req_access = list(5)
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -26344,7 +26523,7 @@
 /area/space)
 "syr" = (
 /obj/machinery/bodyscanner,
-/turf/simulated/floor/tiled/dark/techfloor,
+/turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "syV" = (
 /obj/machinery/atmospherics/omni/filter{
@@ -26435,6 +26614,15 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 4
+	},
 /turf/simulated/floor/industrial/green_large_slates,
 /area/space)
 "sEn" = (
@@ -28188,9 +28376,6 @@
 	dir = 2
 	},
 /obj/item/soap,
-/obj/effect/floor_decal/corner_techfloor_grid{
-	dir = 5
-	},
 /obj/structure/window/basic/iskhod{
 	dir = 8
 	},
@@ -28200,6 +28385,9 @@
 	},
 /obj/machinery/shower{
 	pixel_y = 16
+	},
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
@@ -30062,12 +30250,11 @@
 	},
 /area/space)
 "uZu" = (
-/obj/machinery/atmospherics/unary/vent_scrubber{
-	dir = 8
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -26
 	},
-/obj/structure/bed/chair/office{
-	dir = 1
-	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "uZz" = (
@@ -30216,8 +30403,15 @@
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "vfu" = (
-/obj/landmark/join/start/doctor,
-/turf/simulated/floor/tiled/white/cargo,
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/effect/floor_decal/corner/paleblue/border{
+	dir = 1
+	},
+/obj/machinery/door/airlock/glass_medical{
+	name = "Storage";
+	req_one_access = list(5,19,45,63, 64)
+	},
+/turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "vfK" = (
 /obj/structure/table/steel_reinforced,
@@ -30940,6 +31134,9 @@
 /obj/machinery/photocopier/faxmachine{
 	department = "Medbay Lobby"
 	},
+/obj/machinery/atmospherics/unary/vent_pump{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/space)
 "vDt" = (
@@ -30972,9 +31169,13 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/space)
 "vEG" = (
-/obj/structure/closet/secure_closet/personal/patient,
 /obj/machinery/camera/network/medbay,
-/turf/simulated/floor/tiled/white/techfloor,
+/obj/structure/closet/wardrobe/misc/pjs,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/obj/item/clothing/under/medigown,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "vFc" = (
 /obj/structure/table/reinforced,
@@ -31122,6 +31323,15 @@
 	name = "Chemistry Lab";
 	req_one_access = list(33,68)
 	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "MedbayTotalLockdown";
+	layer = 2.6;
+	name = "Medbay Total Lockdown";
+	opacity = 0;
+	dir = 2
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "vMc" = (
@@ -31180,13 +31390,16 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/structure/closet/wall_mounted{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "vNe" = (
-/obj/structure/closet/wall_mounted/emcloset{
-	pixel_x = -32
+/obj/machinery/vending/wallmed/lobby{
+	pixel_x = -30
 	},
-/obj/effect/floor_decal/industrial/hatch/blue,
+/obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "vNn" = (
@@ -31593,7 +31806,7 @@
 /area/space)
 "wdl" = (
 /obj/machinery/suit_storage_unit/medical,
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "wdn" = (
 /obj/machinery/door/firedoor,
@@ -31660,10 +31873,8 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/space)
 "weB" = (
-/obj/machinery/atmospherics/unary/vent_scrubber{
-	dir = 8
-	},
-/turf/simulated/floor/wood/wild3,
+/obj/machinery/atmospherics/unary/vent_scrubber,
+/turf/simulated/floor/industrial/ceramic,
 /area/space)
 "weM" = (
 /obj/structure/table/rack,
@@ -32060,11 +32271,11 @@
 /turf/simulated/floor/industrial/white_large_slates,
 /area/space)
 "wuy" = (
-/obj/effect/floor_decal/spline/wood{
-	dir = 6;
-	layer = 2.5
+/obj/structure/closet/wall_mounted/emcloset{
+	pixel_y = -32
 	},
-/turf/simulated/floor/industrial/white_large_slates,
+/obj/effect/floor_decal/industrial/hatch/blue,
+/turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
 "wuN" = (
 /obj/machinery/door/firedoor,
@@ -33269,15 +33480,6 @@
 	icon_state = "9,14"
 	},
 /area/space)
-"xjd" = (
-/obj/machinery/atmospherics/unary/vent_pump{
-	dir = 8
-	},
-/obj/structure/bed/chair{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
-/area/space)
 "xje" = (
 /obj/structure/boulder,
 /turf/simulated/floor/plating/under,
@@ -33658,13 +33860,6 @@
 /obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
-"xws" = (
-/obj/machinery/light,
-/obj/item/modular_computer/telescreen/preset/medical{
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/white/cyancorner,
-/area/space)
 "xwv" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "11,1";
@@ -33931,10 +34126,10 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
 "xGp" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_border,
-/obj/effect/floor_decal/corner/paleblue/border,
-/obj/machinery/light/floor,
-/turf/simulated/floor/tiled/dark/techfloor,
+/obj/structure/sign/department/operational{
+	name = "OPERATING ROOMS"
+	},
+/turf/simulated/wall/r_wall/iskhod_blue,
 /area/space)
 "xGt" = (
 /obj/structure/table/rack/shelf,
@@ -34112,7 +34307,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/white/techfloor,
+/turf/simulated/floor/tiled/white/panels,
 /area/space)
 "xMj" = (
 /turf/simulated/shuttle/wall/mining{
@@ -34441,9 +34636,6 @@
 /obj/machinery/computer/operating{
 	density = 0;
 	pixel_y = 30
-	},
-/obj/structure/closet/wall_mounted{
-	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/space)
@@ -50345,7 +50537,7 @@ vZv
 paE
 nCl
 tPo
-wuy
+wEE
 gvB
 nCl
 arM
@@ -90155,7 +90347,7 @@ mgI
 mgI
 mgI
 nCl
-cQu
+wNH
 fLc
 cQu
 nCl
@@ -90357,9 +90549,9 @@ mgI
 mgI
 fFz
 nCl
+wNH
 cQu
 msB
-cQu
 nCl
 vKf
 vKf
@@ -90559,7 +90751,7 @@ mgI
 mgI
 rpl
 nCl
-cQu
+wNH
 cQu
 cQu
 nCl
@@ -90761,9 +90953,9 @@ nCl
 nCl
 nCl
 nCl
-ddX
-ddX
-ddX
+wNH
+wNH
+pnn
 nCl
 nZS
 nZS
@@ -90964,7 +91156,7 @@ nCl
 nCl
 nCl
 gPZ
-ddX
+wNH
 weB
 nCl
 nZS
@@ -91548,7 +91740,7 @@ rRu
 gux
 oaF
 xuT
-quZ
+dBZ
 gux
 nlR
 bAh
@@ -91750,7 +91942,7 @@ rRu
 gux
 sto
 xuT
-pio
+xuT
 gux
 fgc
 bAh
@@ -92154,7 +92346,7 @@ rRu
 abf
 xuT
 xuT
-dBZ
+pxs
 gux
 eoU
 bxc
@@ -92558,7 +92750,7 @@ rRu
 mSQ
 xuT
 xuT
-dBZ
+xuT
 gux
 oZf
 mWf
@@ -94202,9 +94394,9 @@ nRV
 lHP
 vLN
 lHP
-fhe
-fhe
-fhe
+srz
+srz
+srz
 lHP
 vDg
 vDg
@@ -94396,10 +94588,10 @@ ojH
 wLt
 lHP
 xbU
-lBg
+trB
 trB
 jPC
-cFx
+trB
 trB
 sBG
 trB
@@ -94998,11 +95190,11 @@ vKf
 nZS
 nZS
 nZS
-xGp
-trB
+jCp
+vNe
 bKw
 trB
-pnn
+wDF
 trB
 trB
 iXe
@@ -95604,9 +95796,9 @@ vKf
 nZS
 nZS
 nZS
-xGp
+jCp
 pxt
-xjd
+feo
 feo
 feo
 rBJ
@@ -95808,9 +96000,9 @@ nZS
 nZS
 pQs
 lHP
-vct
-vct
-vct
+ptB
+ptB
+ptB
 lHP
 lHP
 aMG
@@ -96008,7 +96200,7 @@ vKf
 nZS
 nZS
 nZS
-vct
+dwu
 okk
 trB
 jmg
@@ -96210,7 +96402,7 @@ vKf
 nZS
 nZS
 nZS
-vct
+dwu
 rvm
 nRe
 trB
@@ -96412,7 +96604,7 @@ vKf
 nZS
 nZS
 nZS
-vct
+dwu
 aPJ
 olH
 trB
@@ -96420,7 +96612,7 @@ trB
 dja
 wvc
 trB
-kcD
+trB
 lHP
 vEG
 tEV
@@ -96437,7 +96629,7 @@ lHP
 aEg
 udh
 bBP
-aEg
+qdx
 lHP
 arM
 arM
@@ -96630,7 +96822,7 @@ gdN
 gdN
 lHP
 lHP
-nWW
+qvt
 udh
 emm
 udh
@@ -96816,13 +97008,13 @@ vKf
 nZS
 nZS
 nZS
-vct
+dwu
 bHX
 nUn
 trB
 trB
 wDF
-vNe
+trB
 trB
 trB
 lqe
@@ -97018,7 +97210,7 @@ vKf
 nZS
 nZS
 nZS
-vct
+dwu
 bHX
 trB
 fnt
@@ -97233,8 +97425,8 @@ lHP
 kZk
 syr
 hLc
-xws
-lHP
+trB
+quZ
 lHP
 frL
 aEg
@@ -97426,7 +97618,7 @@ lHP
 lHP
 hgx
 bwi
-oHn
+tFr
 trB
 lHP
 fqO
@@ -97434,9 +97626,9 @@ fqO
 lHP
 hgx
 bwi
-oHn
-cYy
-lHP
+tFr
+trB
+wuy
 lHP
 lHP
 lHP
@@ -97628,7 +97820,7 @@ pic
 wDF
 trB
 tFr
-jFx
+wjf
 trB
 qzp
 mpK
@@ -97638,8 +97830,8 @@ trB
 wjf
 tFr
 trB
-srz
 trB
+aJv
 trB
 trB
 trB
@@ -97838,10 +98030,10 @@ xVL
 trB
 trB
 tFr
+tFr
+trB
+trB
 vfu
-trB
-qvt
-trB
 trB
 trB
 rtz
@@ -98041,8 +98233,8 @@ lHP
 hgx
 fsV
 fsV
+trB
 cYy
-lHP
 lHP
 gEY
 trB
@@ -98243,8 +98435,8 @@ lHP
 kZk
 frE
 frE
-ptB
-lHP
+trB
+uZu
 lHP
 ska
 trB
@@ -98432,7 +98624,7 @@ ddX
 nZS
 nZS
 nZS
-vct
+dwu
 wdl
 trB
 muU
@@ -98634,7 +98826,7 @@ gux
 nZS
 nZS
 nZS
-vct
+dwu
 dKZ
 aRb
 trB
@@ -98643,7 +98835,7 @@ sIf
 trB
 trB
 trB
-kil
+trB
 trB
 trB
 trB
@@ -98845,7 +99037,7 @@ lHP
 lHP
 lHP
 yaN
-lHP
+xGp
 lHP
 lxG
 dgC
@@ -99252,7 +99444,7 @@ cFx
 cyo
 aWK
 trB
-dwu
+bKj
 lHP
 vKf
 vKf
@@ -99654,8 +99846,8 @@ hgx
 trB
 jPC
 gaz
-yeW
-aJv
+lHP
+jXL
 uXT
 lHP
 vKf
@@ -100060,7 +100252,7 @@ lBg
 nsR
 aWK
 trB
-uZu
+bKj
 lHP
 vKf
 vKf
@@ -100256,9 +100448,9 @@ sFK
 fRH
 aQj
 lHP
-mzV
+yab
 gvt
-trB
+sIf
 trB
 nxU
 trB
@@ -135199,8 +135391,8 @@ nZS
 nZS
 lHP
 lHP
-oxJ
-oxJ
+mzV
+mzV
 lHP
 lHP
 lHP
@@ -136409,7 +136601,7 @@ aNK
 nZS
 nZS
 nZS
-xEm
+jFx
 jck
 nzl
 bbB
@@ -136813,7 +137005,7 @@ aNK
 nZS
 nZS
 nZS
-xEm
+jFx
 lsE
 qui
 eAO
@@ -137217,7 +137409,7 @@ cGh
 nZS
 nZS
 nZS
-vct
+kcD
 aHN
 aHN
 aHN
@@ -137419,7 +137611,7 @@ cGh
 nZS
 nZS
 nZS
-vct
+kcD
 aHN
 aHN
 aHN
@@ -138025,7 +138217,7 @@ aNE
 nZS
 nZS
 nZS
-vct
+kcD
 hCz
 aHN
 aHN
@@ -138227,7 +138419,7 @@ nZS
 nZS
 nZS
 nZS
-vct
+kcD
 hCz
 aHN
 aHN
@@ -138833,7 +139025,7 @@ iWg
 aHN
 feB
 nZS
-vct
+kcD
 aHN
 aHN
 aHN
@@ -139035,7 +139227,7 @@ nZS
 uWf
 nZS
 nZS
-vct
+kcD
 aHN
 aHN
 aHN
@@ -141056,9 +141248,9 @@ sgC
 uPr
 vgu
 lHP
-vgu
-vgu
-vgu
+lHP
+lHP
+lHP
 lHP
 lHP
 lHP
