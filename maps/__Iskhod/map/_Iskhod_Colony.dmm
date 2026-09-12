@@ -26877,9 +26877,9 @@
 /obj/machinery/atmospherics/omni/mixer{
 	active_power_usage = 7500;
 	tag_south = 1;
-	tag_south_con = 0.79;
+	tag_south_con = 0.21;
 	tag_west = 1;
-	tag_west_con = 0.21;
+	tag_west_con = 0.79;
 	tag_north = 2
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
@@ -36020,9 +36020,6 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/cargo/locker)
 "iJS" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 9
-	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/atmos)
 "iKb" = (
@@ -52778,6 +52775,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/atmos)
 "mPD" = (
@@ -70867,7 +70865,6 @@
 /turf/simulated/floor/rock/dark,
 /area/iskhod/outside/scave)
 "rlh" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/valve/digital{
 	dir = 1;
 	name = "Gas Mix Inlet Valve"
@@ -113017,8 +113014,8 @@ paa
 pTH
 fxW
 rOz
-cML
 iJS
+pbF
 rni
 rOz
 fxW
@@ -113219,8 +113216,8 @@ paa
 eNv
 ild
 pkb
+jdm
 gxY
-kOk
 uTd
 siF
 uTd
