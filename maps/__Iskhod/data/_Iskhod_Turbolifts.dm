@@ -312,4 +312,4 @@
 
 
 /datum/turbolift
-	music = list('sound/music/elevatormusic.ogg')  // Woo elevator music!
+	music = list('sound/music/elevatormusic2.mp3')  // Woo elevator music part 2!
