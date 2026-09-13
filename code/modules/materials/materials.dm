@@ -711,7 +711,7 @@ var/list/name_to_material
 	name = MATERIAL_COMPRESSED_MATTER
 	stack_type = /obj/item/stack/material/compressed_matter
 	icon_colour = "#00E1FF"
-	sheet_singular_name = "cartrigde"
+	sheet_singular_name = "cartridge"
 	sheet_plural_name = "cartridges"
 
 //TODO PLACEHOLDERS:
@@ -843,5 +843,5 @@ var/list/name_to_material
 	stack_origin_tech = list(TECH_MATERIAL = 2)
 	weight = 30
 	icon_colour = "B7410E"
-	sheet_singular_name = "pieces"
+	sheet_singular_name = "piece"
 	sheet_plural_name = "pieces"
