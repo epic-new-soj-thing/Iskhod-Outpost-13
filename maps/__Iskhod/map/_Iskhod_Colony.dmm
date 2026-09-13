@@ -29429,7 +29429,7 @@
 /turf/simulated/floor/greengrid/airless,
 /area/iskhod/command/tcommsat/chamber)
 "hgv" = (
-/turf/simulated/floor/industrial/navy_slates,
+/turf/simulated/shuttle/floor/mining,
 /area/turbolift/mountain/colony)
 "hgD" = (
 /obj/effect/floor_decal/industrial/warningred,
@@ -53583,7 +53583,9 @@
 	lift_size_x = 2;
 	lift_size_y = 3
 	},
-/turf/simulated/floor/industrial/navy_large_slates,
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "8,23"
+	},
 /area/turbolift/mountain/colony)
 "naC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
@@ -57813,7 +57815,9 @@
 /turf/simulated/floor/rock/manmade/asphalt,
 /area/iskhod/outside/inside_colony)
 "nYF" = (
-/turf/simulated/floor/industrial/navy_large_slates,
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "8,23"
+	},
 /area/turbolift/mountain/colony)
 "nYM" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
@@ -159470,9 +159474,9 @@ pAy
 tnk
 tnk
 kCi
-axX
 rnQ
 tXp
+wMA
 wMA
 tXp
 qnf
@@ -159672,8 +159676,8 @@ pAy
 tnk
 tnk
 kCi
-axX
 wsA
+hgv
 hgv
 hgv
 hgv
@@ -159874,8 +159878,8 @@ iId
 kCi
 kCi
 kCi
-axX
 wsA
+hgv
 hgv
 hgv
 hgv
@@ -160075,9 +160079,9 @@ hMR
 iId
 nKb
 nKb
-nKb
-axX
+kCi
 wsA
+hgv
 hgv
 hgv
 hgv
@@ -160277,10 +160281,10 @@ iId
 nKb
 nKb
 nKb
-nKb
-axX
+kCi
 vkr
 tXp
+xiC
 xiC
 tXp
 sfC
@@ -160479,7 +160483,7 @@ iId
 nKb
 iFe
 iFe
-iFe
+kCi
 axX
 axX
 axX
