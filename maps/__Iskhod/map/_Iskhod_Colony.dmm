@@ -39478,6 +39478,7 @@
 /obj/item/rig_module/vision/meson,
 /obj/item/rig/techno/equipped,
 /obj/item/rig/techno/equipped,
+/obj/item/rig_module/cargo_clamp,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/techstorage)
 "jBo" = (
