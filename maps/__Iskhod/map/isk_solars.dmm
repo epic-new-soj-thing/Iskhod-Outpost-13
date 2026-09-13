@@ -60,6 +60,9 @@
 /obj/structure/closet/firecloset,
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/engineering/solars_control)
 "cd" = (
@@ -99,7 +102,7 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "dr" = (
-/turf/simulated/floor/industrial/navy_large_slates,
+/turf/simulated/shuttle/floor/mining,
 /area/turbolift/mountain/solars)
 "dz" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -156,11 +159,15 @@
 /area/iskhod/engineering/solars_control)
 "fN" = (
 /obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/bed/chair,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "fO" = (
@@ -234,30 +241,32 @@
 	},
 /area/iskhod/engineering/solars)
 "hn" = (
-/obj/machinery/power/apc,
-/turf/simulated/wall/iskhod_green,
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "hw" = (
 /obj/structure/cable{
 	dir = 1
 	},
 /obj/structure/catwalk,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars_control)
 "hM" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable,
-/obj/machinery/power/solar_control{
-	dir = 1
-	},
-/obj/item/paper/solarsteup{
-	name = "paper- 'Message from Tacitus, ex-Guild grand master.'"
-	},
-/turf/simulated/floor/carpet/oracarpet,
+/obj/machinery/space_heater,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/engineering/solars_control)
 "iP" = (
 /obj/machinery/atmospherics/binary/pump/high_power/on{
@@ -272,6 +281,15 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/solars_control)
+"jU" = (
+/obj/machinery/power/solar_control,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "kj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -478,6 +496,9 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
+/obj/item/paper/solarsteup{
+	name = "paper- 'Message from Tacitus, ex-Guild grand master.'"
+	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "sB" = (
@@ -723,8 +744,9 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/engineering/solars_control)
 "Dg" = (
-/turf/simulated/floor/industrial/navy_slates,
-/area/turbolift/mountain/solars)
+/obj/effect/window_lwall_spawn/reinforced,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/engineering/solars_control)
 "DA" = (
 /obj/structure/flora/tree/snow/snow,
 /turf/simulated/floor/snow/smooth{
@@ -886,6 +908,10 @@
 /obj/item/storage/box/donkpockets,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/oracarpet,
+/area/iskhod/engineering/solars_control)
+"KQ" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/danger,
 /area/iskhod/engineering/solars_control)
 "KZ" = (
 /turf/simulated/floor/tiled/dark/danger,
@@ -3574,8 +3600,8 @@ oj
 Ay
 Ay
 Ay
-Ay
-Ay
+Dg
+Dg
 Ay
 Ay
 Ay
@@ -3587,7 +3613,7 @@ LJ
 kv
 Ay
 KZ
-KZ
+KQ
 Ay
 of
 of
@@ -3674,9 +3700,9 @@ oj
 oj
 pZ
 Ay
-Ay
 nz
 lT
+Wv
 Wv
 lT
 ZL
@@ -3776,10 +3802,10 @@ oj
 oj
 oj
 Ay
-Ay
 Kx
-Dg
-Dg
+dr
+dr
+dr
 dr
 nh
 ad
@@ -3878,10 +3904,10 @@ oj
 ve
 oj
 Ay
-Ay
 Kx
-Dg
-Dg
+dr
+dr
+dr
 dr
 nh
 ad
@@ -3893,7 +3919,7 @@ LJ
 kv
 Ay
 BN
-BN
+hM
 Ay
 of
 of
@@ -3980,10 +4006,10 @@ oj
 oj
 oj
 Ay
-Ay
 Kx
-Dg
-Dg
+dr
+dr
+dr
 dr
 nh
 ad
@@ -4082,9 +4108,9 @@ pZ
 oj
 oj
 Ay
-Ay
 QF
 lT
+mo
 mo
 lT
 kV
@@ -4186,8 +4212,8 @@ oj
 Ay
 Ay
 Ay
-Ay
-Ay
+Dg
+Dg
 Ay
 Ay
 Ay
@@ -4397,7 +4423,7 @@ oj
 Ay
 fD
 CD
-CD
+GQ
 CD
 AH
 DO
@@ -4707,8 +4733,8 @@ Ay
 RR
 Pc
 CD
-ux
-ux
+jU
+hn
 YU
 wz
 oj
@@ -4811,7 +4837,7 @@ Ht
 jz
 DG
 fN
-hM
+DG
 eV
 LN
 LN
@@ -5009,7 +5035,7 @@ oj
 oj
 ve
 oj
-hn
+Ay
 hw
 Jk
 CD
@@ -5324,7 +5350,7 @@ CD
 CD
 Ay
 BN
-BN
+hM
 Ay
 of
 of
@@ -5630,7 +5656,7 @@ CD
 CD
 Ay
 KZ
-KZ
+KQ
 Ay
 of
 of
