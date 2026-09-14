@@ -2365,6 +2365,17 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/sechall)
+"aBW" = (
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 5
+	},
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/obj/item/soap,
+/obj/structure/invislightsmall,
+/turf/simulated/floor/tiled/white/techfloor_grid,
+/area/colony)
 "aCa" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -3969,15 +3980,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/golden,
 /area/iskhod/absolutism/office)
-"aVh" = (
-/obj/structure/invislightsmall,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/colony)
 "aVj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
@@ -5571,6 +5573,15 @@
 	},
 /turf/simulated/shuttle/floor/mining,
 /area/shuttle/rocinante_shuttle_area)
+"bph" = (
+/obj/structure/invislightsmall,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/colony)
 "bpl" = (
 /mob/living/simple/hostile/shantak,
 /turf/simulated/floor/snow/smooth{
@@ -6143,6 +6154,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/service/changing_room)
+"bvX" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/air_blocker,
+/turf/simulated/floor/tiled/dark/techfloor,
+/area/iskhod/pros/shop)
 "bwm" = (
 /obj/structure/window/basic/iskhod{
 	dir = 4
@@ -9358,12 +9379,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/surgery)
-"cky" = (
-/obj/effect/floor_decal/spline/wood{
-	dir = 1
-	},
-/turf/simulated/floor/carpet/purcarpet,
-/area/colony)
 "ckz" = (
 /obj/structure/closet/secure_closet/personal/engineering_personal,
 /obj/machinery/light{
@@ -10151,11 +10166,11 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/iskhod/security/maingate)
 "ctk" = (
-/obj/structure/closet/wall_mounted/firecloset{
-	pixel_y = -32
+/obj/structure/bonfire/permanent,
+/obj/machinery/door/blast/shutters/glass{
+	name = "Fireplace Cover"
 	},
-/obj/effect/floor_decal/industrial/hatch/red,
-/turf/simulated/floor/wood/wild3,
+/turf/simulated/floor/rock,
 /area/colony)
 "ctz" = (
 /obj/structure/table/steel,
@@ -12487,17 +12502,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/iskhod/quartermaster/office)
-"cZy" = (
-/obj/effect/floor_decal/floordetail/edgedrain{
-	dir = 5
-	},
-/obj/machinery/shower{
-	pixel_y = 16
-	},
-/obj/item/soap,
-/obj/structure/invislightsmall,
-/turf/simulated/floor/tiled/white/techfloor_grid,
-/area/colony)
 "cZB" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
@@ -12976,19 +12980,6 @@
 	},
 /turf/simulated/floor/wood/wild3,
 /area/iskhod/command/bridge)
-"dfg" = (
-/obj/machinery/door/window/iskhod{
-	dir = 2;
-	name = "Shower door";
-	closed_layer = 4.1;
-	layer = 4.1;
-	open_layer = 4.1
-	},
-/obj/effect/floor_decal/floordetail/edgedrain{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/white/techfloor_grid,
-/area/colony)
 "dfi" = (
 /turf/simulated/floor/asteroid/dirt/flood,
 /area/iskhod/maintenance/guild)
@@ -13873,12 +13864,6 @@
 	icon_state = "5,12"
 	},
 /area/shuttle/vasiliy_shuttle_area)
-"dqW" = (
-/obj/effect/floor_decal/spline/wood{
-	dir = 9
-	},
-/turf/simulated/floor/carpet/purcarpet,
-/area/colony)
 "drd" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/effect/floor_decal/corner_techfloor_gray/diagonal,
@@ -17710,15 +17695,6 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/sechall)
-"emL" = (
-/obj/structure/flora/small/snow/rock4,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/colony)
 "emN" = (
 /obj/structure/burrow,
 /turf/simulated/floor/industrial/navy_slates,
@@ -19833,6 +19809,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/atmos)
+"eNC" = (
+/obj/structure/closet/wall_mounted{
+	pixel_x = -32
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/colony)
 "eNH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -28324,17 +28311,6 @@
 "gQg" = (
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/waste)
-"gQm" = (
-/obj/effect/floor_decal/floordetail/edgedrain{
-	dir = 9
-	},
-/obj/machinery/shower{
-	pixel_y = 16
-	},
-/obj/item/soap,
-/obj/structure/invislightsmall,
-/turf/simulated/floor/tiled/white/techfloor_grid,
-/area/colony)
 "gQy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -28730,6 +28706,16 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/medical/cryo)
+"gWc" = (
+/obj/structure/flora/small/snow/rock4,
+/obj/structure/invislightsmall,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/colony)
 "gWg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -29075,6 +29061,10 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/hallway/surface/section1)
+"haE" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/wood/wild3,
+/area/colony)
 "haG" = (
 /turf/simulated/wall/r_wall/iskhod_blue,
 /area/iskhod/medical/bathroom)
@@ -30766,6 +30756,16 @@
 	icon_state = "5,7"
 	},
 /area/shuttle/vasiliy_shuttle_area)
+"hxC" = (
+/obj/structure/window/basic/iskhod,
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 10
+	},
+/obj/structure/mirror{
+	pixel_x = -28
+	},
+/turf/simulated/floor/tiled/white/techfloor_grid,
+/area/colony)
 "hxF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -31175,6 +31175,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/crew_quarters/locker)
+"hCu" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/glass{
+	name = "Prospie Shop"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/air_blocker,
+/turf/simulated/floor/tiled/dark/techfloor,
+/area/iskhod/pros/shop)
 "hCy" = (
 /obj/machinery/light{
 	dir = 8
@@ -34639,15 +34648,6 @@
 /obj/item/roach_egg,
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/maintenance/undergroundfloor2south)
-"itp" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass{
-	name = "Prospie Shop"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/air_blocker,
-/turf/simulated/floor/tiled/dark/techfloor,
-/area/iskhod/pros/shop)
 "itw" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/machinery/door/airlock/maintenance_common,
@@ -42518,10 +42518,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/maintenance/substation/medical)
-"klS" = (
-/obj/machinery/door/unpowered/simple/wood,
-/turf/simulated/floor/wood/wild3,
-/area/colony)
 "klX" = (
 /obj/structure/closet/coffin,
 /obj/effect/floor_decal/industrial/box/white,
@@ -46822,6 +46818,12 @@
 /obj/item/clothing/head/helmet/space/void/medical,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/medbreak)
+"loz" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 9
+	},
+/turf/simulated/floor/carpet/purcarpet,
+/area/colony)
 "loH" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/machinery/door/firedoor,
@@ -49612,15 +49614,6 @@
 	},
 /turf/simulated/floor/tiled/white/techfloor,
 /area/iskhod/cargo/locker)
-"lYf" = (
-/obj/machinery/door/firedoor/multi_tile,
-/obj/machinery/door/airlock/multi_tile/glass{
-	name = "Prospie Shop"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/air_blocker,
-/turf/simulated/floor/tiled/dark/techfloor,
-/area/iskhod/pros/shop)
 "lYg" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -50460,6 +50453,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/workshop)
+"mio" = (
+/turf/simulated/floor/industrial/white_large_slates,
+/area/colony)
 "miq" = (
 /obj/structure/table/rack,
 /obj/item/beach_ball,
@@ -50756,6 +50752,15 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/iskhod/engineering/engine_room)
+"mmJ" = (
+/obj/machinery/door/firedoor/multi_tile,
+/obj/machinery/door/airlock/multi_tile/glass{
+	name = "Prospie Shop"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/air_blocker,
+/turf/simulated/floor/tiled/dark/techfloor,
+/area/iskhod/pros/shop)
 "mmO" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/red,
@@ -54019,15 +54024,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/blue_slates_long,
 /area/iskhod/security/detectives_office)
-"nen" = (
-/obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/colony)
 "nev" = (
 /obj/effect/floor_decal/corner_kafel/white{
 	dir = 4
@@ -54599,16 +54595,6 @@
 /obj/structure/sign/warningnew/radiation,
 /turf/simulated/wall/r_wall/iskhod_blue,
 /area/iskhod/engineering/engine_room)
-"nlC" = (
-/obj/structure/flora/small/snow/rock4,
-/obj/structure/invislightsmall,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/colony)
 "nlF" = (
 /obj/random/furniture/pottedplant,
 /obj/machinery/light{
@@ -56408,21 +56394,6 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/security)
-"nDH" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_warning{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8
-	},
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/air_blocker,
-/turf/simulated/floor/industrial/navy_large_slates,
-/area/iskhod/hallway/surface/section2)
 "nDI" = (
 /obj/structure/toilet{
 	pixel_y = 10
@@ -56599,6 +56570,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/iskhod/pros/prostorage)
+"nFT" = (
+/obj/machinery/washing_machine,
+/obj/item/towel/random,
+/obj/item/towel/random,
+/obj/structure/invislightsmall,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/colony)
 "nFV" = (
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section1)
@@ -57435,6 +57413,21 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/iskhod/absolutism/bioreactor)
+"nRc" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/air_blocker,
+/turf/simulated/floor/industrial/navy_large_slates,
+/area/iskhod/hallway/surface/section2)
 "nRf" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /turf/simulated/floor/industrial/navy_large_slates,
@@ -60050,6 +60043,12 @@
 /obj/structure/bookcase/manuals/medical,
 /turf/simulated/floor/industrial/fixed,
 /area/iskhod/crew_quarters/library)
+"oAf" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purcarpet,
+/area/colony)
 "oAi" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/dirt,
@@ -60513,11 +60512,6 @@
 /obj/item/reagent_containers/snacks/warcake,
 /turf/simulated/floor/carpet/gaycarpet,
 /area/iskhod/crew_quarters/cafeteria)
-"oGI" = (
-/turf/simulated/shuttle/floor/mining{
-	icon_state = "9,23"
-	},
-/area/colony)
 "oGK" = (
 /obj/structure/closet/coffin,
 /obj/effect/floor_decal/industrial/box/white,
@@ -63657,17 +63651,6 @@
 	},
 /turf/simulated/floor/wood/wild3,
 /area/iskhod/absolutism/chapel)
-"ptS" = (
-/obj/structure/closet/wall_mounted{
-	pixel_x = -32
-	},
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12;
-	pixel_y = 2
-	},
-/turf/simulated/floor/industrial/white_large_slates,
-/area/colony)
 "pub" = (
 /turf/simulated/shuttle/floor/mining{
 	icon_state = "9,23"
@@ -65278,6 +65261,18 @@
 	tag = "icon-escpodwall2"
 	},
 /area/shuttle/surface_transport_lz)
+"pPW" = (
+/obj/item/clothing/suit/costume/misc/snowman,
+/obj/item/clothing/head/costume/misc/snowman{
+	pixel_y = 10
+	},
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/colony)
 "pPY" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -66987,16 +66982,6 @@
 "qmk" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/maintenance/undergroundfloor2west)
-"qmm" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/air_blocker,
-/turf/simulated/floor/tiled/dark/techfloor,
-/area/iskhod/pros/shop)
 "qms" = (
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/abandoned/strip_club)
@@ -71750,11 +71735,6 @@
 /obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/telecommonitor)
-"ruF" = (
-/obj/machinery/camera/network/gate,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating/under,
-/area/iskhod/security/maingate)
 "ruH" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "2,4"
@@ -74948,13 +74928,6 @@
 /obj/structure/scrap_cube,
 /turf/simulated/floor/rock/dark,
 /area/iskhod/maintenance/guild)
-"ska" = (
-/obj/structure/bonfire/permanent,
-/obj/machinery/door/blast/shutters/glass{
-	name = "Fireplace Cover"
-	},
-/turf/simulated/floor/rock,
-/area/colony)
 "skr" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
@@ -75023,6 +74996,11 @@
 	},
 /turf/simulated/floor/fixed/hydrotile,
 /area/turret_protected/ai_upload)
+"skV" = (
+/obj/machinery/camera/network/gate,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/iskhod/security/maingate)
 "skY" = (
 /obj/structure/table/rack,
 /obj/item/material/wirerod,
@@ -76421,12 +76399,6 @@
 	name = "murky water"
 	},
 /area/iskhod/maintenance/undergroundfloor2east)
-"sFJ" = (
-/obj/effect/floor_decal/spline/wood{
-	dir = 8
-	},
-/turf/simulated/floor/carpet/purcarpet,
-/area/colony)
 "sFO" = (
 /obj/structure/closet/secure_closet/freezer/blood,
 /obj/item/reagent_containers/blood/OMinus,
@@ -77807,6 +77779,11 @@
 /obj/structure/bed/chair/wheelchair,
 /turf/simulated/floor/tiled/dark/cyancorner,
 /area/iskhod/medical/medbay/uppercor)
+"sVQ" = (
+/turf/simulated/shuttle/floor/mining{
+	icon_state = "9,23"
+	},
+/area/colony)
 "sVT" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/yellow,
 /obj/effect/decal/cleanable/dirt,
@@ -79555,6 +79532,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
 /area/iskhod/medical/biostorage)
+"tsc" = (
+/obj/structure/flora/small/snow/rock4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/colony)
 "tsj" = (
 /obj/machinery/recharger/wallcharger{
 	pixel_x = -28;
@@ -81114,6 +81100,17 @@
 	},
 /turf/simulated/floor/tiled/dark/golden,
 /area/iskhod/absolutism/bioreactor)
+"tKD" = (
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 9
+	},
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/obj/item/soap,
+/obj/structure/invislightsmall,
+/turf/simulated/floor/tiled/white/techfloor_grid,
+/area/colony)
 "tLa" = (
 /obj/structure/table/marble,
 /obj/item/material/ashtray,
@@ -81365,16 +81362,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/main/f1section4)
-"tNQ" = (
-/obj/structure/window/basic/iskhod,
-/obj/effect/floor_decal/floordetail/edgedrain{
-	dir = 10
-	},
-/obj/structure/mirror{
-	pixel_x = -28
-	},
-/turf/simulated/floor/tiled/white/techfloor_grid,
-/area/colony)
 "tNR" = (
 /obj/structure/spider_nest,
 /obj/item/remains/human,
@@ -82349,6 +82336,19 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/maintenance/substation/medical)
+"ubq" = (
+/obj/machinery/door/window/iskhod{
+	dir = 2;
+	name = "Shower door";
+	closed_layer = 4.1;
+	layer = 4.1;
+	open_layer = 4.1
+	},
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white/techfloor_grid,
+/area/colony)
 "ubr" = (
 /obj/machinery/recycle_vendor,
 /obj/machinery/light{
@@ -82490,9 +82490,6 @@
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/crew_quarters/toilet/public)
-"ucL" = (
-/turf/simulated/floor/industrial/white_large_slates,
-/area/colony)
 "ucP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -83459,13 +83456,6 @@
 	},
 /turf/simulated/open,
 /area/iskhod/crew_quarters/bar)
-"uoe" = (
-/obj/machinery/washing_machine,
-/obj/item/towel/random,
-/obj/item/towel/random,
-/obj/structure/invislightsmall,
-/turf/simulated/floor/industrial/white_large_slates,
-/area/colony)
 "uok" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -87067,18 +87057,6 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/carpet/blucarpet,
 /area/outpost/abandoned)
-"vkF" = (
-/obj/item/clothing/suit/costume/misc/snowman,
-/obj/item/clothing/head/costume/misc/snowman{
-	pixel_y = 10
-	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0";
-	oxygen = 21.8366;
-	nitrogen = 82.1472;
-	temperature = 240
-	},
-/area/colony)
 "vkH" = (
 /obj/machinery/light{
 	dir = 4
@@ -87323,6 +87301,15 @@
 /obj/item/clothing/under/bathrobe,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/service/changing_room/pool)
+"vnL" = (
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0";
+	oxygen = 21.8366;
+	nitrogen = 82.1472;
+	temperature = 240
+	},
+/area/colony)
 "vnM" = (
 /obj/machinery/door/window/iskhod{
 	dir = 2
@@ -87613,6 +87600,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/iskhod/quartermaster/supplydock)
+"vrK" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/wood/wild3,
+/area/colony)
 "vrR" = (
 /turf/simulated/wall/r_wall,
 /area/iskhod/engineering/engine_room)
@@ -89791,6 +89785,12 @@
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/xenobiology)
+"vTV" = (
+/obj/structure/closet/wall_mounted{
+	pixel_x = -32
+	},
+/turf/simulated/floor/wood,
+/area/colony)
 "vTX" = (
 /turf/simulated/wall/r_wall/iskhod_blue,
 /area/iskhod/maintenance/undergroundfloor2west)
@@ -90001,6 +90001,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/blue_slates_long,
 /area/iskhod/security/armory)
+"vWD" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/purcarpet,
+/area/colony)
 "vWG" = (
 /obj/structure/shuttle_part/science{
 	icon_state = "13,8"
@@ -92456,12 +92462,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/maintenance/substation/engineering)
-"wBT" = (
-/obj/structure/closet/wall_mounted{
-	pixel_x = -32
-	},
-/turf/simulated/floor/wood,
-/area/colony)
 "wBX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -131485,10 +131485,10 @@ cqi
 cqi
 igD
 igD
-gQm
-tNQ
-ptS
-uoe
+tKD
+hxC
+eNC
+nFT
 igD
 jDL
 jDL
@@ -131682,15 +131682,15 @@ cqi
 fUQ
 eqP
 fUQ
-nlC
+gWc
 cfw
 cqi
 igD
 igD
-cZy
-dfg
-ucL
-uoe
+aBW
+ubq
+mio
+nFT
 igD
 jDL
 jDL
@@ -131891,7 +131891,7 @@ igD
 igD
 igD
 igD
-klS
+haE
 igD
 igD
 jDL
@@ -132083,13 +132083,13 @@ jDL
 jDL
 igD
 cqi
-emL
+tsc
 rjM
 iPe
 iPe
 aBt
 pDr
-oGI
+sVQ
 ojt
 iPx
 vfg
@@ -132291,7 +132291,7 @@ iPe
 iPe
 aBt
 pDr
-oGI
+sVQ
 hGf
 hGf
 hGf
@@ -132493,7 +132493,7 @@ iPe
 iPe
 aBt
 pDr
-oGI
+sVQ
 hGf
 hGf
 hGf
@@ -132700,7 +132700,7 @@ mdV
 hGf
 hGf
 hGf
-ctk
+vrK
 igD
 jDL
 jDL
@@ -132891,10 +132891,10 @@ jDL
 jDL
 igD
 cqi
-nen
+vnL
 cfw
-vkF
-aVh
+pPW
+bph
 enF
 cqi
 igD
@@ -133102,9 +133102,9 @@ cqi
 igD
 bYF
 hGf
-dqW
+loz
 eqk
-sFJ
+vWD
 igD
 igD
 jDL
@@ -133304,10 +133304,10 @@ igD
 igD
 igD
 hGf
-cky
+oAf
 sHE
 obM
-ska
+ctk
 igD
 jDL
 jDL
@@ -133502,11 +133502,11 @@ jDL
 jDL
 igD
 vyu
-wBT
-wBT
+vTV
+vTV
 tmR
 hGf
-cky
+oAf
 fkE
 obM
 igD
@@ -133703,9 +133703,9 @@ jDL
 jDL
 jDL
 igD
-sFJ
-sFJ
-sFJ
+vWD
+vWD
+vWD
 igD
 igD
 igD
@@ -189785,7 +189785,7 @@ ycV
 ycV
 kFE
 oGE
-ruF
+skV
 wwO
 sQh
 qOA
@@ -205289,7 +205289,7 @@ wuN
 ycV
 ycV
 huJ
-nDH
+nRc
 kGi
 huJ
 pgp
@@ -244850,7 +244850,7 @@ nDb
 nDb
 nDb
 aFe
-itp
+hCu
 aFe
 mfU
 mfU
@@ -246076,7 +246076,7 @@ uOy
 sEc
 lWc
 tOk
-lYf
+mmJ
 sch
 sch
 sch
@@ -246278,7 +246278,7 @@ pTd
 ctW
 ctW
 hgH
-qmm
+bvX
 eyj
 eyj
 eyj
