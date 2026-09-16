@@ -9,6 +9,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall"
 	icon_base_override = "iskwall"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/iskhod_red //redmond mann
@@ -17,6 +19,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_r"
 	icon_base_override = "iskwall_r"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/iskhod_green //greenmond mann
@@ -25,6 +29,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_g"
 	icon_base_override = "iskwall_g"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/iskhod_blue //blutarch mann
@@ -33,6 +39,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_b"
 	icon_base_override = "iskwall_b"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/iskhod_purple
@@ -41,6 +49,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_p"
 	icon_base_override = "iskwall_p"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/iskhod_yellow
@@ -49,6 +59,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_y"
 	icon_base_override = "iskwall_y"
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod
@@ -57,7 +69,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall"
 	icon_base_override = "iskwall"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod_red //redmond mann
@@ -66,7 +79,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_r"
 	icon_base_override = "iskwall_r"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod_green //greenmond mann
@@ -75,7 +89,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_g"
 	icon_base_override = "iskwall_g"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod_blue //blutarch mann
@@ -84,7 +99,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_b"
 	icon_base_override = "iskwall_b"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod_purple
@@ -93,7 +109,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_p"
 	icon_base_override = "iskwall_p"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/r_wall/iskhod_yellow
@@ -102,7 +119,8 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "iskwall_y"
 	icon_base_override = "iskwall_y"
-	icon_base_reinf_override = ""
+	icon_base_reinf = "empty_icon"
+	icon_base_reinf_override = "empty_icon"
 	base_color_override = "#FFFFFF"
 
 /turf/simulated/wall/cult
