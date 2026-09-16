@@ -2337,6 +2337,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/breakroom)
 "aBR" = (
@@ -3586,9 +3587,6 @@
 /turf/simulated/floor/industrial/blue_slates_long,
 /area/iskhod/service/changing_room)
 "aRC" = (
-/obj/structure/sign/departmentold/restroom{
-	pixel_y = -32
-	},
 /obj/structure/bookcase/manuals/engineering,
 /obj/item/book/manual/wiki/electronic_primer{
 	pixel_x = -2
@@ -9084,6 +9082,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/industrial/box/white,
+/obj/machinery/vending/wallmed/lobby{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/locker_room)
 "cgg" = (
@@ -9963,6 +9965,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/iskhod/rnd/robotics)
+"crV" = (
+/obj/item/contraband/poster/placed/popculture/wintercoming,
+/turf/simulated/wall/r_wall/iskhod_green,
+/area/iskhod/engineering/techstorage)
 "crX" = (
 /obj/structure/sink/kitchen{
 	name = "utility sink";
@@ -10674,7 +10680,7 @@
 /area/iskhod/maintenance/undergroundfloor2east)
 "cAb" = (
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -15660,8 +15666,29 @@
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/command/merchant)
 "dMe" = (
-/obj/machinery/space_heater,
 /obj/machinery/light,
+/obj/item/clothing/shoes/winter/engineering,
+/obj/item/clothing/shoes/winter/engineering,
+/obj/item/clothing/shoes/winter/engineering,
+/obj/item/clothing/shoes/winter/engineering,
+/obj/item/clothing/suit/hooded/wintercoat/engineering/atmos,
+/obj/item/clothing/suit/hooded/wintercoat/engineering,
+/obj/item/clothing/suit/hooded/wintercoat/engineering,
+/obj/item/clothing/suit/hooded/wintercoat/engineering,
+/obj/item/clothing/suit/hooded/wintercoat/engineering,
+/obj/item/clothing/shoes/winter/atmos,
+/obj/item/clothing/head/hardhat,
+/obj/item/clothing/head/hardhat/red,
+/obj/item/clothing/head/hardhat/yellow,
+/obj/item/clothing/head/hardhat/orange,
+/obj/item/clothing/head/hardhat/blue,
+/obj/item/clothing/mask/gas/artist_hat,
+/obj/item/clothing/head/hood/winter/engineering,
+/obj/item/clothing/head/hood/winter/engineering,
+/obj/item/clothing/head/hood/winter/engineering,
+/obj/item/clothing/head/hood/winter/engineering,
+/obj/item/clothing/head/hood/winter/engineering/atmos,
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/engineering/techstorage)
 "dMl" = (
@@ -20741,6 +20768,10 @@
 /obj/machinery/camera/network/engineering{
 	dir = 1
 	},
+/obj/machinery/vending/wallmed/lobby{
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/iskhod/engineering)
 "faP" = (
@@ -22763,6 +22794,10 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/wallmed/lobby{
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/locker_room)
 "fzk" = (
@@ -24772,7 +24807,7 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/box/white,
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/item/device/radio/intercom{
 	pixel_y = 25
@@ -34168,7 +34203,7 @@
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/cyancorner,
@@ -34737,7 +34772,7 @@
 /area/iskhod/service/changing_room)
 "iuU" = (
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /obj/structure/cable/cyan{
@@ -35315,7 +35350,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/box/white,
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -41566,7 +41601,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /obj/effect/decal/cleanable/dirt,
@@ -42380,7 +42415,7 @@
 	dir = 10
 	},
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /obj/item/device/radio/intercom{
@@ -52905,7 +52940,7 @@
 /area/iskhod/medical/reception)
 "mPV" = (
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/tiled/dark/techfloor,
@@ -55912,6 +55947,13 @@
 "nyw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/unary/vent_scrubber,
+/obj/item/storage/toolbox,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/emergency,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/clothing/gloves/insulated/guild,
+/obj/item/clothing/gloves/insulated/guild,
+/obj/item/clothing/gloves/insulated,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/workshop)
 "nyC" = (
@@ -70280,7 +70322,7 @@
 /area/colony)
 "rdT" = (
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/industrial/box/white,
 /turf/simulated/floor/industrial/black_large_slates,
@@ -71040,7 +71082,7 @@
 /area/iskhod/engineering/atmos)
 "rlk" = (
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 1
@@ -73914,6 +73956,16 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/iskhod/engineering/locker_room)
+"rZb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/departmentold/restroom{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/breakroom)
 "rZe" = (
 /obj/structure/multiz/stairs{
 	dir = 4
@@ -81461,7 +81513,7 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/box/white,
 /obj/machinery/vending/wallmed/lobby{
-	pixel_x = -30
+	pixel_x = -32
 	},
 /turf/simulated/floor/industrial/navy_large_slates_fixed,
 /area/iskhod/crew_quarters/sleep/cryo)
@@ -84704,6 +84756,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/wallmed/lobby{
+	pixel_x = -32
+	},
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering)
 "uGf" = (
@@ -95885,6 +95940,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/emergency,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox,
+/obj/item/clothing/gloves/insulated/guild,
+/obj/item/clothing/gloves/insulated/guild,
+/obj/item/clothing/gloves/insulated,
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/breakroom)
 "xtY" = (
@@ -116506,7 +116568,7 @@ jxa
 nvK
 iBd
 tLz
-ulA
+rZb
 mgO
 jah
 hnX
@@ -120546,7 +120608,7 @@ qzN
 mRG
 uPv
 dMe
-xSw
+crV
 xSw
 xSw
 xte
