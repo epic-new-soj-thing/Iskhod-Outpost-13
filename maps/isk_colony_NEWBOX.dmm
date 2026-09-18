@@ -22404,6 +22404,12 @@
 /obj/item/clothing/head/hood/winter/engineering,
 /obj/item/clothing/head/hood/winter/engineering/atmos,
 /obj/structure/table/rack,
+/obj/machinery/button/remote/blast_door{
+	id = "guild_storage";
+	name = "Guild shutter control";
+	dir = 8;
+	pixel_x = 26
+	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/space)
 "ogK" = (
@@ -32490,6 +32496,22 @@
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "5,3"
 	},
+/area/space)
+"uzp" = (
+/obj/machinery/door/airlock/glass_engineering{
+	name = "Engineering";
+	req_access = list(10)
+	},
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	dir = 1;
+	id = "guild_storage";
+	name = "Guild Storage"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/space)
 "uzq" = (
 /obj/machinery/door/firedoor,
@@ -94056,7 +94078,7 @@ clG
 gux
 gux
 gux
-hdB
+uzp
 gux
 gux
 gux
