@@ -9438,6 +9438,10 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/industrial/black_large_slates,
 /area/space)
+"fEw" = (
+/obj/machinery/recharge_station/upgraded_t_three,
+/turf/simulated/floor/plating/under,
+/area/space)
 "fEB" = (
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
 	id_tag = "xeno_airlock_control";
@@ -9723,6 +9727,10 @@
 	icon_state = "15,5";
 	opacity = 0
 	},
+/area/space)
+"fQu" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/turf/simulated/floor/plating/under,
 /area/space)
 "fQv" = (
 /obj/machinery/door/airlock/medical{
@@ -15269,6 +15277,12 @@
 /obj/structure/salvageable/implant_container_os,
 /turf/simulated/floor/plating/under,
 /area/space)
+"jcu" = (
+/obj/structure/table/rack,
+/obj/item/clothing/shoes/church_blacksilk_boots,
+/obj/item/clothing/shoes/church_blacksilk_boots,
+/turf/simulated/floor/tiled/dark/golden,
+/area/space)
 "jcz" = (
 /obj/machinery/door/window/iskhod{
 	dir = 2
@@ -20236,6 +20250,7 @@
 "lTr" = (
 /obj/item/storage/backpack/clown,
 /obj/item/seeds/clownanaseed,
+/obj/item/bikehorn,
 /turf/simulated/floor/carpet/purcarpet,
 /area/space)
 "lTt" = (
@@ -36420,6 +36435,7 @@
 "voL" = (
 /obj/item/storage/box/costume/clownpurple,
 /obj/item/device/pda/clown,
+/obj/item/gun_upgrade/mechanism/bikehorn,
 /turf/simulated/floor/carpet/gaycarpet,
 /area/space)
 "voM" = (
@@ -36832,11 +36848,12 @@
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/space)
 "vAC" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/recharge_station/upgraded_t_three,
-/turf/simulated/floor/tiled/techmaint,
+/obj/item/clothing/head/helmet/biker,
+/obj/item/clothing/suit/storage/toggle/leather/bikermidriff,
+/obj/item/clothing/shoes/aerostatic_boots,
+/obj/structure/table/standard,
+/obj/item/bikehorn,
+/turf/simulated/floor/industrial/blue_slates_long,
 /area/space)
 "vAU" = (
 /obj/structure/catwalk,
@@ -137088,7 +137105,7 @@ aRt
 wCI
 wCI
 nCl
-wCI
+vAC
 wCI
 wCI
 nCl
@@ -139034,9 +139051,9 @@ bHI
 bHI
 gux
 gux
-arM
-arM
-arM
+lJz
+lJz
+gux
 arM
 arM
 vAw
@@ -140718,7 +140735,7 @@ cTb
 ccG
 cTb
 cTb
-rJD
+jcu
 cTb
 pkJ
 vCZ
@@ -144888,8 +144905,8 @@ vKf
 vKf
 arM
 arM
-arM
-arM
+dZY
+fQu
 arM
 arM
 yeW
@@ -145090,8 +145107,8 @@ vKf
 vKf
 arM
 arM
-arM
-arM
+dZY
+fQu
 arM
 arM
 yeW
@@ -182876,7 +182893,7 @@ epq
 iir
 vHP
 vHP
-vHP
+fEw
 gYx
 nYT
 mnb
@@ -185085,9 +185102,9 @@ lbB
 lbB
 kSL
 lbB
-lbB
 bHI
-bHI
+vHP
+vHP
 vHP
 wMH
 gyi
@@ -185288,10 +185305,10 @@ lbB
 lbB
 lbB
 bHI
-bHI
-bHI
 vHP
-vAC
+aHN
+fQu
+rRu
 rRu
 btI
 gYx
@@ -185490,11 +185507,11 @@ lbB
 lzq
 lbB
 bHI
-bHI
-bHI
 vHP
-qwO
+aHN
+fQu
 rRu
+qwO
 fJJ
 srq
 dEG
@@ -185692,8 +185709,8 @@ lbB
 lbB
 bHI
 bHI
-bHI
-bHI
+vHP
+vHP
 vHP
 vHP
 vHP
@@ -225487,8 +225504,8 @@ aHN
 aHN
 aHN
 aHN
-aHN
-aHN
+bHI
+bHI
 bHI
 bHI
 bHI
@@ -225689,8 +225706,8 @@ aHN
 aHN
 aHN
 aHN
-aHN
-aHN
+bHI
+bHI
 bHI
 bHI
 bHI
@@ -225891,8 +225908,8 @@ aHN
 aHN
 aHN
 aHN
-aHN
-aHN
+bHI
+bHI
 bHI
 bHI
 bHI
@@ -226093,8 +226110,8 @@ aHN
 aHN
 aHN
 aHN
-aHN
-aHN
+bHI
+bHI
 bHI
 bHI
 bHI
@@ -226295,7 +226312,7 @@ aHN
 aHN
 aHN
 aHN
-aHN
+bHI
 bHI
 bHI
 bHI
