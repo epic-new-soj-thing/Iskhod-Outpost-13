@@ -783,11 +783,11 @@ var/list/name_to_material
 	ignition_point = T0C+232
 	melting_point = T0C+300
 
-/material/cloth_puple
+/material/cloth_purple
 	name = "purple"
 	display_name = "purple"
 	use_name = "purple cloth"
-	icon_colour = "#9C56C4"
+	icon_colour = "#5600ac"
 	flags = MATERIAL_PADDING
 	ignition_point = T0C+232
 	melting_point = T0C+300
@@ -824,6 +824,24 @@ var/list/name_to_material
 	display_name = "yellow"
 	use_name = "yellow cloth"
 	icon_colour = "#FFFF00"
+	flags = MATERIAL_PADDING
+	ignition_point = T0C+232
+	melting_point = T0C+300
+
+/material/cloth_orange
+	name = "orange"
+	display_name = "orange"
+	use_name = "orange cloth"
+	icon_colour = "#d07708"
+	flags = MATERIAL_PADDING
+	ignition_point = T0C+232
+	melting_point = T0C+300
+
+/material/cloth_pink
+	name = "pink"
+	display_name = "pink"
+	use_name = "pink cloth"
+	icon_colour = "#f687f6"
 	flags = MATERIAL_PADDING
 	ignition_point = T0C+232
 	melting_point = T0C+300

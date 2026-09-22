@@ -152,6 +152,14 @@
 	name = "comfy chair, teal"
 	result = /obj/structure/bed/chair/comfy/teal
 
+/datum/craft_recipe/furniture/comfy_chair/orange
+	name = "comfy chair, teal"
+	result = /obj/structure/bed/chair/comfy/orange
+
+/datum/craft_recipe/furniture/comfy_chair/pink
+	name = "comfy chair, teal"
+	result = /obj/structure/bed/chair/comfy/pink
+
 /datum/craft_recipe/furniture/sofa
 	name = "sofa middle"
 	result = /obj/structure/bed/chair/sofa
