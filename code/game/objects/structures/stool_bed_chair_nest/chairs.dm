@@ -146,6 +146,12 @@
 /obj/structure/bed/chair/comfy/lime/New(var/newloc,var/newmaterial)
 	..(newloc,MATERIAL_STEEL,"lime")
 
+/obj/structure/bed/chair/comfy/orange/New(var/newloc,var/newmaterial)
+	..(newloc,MATERIAL_STEEL,"orange")
+
+/obj/structure/bed/chair/comfy/pink/New(var/newloc,var/newmaterial)
+	..(newloc,MATERIAL_STEEL,"pink")
+
 /obj/structure/bed/chair/office
 	anchored = 0
 	buckle_movable = 1
@@ -363,6 +369,12 @@
 /obj/structure/bed/chair/sofa/yellow
 	sofa_material = "yellow"
 
+/obj/structure/bed/chair/sofa/orange
+	sofa_material = "orange"
+
+/obj/structure/bed/chair/sofa/pink
+	sofa_material = "pink"
+
 //sofa directions
 
 /obj/structure/bed/chair/sofa/corner/New()
@@ -463,4 +475,22 @@
 	icon_state = "sofaend_right"
 
 /obj/structure/bed/chair/sofa/yellow/corner
+	icon_state = "sofacorner"
+
+/obj/structure/bed/chair/sofa/orange/left
+	icon_state = "sofaend_left"
+
+/obj/structure/bed/chair/sofa/orange/right
+	icon_state = "sofaend_right"
+
+/obj/structure/bed/chair/sofa/orange/corner
+	icon_state = "sofacorner"
+
+/obj/structure/bed/chair/sofa/pink/left
+	icon_state = "sofaend_left"
+
+/obj/structure/bed/chair/sofa/pink/right
+	icon_state = "sofaend_right"
+
+/obj/structure/bed/chair/sofa/pink/corner
 	icon_state = "sofacorner"
