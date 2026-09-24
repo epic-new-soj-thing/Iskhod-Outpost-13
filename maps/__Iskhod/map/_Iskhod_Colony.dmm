@@ -2766,6 +2766,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/reinforced,
 /area/iskhod/hallway/main/f1section1)
+"aGL" = (
+/obj/structure/sink/kitchen{
+	name = "utility sink";
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/dark/violetcorener,
+/area/iskhod/rnd/xenobiology)
 "aHc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -4636,6 +4643,10 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	name = "utility sink";
+	pixel_y = 28
+	},
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/iskhod/rnd/lab)
 "bcR" = (
@@ -10984,6 +10995,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/pc_part/drive/disk/design/misc,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/lab)
 "cFk" = (
@@ -45047,6 +45059,9 @@
 	pixel_y = 3;
 	pixel_x = -3
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/wood,
 /area/iskhod/rnd/rbreakroom)
 "kQN" = (
@@ -47295,6 +47310,10 @@
 "lsV" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
+	},
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
 	},
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/robotics)
@@ -51350,6 +51369,10 @@
 /area/iskhod/crew_quarters/cafeteria)
 "msL" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
+	},
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/rbreakroom)
 "msN" = (
@@ -67059,6 +67082,14 @@
 /obj/item/clothing/suit/space/void/excelsior/progenitor,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/iskhod/maintenance/undergroundfloor2south)
+"qmW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/tiled/dark/violetcorener,
+/area/iskhod/rnd/lab)
 "qmX" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
@@ -74000,9 +74031,10 @@
 /turf/simulated/floor/asteroid/dirt/dust,
 /area/iskhod/maintenance/undergroundfloor2south)
 "rZH" = (
-/obj/structure/table/marble,
-/obj/machinery/light{
-	dir = 4
+/obj/structure/sink/kitchen{
+	name = "utility sink";
+	dir = 8;
+	pixel_x = 20
 	},
 /turf/simulated/floor/wood,
 /area/iskhod/rnd/rbreakroom)
@@ -126992,7 +127024,7 @@ dAL
 uHc
 uHc
 vpl
-oKD
+qmW
 rAn
 oKD
 nbJ
@@ -132856,7 +132888,7 @@ cIO
 nYU
 xSx
 tej
-hIf
+aGL
 xAV
 xQl
 fbO
