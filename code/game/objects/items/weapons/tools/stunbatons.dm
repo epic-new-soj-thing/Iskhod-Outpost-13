@@ -35,6 +35,7 @@
 	icon_state = "stunmaul"
 	icon = 'icons/obj/weapons.dmi'
 	item_state = "stunmaul"
+	base_state = "stunmaul" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	wielded_icon = "stunmaul_wielded"
 	slot_flags = SLOT_BELT
 	toggleable = TRUE
@@ -63,6 +64,7 @@
 	desc = "A small stun baton for self defense on a buget."
 	icon_state = "shocker"
 	item_state = "shocker"
+	base_state = "shocker" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	force = WEAPON_FORCE_WEAK
 	throwforce = WEAPON_FORCE_WEAK
 	w_class = ITEM_SIZE_SMALL
@@ -114,7 +116,9 @@
 			turn_off()
 
 /obj/item/tool/baton/update_icon()
-	if((findtext("[icon_state]","pink"))!=0)
+	if (istype(src, /obj/item/tool/baton/arcwelder))
+		base_state = "arc_welder"
+	else if((findtext("[icon_state]","pink"))!=0)
 		base_state = "pinkstunbaton" // ADDED TO AVOID BREAKING FLUFF ITEMS
 	else if(!base_state)
 		base_state = initial(icon_state)
@@ -224,6 +228,7 @@
 	desc = "An improvised stun baton."
 	icon_state = "stunprod"
 	item_state = "prod"
+	base_state = "stunprod" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	force = WEAPON_FORCE_NORMAL
 	throwforce = WEAPON_FORCE_NORMAL
 	stunforce = 0
@@ -239,6 +244,7 @@
 	desc = "A cheap and effective way to feed the red tide."
 	icon_state = "sovietbaton"
 	item_state = "soviet"
+	base_state = "sovietbaton" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	force = WEAPON_FORCE_PAINFUL
 	light_color = COLOR_LIGHTING_CYAN_BRIGHT
 	throwforce = WEAPON_FORCE_PAINFUL
@@ -256,6 +262,7 @@
 	desc = "A stunbaton that is designed against slimes and other lab mistakes."
 	icon_state = "prod_si"
 	item_state = "prod_si"
+	base_state = "prod_si" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	force = WEAPON_FORCE_NORMAL
 	throwforce = WEAPON_FORCE_NORMAL
 	stunforce = 0
@@ -275,6 +282,7 @@
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "arc_welder"
 	item_state = "arc_welder"
+	base_state = "arc_welder" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	w_class = ITEM_SIZE_NORMAL
 	worksound = WORKSOUND_WELDING
 	switched_on_qualities = list(QUALITY_WELDING = 45, QUALITY_PULSING = 30, QUALITY_WIRE_CUTTING = 15, QUALITY_CAUTERIZING = 10)

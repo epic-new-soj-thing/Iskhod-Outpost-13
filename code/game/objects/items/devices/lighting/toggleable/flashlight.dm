@@ -325,6 +325,7 @@
 	desc = "A pen-sized light, used by medical staff."
 	icon_state = "penlight"
 	item_state = ""
+	base_state = "penlight" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	slot_flags = SLOT_EARS
 	radiance_power = 0.4
 	light_spot_radius = 2
@@ -337,6 +338,7 @@
 	desc = "A hand-held heavy-duty light."
 	icon_state = "heavyduty"
 	item_state = "heavyduty"
+	base_state = "heavyduty" // ADDED TO AVOID BREAKING FLUFF ITEMS and because DM IS SHIT
 	radiance_power = 1
 	light_spot_radius = 4
 	light_spot_power = 3
