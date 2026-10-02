@@ -32,7 +32,7 @@
 	var/exspand_when_spawned = TRUE
 	no_swing = TRUE
 
-/obj/item/storage/debug
+/obj/item/storage/destickinator
 	name = "Destickinator"
 	desc = "A case that can fit legitimately anything inside it, used by Bluespace Technicians and the like to remove items stuck from people's hands. \
 	Seems it somehow was made stable as well, allowing you to de-stick even bluespace items without risk of losing your limbs."
