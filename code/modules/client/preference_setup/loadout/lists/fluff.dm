@@ -248,7 +248,8 @@
 // MicroMinty
 /obj/item/clothing/suit/hooded/fluff/microminty_membranousmembrane
 	name = "Extra-Membranous Tailored Labcoat"
-	icon = 'icons/fluff/clothing_mob.dmi'
+	icon = 'icons/fluff/fluff_items.dmi'
+	icon_override = 'icons/fluff/clothing_mob.dmi'
 	icon_state = "membranousmembrane"
 	item_state = "membranousmembrane"
 	desc = "An even longer labcoat with buttons on the side. It has a gigantically larger collar than the standard lab coat, to help protect your face from your and everyone elses' mistakes. This one has a metal rivet near the mouth. It is also stained near the edges of the sleeves with remnants of various toxic compounds. Yummy!"
@@ -264,7 +265,8 @@
 	)
 /obj/item/clothing/head/fluff/microminty_membranousmembrane_hood
 	name = "Extra-Membranous Coat Collar"
-	icon = 'icons/fluff/clothing_mob.dmi'
+	icon = 'icons/fluff/fluff_items.dmi'
+	icon_override = 'icons/fluff/clothing_mob.dmi'
 	icon_state = "membranoushood"
 	item_state = "membranoushood"
 	desc = "The collar of a very long labcoat."
