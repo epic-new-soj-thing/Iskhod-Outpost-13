@@ -18,6 +18,7 @@ var/command_name
 	return "Nyx"
 
 /proc/station_name()
+	station_name = "Iskhod Outpost" // this proc isnt reading global station_name so im setting it here, can probably disable the rest of this proc
 	if (station_name)
 		return station_name
 
