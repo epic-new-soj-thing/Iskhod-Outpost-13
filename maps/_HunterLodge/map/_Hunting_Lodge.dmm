@@ -864,10 +864,6 @@
 	},
 /turf/simulated/floor/wood/wild1,
 /area/iskhod/outside/forest/hunting_lodge)
-"eu" = (
-/obj/map_data/hunting_lodge,
-/turf/unsimulated/wall/jungle/variant,
-/area/iskhod/outside/forest/hunting_lodge_dark)
 "ev" = (
 /obj/effect/overlay/water,
 /obj/effect/overlay/water/top,
@@ -4835,7 +4831,7 @@ gM
 ig
 ig
 ig
-eu
+ig
 "}
 (2,1,1) = {"
 jY

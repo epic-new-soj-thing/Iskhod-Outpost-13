@@ -1,7 +1,7 @@
 #include "iskhod.dm"
 #include "../__DeepTunnels/deeptunnels.dm"
 #include "../_DeepForest/iskhod_deepforest.dm"
-//#include "../_HunterLodge/lodge.dm"
+#include "../_HunterLodge/lodge.dm"
 //#include "../encounters/spacefortress/spacefortress.dm"
 #include "../JunkTractorBeam/junk_tractor_beam.dm"
 #include "../Centcom/centcom.dm"
