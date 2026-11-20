@@ -126,7 +126,7 @@
 	price_tag = 1000
 
 /obj/item/animal_part/kingly_pheromone_gland
-	name = "kingly silk gland"
+	name = "kingly pheromone gland"
 	desc = "The pheromone control center of the kaiser roaches, engorged from the sheer gigantism that created such a leviathan. If only you could fashion it in some way you could probably managed to pass by roaches even call them to your aid."
 	icon_state = "kingly_pheromone"
 	item_state = "kingly_pheromone"
