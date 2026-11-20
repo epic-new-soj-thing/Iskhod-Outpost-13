@@ -348,6 +348,25 @@
 		list(QUALITY_WIRE_CUTTING, 15, 30)
 	)
 
+
+/datum/craft_recipe/lodge/hunter_armor_roachmonarch
+	name = "Hunter Armor - Monarch of Roaches"
+	result = /obj/item/clothing/suit/armor/hunter/roachking
+	icon_state = "clothing"
+	steps = list(
+		list(/obj/item/clothing/suit/armor/hunter/bone, 1, "time" = 30),
+		list(CRAFT_MATERIAL, 30, MATERIAL_LEATHER, "time" = 80),
+		list(QUALITY_CUTTING, 20, "time" = 100),
+		list(CRAFT_MATERIAL, 10, MATERIAL_BONE, "time" = 20),
+		list(/obj/item/stack/cable_coil, 10, "time" = 20),
+		list(QUALITY_WIRE_CUTTING, 15, "time" = 30),
+		list(CRAFT_MATERIAL, 10, MATERIAL_STEEL, "time" = 40),
+		list(QUALITY_HAMMERING, 15, "time" = 60),
+		list(/obj/item/animal_part/kingly_pheromone_gland, 1, "time" = 20),
+		list(QUALITY_CUTTING, 20, "time" = 200)
+	)
+
+
 /datum/craft_recipe/lodge/hunter_rig
 	name = "Lodge \"Apex\" control module"
 	result = /obj/item/rig/combat/hunter
