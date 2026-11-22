@@ -14,24 +14,28 @@ GLOBAL_LIST_EMPTY(marked_obelisks)
 	use_power = NO_POWER_USE // IDLE_POWER_USE maybe?
 	//idle_power_usage = 30
 	//active_power_usage = 2500
-	var/mode = "idle"
+	var/mode = "idle" // idle/aware/engaged
 	var/radius_aware = 10
-	var/radius_angry = 5
-	var/damage = 20
-	var/max_targets = 5
-	var/nt_buff_power = 5
-	var/nt_buff_cd = 3
+	var/radius_engaged = 5
+	var/low_rad = 0
+	var/medium_red = 1
+	var/high_rad = 2
+	//var/damage = 20
+	//var/max_targets = 5
+	//var/nt_buff_power = 5
+	//var/nt_buff_cd = 3
 	var/debug = FALSE //Enable if you want admins to be spammed with info about how many mobs are in range of a given obelisk.
 
 	var/static/stat_buff
-	var/list/currently_affected = list()
+	var/list/in_low_range = list()
+	var/list/in_high_range = list()
 	var/force_active = 0
 
 	var/ticks_to_next_process = 3
 
 /obj/machinery/power/nt_obelisk/New()
 	..()
-	GLOB.all_obelisk |= src
+	GLOB.marked_obelisks |= src
 /*
 	var/area/my_area = get_area(src.loc)
 	if(my_area.name == "Deep Maintenance") //Shockingly this is how get area works
@@ -42,10 +46,14 @@ GLOBAL_LIST_EMPTY(marked_obelisks)
 		desc = "[desc] This one is being weaked by the forces in the area"
 */
 /obj/machinery/power/nt_obelisk/Destroy()
-	for(var/i in currently_affected)
+	for(var/i in in_low_range)
 		var/mob/living/carbon/human/H = i
-		H.stats.removePerk(PERK_SANITYBOOST)
-	currently_affected = null
+		//do thing to low range affected
+	for(var/i in in_high_range)
+		var/mov/living/carbon/human/H = i
+		//do thing to high range affected
+	in_low_range = null
+	in_high_range = null
 	return ..()
 
 /obj/machinery/power/nt_obelisk/attack_hand(mob/user)
