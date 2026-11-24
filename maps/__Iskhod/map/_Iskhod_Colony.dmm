@@ -22826,6 +22826,7 @@
 /obj/structure/closet/secure_closet/reinforced/hop,
 /obj/item/melee/telebaton,
 /obj/item/stamp/hop,
+/obj/item/rig/light/hacker/steward,
 /turf/simulated/floor/wood/wild2,
 /area/iskhod/command/fo{
 	name = "\improper Command - Steward's Office"
@@ -68755,6 +68756,11 @@
 /area/iskhod/engineering/atmos)
 "qHU" = (
 /obj/structure/closet/secure_closet/reinforced/captains,
+/obj/item/rig/hazard/facility_director,
+/obj/item/clothing/suit/hooded/wintercoat/captain,
+/obj/item/clothing/shoes/winter/command,
+/obj/item/clothing/suit/storage/snowsuit/command,
+/obj/item/clothing/suit/space/captain,
 /turf/simulated/floor/wood,
 /area/iskhod/command/captain/quarters{
 	name = "\improper Command - Facility Director's Quarters"
